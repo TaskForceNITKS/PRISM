@@ -13,6 +13,8 @@ if len(argv) != 2:
 
 file_name = argv[1]
 
+
+# for file_name in files_list:
 with Image.open(file_name) as img:
 
 	name, extension = os.path.splitext(file_name)
