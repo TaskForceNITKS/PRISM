@@ -28,6 +28,29 @@
 	display: flex;
 }
 
+.department-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+
+.department-icon {
+	width: 70%;
+	height: auto;
+	align-self: center;
+	margin-bottom: 10px;
+}
+
+.department-title {
+	font-family: 'Cabin', sans-serif;
+	color: black;
+	font-size: x-large;
+	font-weight: bold;
+	align-self: center;
+	text-align: center;
+}
+
 .page-info {
 	margin-top: 20px;
 	margin-bottom: -10px: 
