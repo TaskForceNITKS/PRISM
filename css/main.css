@@ -16,6 +16,11 @@
 	z-index: 996;
 }
 
+.pt-sans {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
 .bg-nitk {
     background: url(/img/smpbanner.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -24,8 +29,23 @@
     background-size: cover;
 }
 
-.wrapper {
-	display: flex;
+.button {
+	color: white;
+	text-decoration: none;
+	align-self: center;
+	align-self: center;
+	margin-top: 10px; 
+	border: 2px solid white;
+	padding: 15px;
+	font-size: x-large;
+	border-radius: 5px;
+	transition: all 0.2s linear;
+}
+
+.button:hover {
+	background-color: white;
+	color: black;
+	box-shadow: 1px 1px 10px black;
 }
 
 .department-card {
@@ -54,6 +74,36 @@
 .page-info {
 	margin-top: 20px;
 	margin-bottom: -10px: 
+}
+
+.member-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+
+.member-image {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	align-self: center; 
+}
+
+.member-name {
+	padding-top: 10px;
+	align-self: center;
+	text-align: center;
+}
+
+.member-link {
+	align-self: center;
+	margin-bottom: 20px;
+}
+
+.link-icon {
+	width: 30px;
+	height: 30px;
 }
 
 @media only screen and (max-width: 600px) {

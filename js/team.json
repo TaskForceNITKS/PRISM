@@ -1,0 +1,32 @@
+var team = [
+{
+	"name": "Lorem Ipsum",
+	"image": "temp.jpg",
+	"facebook": "https://facebook.com/xyz"
+},
+{
+	"name": "Lorem Ipsum",
+	"image": "temp.jpg",
+	"facebook": "https://facebook.com/xyz"
+},
+{
+	"name": "Lorem Ipsum",
+	"image": "temp.jpg",
+	"facebook": "https://facebook.com/xyz"
+},
+{
+	"name": "Lorem Ipsum",
+	"image": "temp.jpg",
+	"facebook": "https://facebook.com/xyz"
+},
+{
+	"name": "Lorem Ipsum",
+	"image": "temp.jpg",
+	"facebook": "https://facebook.com/xyz"
+},
+{
+	"name": "Lorem Ipsum",
+	"image": "temp.jpg",
+	"facebook": "https://facebook.com/xyz"
+},
+]
