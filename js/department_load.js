@@ -10,7 +10,30 @@ function loadDepartmentInfo(id) {
         }          
     }
     $('.header-title').html(department.name);    
-    $('#content').html(department.content);       
+
+    $('.intro').html(department.intro);      
+    $('.department_name').html(department.name);      
+    $('.definition').html(department.definition);      
+    $('.course_information').html(department.course_information);
+    for (var i = 0; i <= department.core_specializations.length; i++) {
+        var container = document.createElement('div');
+        container.className = "specialization-container";
+
+        var title = document.createElement('h4');
+        title.className = "pt-sans"; 
+        title.innerText = department.core_specializations[i].title;
+
+        container.appendChild(title);
+
+        var description = document.createElement('p');
+        description.innerText = department.core_specializations[i].desc;
+
+        container.appendChild(description);
+
+        $('.core_specializations').append(container);
+    }
+     
+
 }
 
 var getUrlParameter = function getUrlParameter(sParam) {
