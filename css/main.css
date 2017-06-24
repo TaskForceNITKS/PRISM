@@ -1,3 +1,7 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
 .home-page-banner {
 	margin-top: -64px;
 	width: 100%;
@@ -19,6 +23,10 @@
 .pt-sans {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
+}
+
+.nav {
+	transition: color 0.3s ease-in-out;
 }
 
 .bg-nitk {

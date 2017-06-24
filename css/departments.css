@@ -4,8 +4,8 @@ body {
 	background: -webkit-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* Safari 5.1 to 6.0 */
   	background: -o-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* For Opera 11.6 to 12.0 */
   	background: -moz-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* Standard syntax */
-  	font-family: 'Merriweather Sans', sans-serif;
+  	background: linear-gradient(0deg, #ef6c00, #ff9800) fixed; /* Standard syntax */
+  	font-family: 'PT Sans', sans-serif;
 }
 
 .header {
