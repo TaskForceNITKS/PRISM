@@ -16,7 +16,7 @@ function loadSports() {
 
 		// create card element
 		var card = document.createElement('div');
-		card.className = "card z-depth-3 hoverable";
+		card.className = "card z-depth-2";
 
 		// div for all card contents
 		var contents = document.createElement('div');
@@ -25,8 +25,8 @@ function loadSports() {
 		// sport title
 		var titleRow = document.createElement('div');
 		titleRow.className = "row center-align";
-		var title = document.createElement('h4');
-		title.style = "font-family: 'Roboto', sans-serif;"
+		var title = document.createElement('h2');
+		title.style = "font-family: 'PT Sans', sans-serif;"
 		title.innerText = sport.title;
 		
 		titleRow.appendChild(title);
