@@ -4,14 +4,14 @@ from os import walk
 from os import listdir
 from os.path import isfile, join
 
-#files_list = [f for f in listdir(".") if isfile(join(".", f))]
-#print(files_list)
+files_list = [f for f in listdir(".") if isfile(join(".", f))]
+print(files_list)
 
-if len(argv) != 2:
-    print("Incorrect usage: %s <filename>" %(argv[0]))
-    exit()
+# if len(argv) != 2:
+  #  print("Incorrect usage: %s <filename>" %(argv[0]))
+   # exit()
 
-file_name = argv[1]
+# file_name = argv[1]
 
 
 # for file_name in files_list:
@@ -37,5 +37,3 @@ with Image.open(file_name) as img:
 	# print(str(width) + " " + str(height))
 
 	img.save(file_name, optimize=True, quality=85)
-
-	return file_name

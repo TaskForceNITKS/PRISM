@@ -36,10 +36,10 @@ function loadSports() {
 		dataRow.className = "row";
 		// sport icon
 		var imageWrapper = document.createElement('div');
-		imageWrapper.className = "col s12 m4 right";
+		imageWrapper.className = "col s12 m4 right valign-wrapper";
 		var image = document.createElement('img');
-		image.src = "/img/sports/"+sport.title.split(" ")[0]+".png";
-		image.style = "width: 100%;"
+		image.src = "/img/sports/"+sport.image;
+		image.style = "width: 100%; height: 100%;"
 		imageWrapper.appendChild(image);
 		dataRow.appendChild(imageWrapper);
 
