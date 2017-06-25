@@ -16,14 +16,14 @@
           
           model+='<span class="card-title "><h4><b><i>'+councils.name+' </h3></b></i></span>';
           model+='<img src="'+councils.image+'"class="responsive-img " style="height:400px;">';
-          model+='<p><b>President :</b><span class="con" >'+councils.president+'</span></p><br/>';
+          model+='<p><span class="pres white-text" style="font-size:23px;"><b>President:</b></span><span class="con" >'+councils.president+'</span></p><br/>';
          
-         model+='<div class="card det councilinfo-bg grey ">';
+         model+='<div class="card det councilinfo-bg grey lighten-3 ">';
          
         
            model+='<div class="row">';
-          model+='<div class="container black-text left-align"><p class="flow-text" style="font-size:23px;">'+councils.description+'</p></div><br/>';
-          model+='<div class="container black-text left-align"><span class="majevents"><p class="flow-text" style="font-size:23px;">Major events :</span>'+councils.events+'</p></div><br/>';
+          model+='<div class="container black-text left-align"><span class="maj orange-text" style="font-size:23px;""><b>About Us :</b></span><p class="flow-text" style="font-size:23px;">'+councils.description+'</p></div><br/>';
+          model+='<div class="container black-text left-align"><span class="majevents orange-text" style="font-size:23px;""><b>Major events :</b></span><p class="flow-text" style="font-size:23px;">'+councils.events+'</p></div><br/>';
          
           model+='</div></div></div></div></div>';
           return model;
