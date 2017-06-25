@@ -1,13 +1,26 @@
 
-    .con{
-            font-size: 16px;
-            color: black;
-        }
-    .det{
-            padding-top: 5px;
-            padding-bottom: 5px;
-          }
-    #sidenav-overlay {
-        z-index: 996;
-    }
+.indicator {
+  background-color: orange !important;
+}
+
+.tabs .tab a {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.tabs .tab a:hover,.tabs .tab a.active {
+  color: black !important;
+}
+
+.con{
+    font-size: 16px;
+    color: black;
+}
+.det{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
     
+#sidenav-overlay {
+    z-index: 996;
+
+}    
