@@ -16,71 +16,82 @@ function loadSports() {
 
 		// create card element
 		var card = document.createElement('div');
-		card.className = "card hoverable";
+		card.className = "card z-depth-2";
 
 		// div for all card contents
 		var contents = document.createElement('div');
 		contents.className = "card-content";
 
+		// sport title
+		var titleRow = document.createElement('div');
+		titleRow.className = "row center-align";
+		var title = document.createElement('h2');
+		title.style = "font-family: 'PT Sans', sans-serif;"
+		title.innerText = sport.title;
+		
+		titleRow.appendChild(title);
+		contents.appendChild(titleRow);
+
+		var dataRow = document.createElement('div');
+		dataRow.className = "row";
 		// sport icon
 		var imageWrapper = document.createElement('div');
-		imageWrapper.style = "display: flex;"
+		imageWrapper.className = "col s12 m4 right";
 		var image = document.createElement('img');
 		image.src = "/img/sports/"+sport.title.split(" ")[0]+".png";
-		image.style = "margin-left: auto; margin-right: auto;"
+		image.style = "width: 100%;"
 		imageWrapper.appendChild(image);
-		contents.appendChild(imageWrapper);
+		dataRow.appendChild(imageWrapper);
 
-		// sport title
-		var title = document.createElement('h4');
-		title.style = "font-family: 'Roboto', sans-serif;"
-		title.innerText = sport.title;
-
-		contents.appendChild(title);
-		contents.appendChild(br);
+		var dataContainer = document.createElement('div');
+		dataContainer.className = "col s12 m8";
 
 		// name of team captain
 		var captain = document.createElement('span');
 		captain.style = "font-weight: bold;";
 		captain.innerText = "Name of the Captain: ";
 
-		contents.appendChild(captain);
+		dataContainer.appendChild(captain);
 
-		contents.innerHTML += sport.captainName;
-		contents.appendChild(br);
+		dataContainer.innerHTML += sport.captainName;
+		dataContainer.appendChild(br);
 
 		// selections
 		var selection = document.createElement('span');
 		selection.style = "font-weight: bold;";
 		selection.innerText = "Selection Procedure: ";
 
-		contents.appendChild(selection);
+		dataContainer.appendChild(selection);
 
-		contents.innerHTML += sport.selectionProcedure;
-		contents.appendChild(br);
+		dataContainer.innerHTML += sport.selectionProcedure;
+		dataContainer.appendChild(br);
 
 		// competitions
 		var competitions = document.createElement('span');
 		competitions.style = "font-weight: bold;";
 		competitions.innerText = "Competitions: ";
 
-		contents.appendChild(competitions);
+		dataContainer.appendChild(competitions);
 
-		contents.innerHTML += sport.competitions;
-		contents.appendChild(br);
+		dataContainer.innerHTML += sport.competitions;
+		dataContainer.appendChild(br);
 
 		// achievements
 		var achievements = document.createElement('span');
 		achievements.style = "font-weight: bold;";
 		achievements.innerText = "Major Achievements: ";
 
-		contents.appendChild(achievements);
+		dataContainer.appendChild(achievements);
 
-		contents.innerHTML += sport.achievements;
-		contents.appendChild(br);
+		dataContainer.innerHTML += sport.achievements;
+		dataContainer.appendChild(br);
 
+		dataRow.appendChild(dataContainer);
+
+		contents.appendChild(dataRow);
 		// append all content to parent
 		card.appendChild(contents);
+
 		holder.appendChild(card);
 		$('#sports').append(holder);
 	}
