@@ -1,0 +1,95 @@
+.con{
+              font-size: 16px;
+              color: yellow;
+        }
+      
+        .det{
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+
+
+      .page-info {
+    margin-top: 20px;
+    margin-bottom: -10px: 
+    }
+    #sidenav-overlay {
+      z-index: 996;
+     }
+    #content,#content1{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+
+  } 
+  .fest-nitk {
+    background: url(/img/festbanner.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bodyfest {
+  width: 100vw;
+  overflow-x: hidden;
+  background: -webkit-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* For Opera 11.6 to 12.0 */
+    background: -moz-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg, #ef6c00, #ff9800) fixed; /* Standard syntax */
+    font-family: 'PT Sans', sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  color: orange;
+}
+.
+.header-title {
+  font-weight: bold;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  align-self: center;
+}
+
+.back-link-container {
+}
+
+.back-link {
+  color: white;
+  text-decoration: none;
+  align-self: center;
+  align-self: center;
+  margin-top: 10px; 
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.2s linear;
+}
+
+.back-link:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 10px black;
+}
+
+.row {
+  padding: 20px;
+}
+
+.flow-text {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    padding: 10px;
+  }
+
+  .header {
+    padding: 10px;
+  }
+}

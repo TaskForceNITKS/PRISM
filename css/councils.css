@@ -1,0 +1,13 @@
+
+    .con{
+            font-size: 16px;
+            color: black;
+        }
+    .det{
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+    #sidenav-overlay {
+        z-index: 996;
+    }
+    
