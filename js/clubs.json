@@ -1,8 +1,8 @@
-var techclubs=[
+var techClubs=[
 {
 
 	"name": "IEEE-NITK",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"ieee.JPG",
 	"convenor" : "Anand Thamban",
 	"events":"Ignite-Career &Internship talk series First Fest - Platform for IEEE student members to work on innovative projects for the whole year. Knowledge Sharing Sessions Technical Workshops Talk Series by prominent members of Academia or Industry Summer Mentorship Program.",
 	"projects":"Compsoc -Age and gender classification using CNNs , AI-NLP : Deep learning for conversational information agents Circuits and Systems / Signal Processing Society - SISO LiFi Network , Automatic Wheelchair, Piston - Smart electromagnetic clutch, Photo catalytic degradation of azodyes using PANI - Ag doped TiO2 particles."	,
@@ -11,7 +11,7 @@ var techclubs=[
 
 {
 	"name": "Institution of Engineers NITK Chapter ( IE-NITK)",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"iet.JPG",
 	"convenor" : "Nitya C Kamala",
 	"events":" Spark is the flagship event, inspired by the TED Talk Series and conducted on a college scale. NITK students, who have a niche for the extraordinary, are invited as speakers to share their experience of traversing roads less taken. “Read the F**king Manual” is an event that tests critical reading skills and logical abilities, by doing what the title says. The idea is to provide documentation of a new concept and test the participants ability to apply that knowledge on-the-spot. “Sync” is an enigmatic event wherein the final round involves a crime scene set-up and a story that is narrated to the finalists, whose task is to explain how the crime occurred. The event “Logician” is based on deterministic logic and electronics know-how. Teams are required to crack an encoded puzzle and subsequently achieve a successful breadboard implementation. “King Of The Hills” or KOTH is a tech-based competition that encourages collaboration among team members and puts soft skills to test.",
 	"projects":"For all the mainstream enthusiasts, there are ongoing projects in the fields of Web and App Development, Home Automation with Internet of Things (IoT), Nanosynthesis and Biogas Digester Design. The club is also working on interdisciplinary projects in the field of Robotics - Wearable Robotic Arm, Obstacle Avoider Bot - to name a few.",
@@ -20,7 +20,7 @@ var techclubs=[
 
 {
 	"name": "ACM - NITK",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"acm.JPG",
 	"convenor" : "VISHAKH P",
 	"events":"Apprentice, Vidyarthi, Shiksha, Cryptick, Jugaad, Hard Wired",
 	"projects":" A 3-D printed prosthetic underactuated robotic arm controlled using EEG sensors. The robotic arm uses 6 servo motors controlled using an Arduino microcontroller. A collaboration with NIMHANS Bangalore to improve the prediction of diseases based on the results of diagnostic tests using Machine Learning."	,
@@ -29,7 +29,7 @@ var techclubs=[
 
 {
 	"name": "INDIAN SOCIETY FOR TECHNICAL EDUCATION (ISTE-NITK)",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"acm.JPG",
 	"convenor" : " ANKIT REGE",
 	"events":" Scotland Yard, Transcend, Basic Electronics Workshop, Spectacle, Cryptonite, Social Initiative, Samsung Appathon",
 	"projects":"An Analysis of Sleep Hygiene (selected for national finals as part of INKtalks Make-a-thon), Closed Eye Pupil Tracking, Perception of Online Shopping in the E-Commerce Industry"	,
@@ -105,7 +105,7 @@ var techclubs=[
 
 
 ]
-var cultclubs=[
+var culturalClubs=[
 	
 	{
 	"name": "NITK Toastmasters’",
