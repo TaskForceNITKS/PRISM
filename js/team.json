@@ -1,4 +1,4 @@
-var team = [
+var tech_team = [
 {
 	"name": "Salman Shah",
 	"image": "salman-shah.jpg",
@@ -6,33 +6,58 @@ var team = [
 	"facebook": "https://www.facebook.com/shah.salman.bhai"
 },
 {
-	"name": "Lorem Ipsum",
-	"image": "temp.jpg",
-	"description": "Web and Design Head",
-	"facebook": "https://facebook.com/xyz"
+	"name": "Moksh Jain",
+	"image": "moksh-jain.jpg",
+	"description": "Web Developer",
+	"facebook": "https://www.facebook.com/moksh.jain"
 },
 {
-	"name": "Lorem Ipsum",
-	"image": "temp.jpg",
-	"description": "Web and Design Head",
-	"facebook": "https://facebook.com/xyz"
-},
-{
-	"name": "Lorem Ipsum",
-	"image": "temp.jpg",
-	"description": "Web and Design Head",
-	"facebook": "https://facebook.com/xyz"
-},
-{
-	"name": "Lorem Ipsum",
-	"image": "temp.jpg",
-	"description": "Web and Design Head",
-	"facebook": "https://facebook.com/xyz"
-},
-{
-	"name": "Lorem Ipsum",
-	"image": "temp.jpg",
-	"description": "Web and Design Head",
-	"facebook": "https://facebook.com/xyz"
-},
+	"name": "Anumeha Agrawal",
+	"image": "anumeha-agrawal.jpg",
+	"description": "Web Developer",
+	"facebook": "https://www.facebook.com/anumeha.agrawal.9"
+}
 ]
+
+var content_team = [
+{
+	"name": "Chayanika Das",
+	"image": "chayanika-das.jpg",
+	"description": "Content Contributor",
+	"facebook": "https://www.facebook.com/chayanika.das.7796"
+},
+{
+	"name": "P Uday Kumar",
+	"image": "uday-kumar.jpg",
+	"description": "Content Contributor",
+	"facebook": "https://www.facebook.com/uday.18018"
+},
+{
+	"name": "Dasari Srikanth",
+	"image": "srikanth-dasari.jpg",
+	"description": "Content Contributor",
+	"facebook": "https://www.facebook.com/profile.php?id=100012484546570"
+}
+]
+
+var helpdesk_team = [
+{
+	"name": "Lakshman Saketh",
+	"image": "lakshman-saketh.jpg",
+	"description": "Help Desk Head",
+	"number": "+91 88975 31632"
+},
+{
+	"name": "Agnes Sharan",
+	"image": "agnes-sharan.jpg",
+	"description": "Help Desk Head",
+	"number":"+91 96113 44476"
+},
+{
+	"name": "Reethu",
+	"image": "reethu.jpg",
+	"description": "Help Desk Team",
+	"number":"+91 96861 92124"
+}
+]
+
