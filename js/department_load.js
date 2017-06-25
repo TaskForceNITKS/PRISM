@@ -15,7 +15,10 @@ function loadDepartmentInfo(id) {
     $('.department_name').html(department.name);      
     $('.definition').html(department.definition);      
     $('.course_information').html(department.course_information);
-    for (var i = 0; i <= department.core_specializations.length; i++) {
+    $('.pg-options').html(department.pg);
+    console.log(department);
+
+    for (var i = 0; i < department.core_specializations.length; i++) {
         var container = document.createElement('div');
         container.className = "specialization-container";
 

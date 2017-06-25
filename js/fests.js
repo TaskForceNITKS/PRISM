@@ -1,6 +1,12 @@
 $(function() {
     var id = getUrlParameter('id');
     loadFestInfo(id);
+    $("#sidenav").sideNav();
+    $(document).scroll(function() { 
+        var $nav = $('.navbar-fixed');
+        $nav.find('nav').toggleClass('orange', $(this).scrollTop() > $nav.height());
+        $nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $nav.height());
+    });
 });
 
 function loadFestInfo(id) {
