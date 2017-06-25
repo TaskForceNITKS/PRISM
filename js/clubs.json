@@ -109,7 +109,7 @@ var culturalClubs=[
 	
 	{
 	"name": "NITK Toastmasters’",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"ieee.JPG",
 	"convenor" : " 1. Rahul Agarwal <br> 2. S H Agnes Sharan",
 	"events":"1)  Weekly meetings for members to present prepared and extempore speeches on the basis of set guidelines<br>2)  Hosts of the Toastmasters Area Contest for Area F2, under which NITK Toastmasters falls <br> 3)  Representation of both leaders and members in various Toastmaster platforms <br>",
 	"projects":"communication and leadership projects "	,
@@ -119,7 +119,7 @@ var culturalClubs=[
 
 	{
 	"name": "Rotaract Club NITK Chapter",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"ieee.JPG",
 	"convenor" : "Achyut Menon",
 
 	"events":"Rotaract Annual Charity Play, NITK Beach Run, Panache (Inter Branch Dance Competition), Orphanage Visit, Head Start, Verdict, Blockbuster.",

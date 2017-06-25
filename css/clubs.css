@@ -2,6 +2,22 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
+.indicator {
+  background-color: orange !important;
+}
+
+.tabs .tab a {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.tabs .tab a:hover,.tabs .tab a.active {
+  color: black !important;
+}
+
+.card {
+  height: 350px;
+}
+
 .majevents,.clubproj{
   font-size: 20px;
   color: yellow;
@@ -37,4 +53,10 @@ body {
 .pt-sans {
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    height: 320px;
+  }
 }
