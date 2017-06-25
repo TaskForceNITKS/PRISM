@@ -1,32 +1,38 @@
 var team = [
 {
+	"name": "Salman Shah",
+	"image": "salman-shah.jpg",
+	"description": "Web and Design Head",
+	"facebook": "https://www.facebook.com/shah.salman.bhai"
+},
+{
 	"name": "Lorem Ipsum",
 	"image": "temp.jpg",
+	"description": "Web and Design Head",
 	"facebook": "https://facebook.com/xyz"
 },
 {
 	"name": "Lorem Ipsum",
 	"image": "temp.jpg",
+	"description": "Web and Design Head",
 	"facebook": "https://facebook.com/xyz"
 },
 {
 	"name": "Lorem Ipsum",
 	"image": "temp.jpg",
+	"description": "Web and Design Head",
 	"facebook": "https://facebook.com/xyz"
 },
 {
 	"name": "Lorem Ipsum",
 	"image": "temp.jpg",
+	"description": "Web and Design Head",
 	"facebook": "https://facebook.com/xyz"
 },
 {
 	"name": "Lorem Ipsum",
 	"image": "temp.jpg",
-	"facebook": "https://facebook.com/xyz"
-},
-{
-	"name": "Lorem Ipsum",
-	"image": "temp.jpg",
+	"description": "Web and Design Head",
 	"facebook": "https://facebook.com/xyz"
 },
 ]

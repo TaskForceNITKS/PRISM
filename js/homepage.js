@@ -15,8 +15,8 @@ function loadTeam() {
 		container.className = "member-container col s12 m4";
 
 		var image = document.createElement('img');
-		image.src = "/img/team/" + member.image;
-		image.className = "member-image";
+		image.src = "img/team/" + member.image;
+		image.className = "circle responsive-img member-image";
 
 		container.appendChild(image);
 
@@ -25,6 +25,11 @@ function loadTeam() {
 		name.innerText = member.name;
 
 		container.appendChild(name);
+
+		var description = document.createElement('div');
+		name.className = "member-description";
+		name.innerText = member.description;
+		name.setAttribute('style', 'text-align:center');
 
 		var link = document.createElement('a');
 		link.className = 'member-link';
