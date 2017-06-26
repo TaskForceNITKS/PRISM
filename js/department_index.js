@@ -11,6 +11,13 @@ $(function() {
 
 function loadDepartmentsList() {
 
+	var cont=document.createElement('div');
+	cont.innerText = content[0].content;
+
+    var rows = document.createElement('div');
+    rows.id="dept-rows";
+    $('#departmentinfo').append(rows);
+
 	for (var i = 0; i < departments.length; i++) {
 		if(i%3 === 0) {
 			var row = document.createElement('div');
@@ -40,7 +47,9 @@ function loadDepartmentsList() {
 		container.appendChild(title);
 		linkWrapper.appendChild(container);
 		holder.appendChild(linkWrapper);
+		holder.appendChild(cont);
 
 		$('#dep-row-'+ parseInt(i/3)).append(holder);
+		$('#dept-rows').append(cont);
 	}
 }
