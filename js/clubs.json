@@ -21,34 +21,34 @@ var techClubs=[
 {
 	"name": "ACM - NITK",
 	"image":"acm.JPG",
-	"convenor" : "VISHAKH P",
+	"convenor" : "Vishakh P",
 	"events":"Apprentice, Vidyarthi, Shiksha, Cryptick, Jugaad, Hard Wired",
 	"projects":" A 3-D printed prosthetic underactuated robotic arm controlled using EEG sensors. The robotic arm uses 6 servo motors controlled using an Arduino microcontroller. A collaboration with NIMHANS Bangalore to improve the prediction of diseases based on the results of diagnostic tests using Machine Learning."	,
 	"description":" ACM NITK plans and organizes a wide range of events that include technical workshops, guest lectures, online events and various other competitions at NITK, throughout the year. Our members come from all disciplines, backgrounds and interests providing a forum for students to undertake technical projects, develop organisational and leadership skills, and find like-minded students to work with.  Students are eligible for recruitment in at the start of their second year. For first years, it's an open invite to come and attend our events year round and get to know the seniors at the club."
 },
 
 {
-	"name": "INDIAN SOCIETY FOR TECHNICAL EDUCATION (ISTE-NITK)",
-	"image":"acm.JPG",
-	"convenor" : " ANKIT REGE",
+	"name": "Indian Society for Technical Education (ISTE-NITK)",
+	"image":"iste.JPG",
+	"convenor" : "Ankit Rege",
 	"events":" Scotland Yard, Transcend, Basic Electronics Workshop, Spectacle, Cryptonite, Social Initiative, Samsung Appathon",
 	"projects":"An Analysis of Sleep Hygiene (selected for national finals as part of INKtalks Make-a-thon), Closed Eye Pupil Tracking, Perception of Online Shopping in the E-Commerce Industry"	,
 	"description":" Indian Society for Technical Education - NITK Chapter is the oldest technical society at the National Institute of Technology Karnataka. Besides organizing technical and cultural events and competitions for students of the institution, ISTE - NITK also hosts a range of workshops and educational seminars. ISTE - NITK also strives to promote liberal arts of our members via Special Interest Groups within the club, including, but not limited to, computer science, electronics, mechanics and robotics, civil engineering, business , literature ,video editing, photography and digital content creation. Recruitments take place in second year."
 },
 
 {
-	"name": "The Institute of Engineering and Technology  (IET-NITK)",
-	"image":"http://placehold.it/1600x800/ff5722",
-	"convenor" : " SAI ABHISHEK L",
+	"name": "The Institute of Engineering and Technology (IET-NITK)",
+	"image":"iet.JPG",
+	"convenor" : "Sai Abhishek L",
 	"events":"  IET innerve and present around the world (PATW)",
 	"projects":"1.Automated toll collection system using Rfid <br>  2.Stair climbing robot using crank mechanisms"	,
 	"description":" IET NITK chapter is a exclusive technical club under IET london division.It is actively involved in inculcating a passion for innovation and appreciation for scientific temperament in the minds of those who have the potential to change the future. It conducts seminars and workshops throughout the academic calendar striving to impart techincal ,social and managerial skills to the students. IET plays an integral role in planning and organizing various events in the techno-cultural fests of the institute ie ENGINEER and INCIDENT. Recruitment process takes place for second years."
 },
 
 {
-	"name": "BAJA NITK RACING",
-	"image":"http://placehold.it/1600x800/ff5722",
-	"convenor" : " DAVID NAZARETH",
+	"name": "BAJA NITK Racing",
+	"image":"baja.JPG",
+	"convenor" : " David Nazareth",
 	"events":" 1. Baja Sae India <br> 2.Virtual Baja",
 	"projects":" Building of our 9th Atv vehicle. Design of a custom gearbox out of aluminum. Manufacture of chromoly wishbone for the suspension"	,
 	"description":" We are a team of undergraduate students that design, fabricate, race and market all terrain vehicles to compete in the Baja Sae collegiate series. Recruitment to the team (technical and marketing) is done through a written test and 2 interviews that take place in March every year."
@@ -56,8 +56,8 @@ var techClubs=[
 },
 {
 	"name": "Amateur Astronomy Club",
-	"image":"http://placehold.it/1600x800/ff5722",
-	"convenor" : "VEDANT DHRUV",
+	"image":"aac.JPG",
+	"convenor" : "Vedant Dhruv",
 	"events":" 1. The Astro Committee conducts various astronomy events in Engineer.<br> 2. Currently in the possession of two telescopes, the club conducts frequent 'Starry Nights' where it shows various celestial bodies.<br> 3. Professionals from outside the college are invited to give a talk on astronomy.<br> ",
 	"projects":" : 1. Rover: The club is working on a rover, based on the ones that are sent to Mars. This will be exhibited during the fest Engineer.<br> 2. Motorization of the telescope."	,
 	"description":" The Amateur Astronomy Club is a family of space enthusiasts that aims to develop an awareness of astronomy and astrophysics among people and encourage an interest in the field. It undertakes projects, conducts events, organizes talks by famous personalities and much more to cultivate interest in this field in NITK and beyond. Recruitments are held in the month of August. The club recruits B.Tech students in their second year and interested M.Sc. and M.Tech students."
@@ -65,15 +65,15 @@ var techClubs=[
 },
 {
 	"name": "ASCE NITK Student Chapter",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"asce.JPG",
 	"convenor" : "Loganathan Navaneethan",
 	"events":" Seminars Guest Lectures by professors of IITs and NITs Workshops Site Visits",
 	"description":" A student group with an international recognition, which conducts activities like Seminars, Workshops, Site Visits and Student Competitions related to various aspects of Civil Engineering. Recruitment of students will start with the pre recruitment talk for second years only. "
 
 },
 {
-	"name": "FLYING AND ROBOTICS ",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"name": "Flying and Robotics ",
+	"image":"",
 	"convenor" : "Sourabh Kamath",
 	"events":" Wright flight",
 	"projects": " Grade remote controlled planes",
@@ -81,9 +81,9 @@ var techClubs=[
 },
 
 {
-	"name": "SOCIETY OF AUTOMOTIVE ENGINEERS (SAE-NITK)",
-	"image":"http://placehold.it/1600x800/ff5722",
-	"convenor" : "V K VAMSI KRISHNA",
+	"name": "Society of Automotive Engineers (SAE-NITK)",
+	"image": "sae.JPG",
+	"convenor" : "V K Vamsi Krishna",
 	"events":"  SAE FEST(otto quiz-conducted for juniors) , workshops, Knowledge exchange program (KEP)",
 	"projects":" Stair climbing robot, study of sky scarpers , design and analysis of gear"	,
 	"description":" A technical club for the automotive enthusiasts, dealing in projects related to automotive field. A 2 step recruitment process. 1st one is a written test and 2nd one is a interview followed by a small HR interview. (written test is based on the basics learnt)."
@@ -92,9 +92,9 @@ var techClubs=[
 
 
 {
-	"name": "NITK RACING (FSAE)",
-	"image":"http://placehold.it/1600x800/ff5722",
-	"convenor" : "GIRIRAJ HEDA",
+	"name": "NITK Racing (FSAE)",
+	"image":"fsae.JPG",
+	"convenor" : "Giriraj Heda",
 	"events":" The team is involved in designing building, testing and improvising a FS Car throughout the year.",
 	"projects":" The team has built its new FS Car, NR-17. The further developments would involve testing and tuning the car. Alongside the projects like variable intake runner system, Data Acquisition System, diffuser analysis and mounting would be implemented in the coming semester"	,
 	"description":" Formula Student team of NITK that designs and build a Formula style race car. The team has participated in national as well as international Formula Student Completions. Recruitments are usually in the even semesters, in the month of February- March which tests basic engineering aptitude.The final stages are the interview rounds."
@@ -109,7 +109,7 @@ var culturalClubs=[
 	
 	{
 	"name": "NITK Toastmasters’",
-	"image":"ieee.JPG",
+	"image":"af.JPG",
 	"convenor" : " 1. Rahul Agarwal <br> 2. S H Agnes Sharan",
 	"events":"1)  Weekly meetings for members to present prepared and extempore speeches on the basis of set guidelines<br>2)  Hosts of the Toastmasters Area Contest for Area F2, under which NITK Toastmasters falls <br> 3)  Representation of both leaders and members in various Toastmaster platforms <br>",
 	"projects":"communication and leadership projects "	,
@@ -119,9 +119,8 @@ var culturalClubs=[
 
 	{
 	"name": "Rotaract Club NITK Chapter",
-	"image":"ieee.JPG",
+	"image":"roto.JPG",
 	"convenor" : "Achyut Menon",
-
 	"events":"Rotaract Annual Charity Play, NITK Beach Run, Panache (Inter Branch Dance Competition), Orphanage Visit, Head Start, Verdict, Blockbuster.",
 	"projects":"The biggest production every year is the Annual Charity Play, all proceeds from which go towards supporting a charitable cause."	,
 	"description":" Rotaract Club NITK Chapter is a socio-cultural club that is affiliated with the Surathkal division of Rotary International. The student members organize several events that not only raise awareness about specific causes but also proactively help redress problems in the local society through initiatives such as orphanage trips, marathons and beach cleanup drives. Recruitment process for the second years."
@@ -130,7 +129,7 @@ var culturalClubs=[
 
 	{
 	"name": "Artists' Forum",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"af.JPG",
 	"convenor" : "Kavya Atmakuri",
 	"events":"UDAAN (Annual Beach Kite Festival), Art Beat , Campus decoration during Incident and Engineer,Fine art Competitions, Kalakriti (art exhibition during Incident).",
 	"projects":""	,
@@ -139,8 +138,8 @@ var culturalClubs=[
 	},
 
 	{
-	"name": "E-cell",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"name": "E-Cell",
+	"image":"e-cell.JPG",
 	"convenor" : "Sheetal Pasam",
 	"events":" E-summit, Enterprise.",
 	"projects":"We're working on getting E-summit even bigger and better than the last year, since it's an inter college event it's a business fest of sorts. We even have start up funding happening through STEP."	,
@@ -149,8 +148,8 @@ var culturalClubs=[
 	},
 
 	{
-	"name": "Kannada vedike - NITK",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"name": "Kannada Vedike - NITK",
+	"image":"kannadavedikke.JPG",
 	"convenor" : "Yogeesh N",
 	"events":" Treasure hunt, Parva, BD_Karnataka, Kannada events during Incident and Engineer etc.",
 	"projects":""	,
@@ -160,7 +159,7 @@ var culturalClubs=[
 
 	{
 	"name": "Music Club",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"music.JPG",
 	"convenor" : "Anirudh Sriram",
 	"events":" Organized 4 music nights last year. Went for multiple local fests. Also went for Saarang and Raagam, where our bands won prizes for some of the events.",
 	"projects":"Audio production, Song writing"	,
@@ -170,7 +169,7 @@ var culturalClubs=[
 
 	{
 	"name": "Media Arts and Creative Design (MACD)",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"macd.JPG",
 	"convenor" : "Athul Prakash I K",
 	"events":"  Photography workshop, Vegas workshop, online design video events",
 	"projects":"",
@@ -180,7 +179,7 @@ var culturalClubs=[
 
 	{
 	"name": "Photography Club",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"photography.JPG",
 	"convenor" : "L Rajesh",
 	"events":"Workshops (during Engineer), Photo contests, Photo Walks, Expose (during Incident).",
 	"projects":"",
@@ -190,7 +189,7 @@ var culturalClubs=[
 
 	{
 	"name": "Literary, Stage and Debating Society (LSD)",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"lsd.JPG",
 	"convenor" : "Deepak Srikanth",
 	"events":"In a Nutshell play, The First Quiz of the Year, Cadenza Solo Quiz, Incident Quizzes.",
 	"projects":"",
@@ -200,7 +199,7 @@ var culturalClubs=[
 
 	{
 	"name": "SPICMACAY",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"spic.JPG",
 	"convenor" : "Sundar Raj K",
 	"events":"1.Aradhana, a fest for school children conducted by second years which includes various competitions in art, literary events followed by music or dance performance by students of NITK and outside. <br> 2. Regular performances by artists of national and international acclaim in the college campus and the institutes around.",
 	"projects":"",
@@ -210,7 +209,7 @@ var culturalClubs=[
 
 	{
 	"name": "NITK Dance Crew",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"dancecrew.JPG",
 	"convenor" : "Abhilasha J",
 	"events":"Performances during Inauguration functions of Engineer and Incident and special performances during events like Spandan and Crescendo. To Organize Dance events during Incident like Step- up , Tandav and Promenade. Participate in inter college Dance competitions and represent NITK in other college fests.",
 	"projects":"",
@@ -220,7 +219,7 @@ var culturalClubs=[
 
 	{
 	"name": "Film's Club NITK",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"filmsclub.JPG",
 	"convenor" : "Shrinidhi Rao",
 	"events":" Films festival, and regular movie screenings",
 	"projects":"",
@@ -230,7 +229,7 @@ var culturalClubs=[
 
 	{
 	"name": "Dance Dramatics and Fashion Club (DDFC)",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"ddfc.JPG",
 	"convenor" : "Sachin Singh",
 	"events":"Spandan - our first event in the odd semester in which participants from all years showcase their talents. This event also has a fashion pageant, especially for freshers, Mr. And Miss Glamour Anza. Next, in the even semester, comes one of the biggest cultural events of NITK, Bharat Darshan. This bright and colorful extravaganza showcases brilliant performances by groups representing the various state of India. In addition, DDFC also conduct dramas and dandiya nights.",
 	"projects":"",
@@ -240,15 +239,12 @@ var culturalClubs=[
 
 	{
 	"name": "Voice Club",
-	"image":"http://placehold.it/1600x800/ff5722",
+	"image":"voiceclub.JPG",
 	"convenor" : "Kanak Yadav",
 	"events":"Power of Habits, Discover Yourself, Gitamrutam, Ramanavami and many more.",
 	"projects":"",
 	"description":"Club focuses on imparting youth with Character ,Culture and Competence through seminars like Power of Habits , Gitamrutam and festivals like Ramanavami and Janmashtami. Recruitment is done through Power of Habits and Discover Yourself sessions."
 	
 	}
-
-
-
 ]
 
