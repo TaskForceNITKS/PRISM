@@ -101,7 +101,7 @@ function loadCulturalClubs() {
     card.className = "card";
 
     var image = document.createElement('img');
-    image.src = "img/tech_clubs/" + culturalClubs[i].image;
+    image.src = "img/cult_clubs/" + culturalClubs[i].image;
     image.className = "card-image";
     image.style = "width: 100%; height: auto"
 
@@ -126,12 +126,19 @@ function loadCulturalClubs() {
     card.appendChild(contents);
     holder.appendChild(card);
 
+    card.id = "cultural-"+i;
+
+
+    card.addEventListener('click', function() {
+      displayClubInfo.bind(this).call();
+    });
+
     $('#cultural-row-'+parseInt(i/2)).append(holder);
   }
 }
 
 function loadTechClubs() {
-   for (var i = 0; i < culturalClubs.length; i++) {
+   for (var i = 0; i < techClubs.length; i++) {
     if(i%2===0) {
       var row = document.createElement('div');
       row.className = "row";
@@ -181,16 +188,19 @@ function loadTechClubs() {
   } 
 }
 
+var cardTop, cardLeft, imgTop,imgLeft;
+
 function displayClubInfo() {
   var id = $(this).attr('id');
   var type = id.substr(0, id.lastIndexOf('-'));
   var index = id.substr(id.lastIndexOf('-') + 1);
-  console.log(type+index);
   switch(type){
     case "tech":
       club = techClubs[index];
+      break;
     case "cultural":
       club = culturalClubs[index];
+      break;
   }
   
   var body = document.createElement('div');
@@ -211,11 +221,7 @@ function displayClubInfo() {
   var img = document.createElement('img');
   img.src = $(this).find('img').attr('src');
   img.className = "club-img";
-  img.addEventListener('load', function(){
-    var vibrant = new Vibrant(img);
-    var swatches = vibrant.swatches();
-    bg_color = swatches['Vibrant'].getHex();
-  });
+
   // Card
   cardw = $(this).width();
   cardh = $(this).height();
@@ -224,17 +230,26 @@ function displayClubInfo() {
   cardTop = cardt;
   cardLeft = cardl;
   var card = document.createElement('div');
-  card.className = "club-card";
+  card.className = "club-card z-depth-3";
   var card_temp = document.createElement('div');
   card_temp.className = "club-card-temp";
   // Card contents
   container = document.createElement('div');
   container.className = "container card-content";
   heading = document.createElement('h3');
-  heading.className = "project-card-title";
+  heading.className = "club-card-title row";
   heading.innerHTML = club.name;
   details = document.createElement('div');
-  details.className = "club-card-details container";
+  details.className = "club-card-details row flow-text";
+
+  description = document.createElement('div');
+  description.innerHTML = club.description;
+
+  events = document.createElement('div');
+  events.innerHTML = club.events;
+
+  projects = document.createElement('div');
+  projects.innerHTML = club.projects;
   
   // card_temp = card;
   $('body').append(body);
@@ -271,30 +286,32 @@ function displayClubInfo() {
         left: '0',
         width: '100%',
         height: '100%',
-        backgroundColor: bg_color,
+        background: 'linear-gradient(0deg, #ef6c00, #ff9800) fixed',
         zIndex: 120,
         overflowX: 'auto',
         overflowY: 'scroll'
       });
       $('.club-card-temp').css({
-        position: 'absolute',
-        minHeight: '100vh',
+        position: 'relative',
+        // minHeight: '100vh',
         height: 'auto',
-        width: '90vw',
-        left: '5vw',
-        top: '30vh',
+        width: '80vw',
+        left: '10vw',
+        // top: '30vh',
         backgroundColor: '#fff'
       });
       $('.club-img').css({
-        position: 'absolute',
-        height: imgh,
-        width: imgw,
-        left: '10vw',
+        position: 'relative',
+        height: 'auto',
+        width: '70vw',
+        left: '15vw',
         top: '10vh',
+        marginBottom: '20px',
         zIndex: 3
       });
       
     });
+    $('nav').css('display', 'none');
   }, 10);
 
   setTimeout(function() {
@@ -303,24 +320,28 @@ function displayClubInfo() {
     $('.club-card').append(container);
     $('.card-content').append(heading);
     $('.card-content').append(details); 
-    $('.club-card-details').html(detail_cont);
+    $('.club-card-details').append(description);
+    $('.club-card-details').append('<h5><b>Events:</b></h5>');
+    $('.club-card-details').append(events);
+    $('.club-card-details').append('<h5><b>Projects:</b></h5>');
+    $('.club-card-details').append(projects);
+
   
     
-  }, 300);  
+  }, 400);
   setTimeout(function(){
     h = $('.club-card-details').height() + $('.club-card-title').height() + 220 + 'px';
     $('.club-card-details').css('display', 'inherit');
     $('.club-card-title').css('display', 'inherit');
     $('.club-card').css({
-      position: 'absolute',
+      position: 'relative',
       height: h,
-      width: '90vw',
-      left: '5vw',
-      top: '30vh',
+      width: '80vw',
+      left: '10vw',
       backgroundColor: '#fff'
     });
     $('.close-button').on('click', closeInfo);
-  }, 300);
+  }, 400);
 }
 
 function closeInfo() {
@@ -328,11 +349,15 @@ function closeInfo() {
     $('.club-card-title').css('display', 'none');
     $('.club-card-details').css('display', 'none');
     $('.club-details').css('backgroundColor', 'rgba(0, 0, 0, 0)')
-    h = $('.hoverable').height();
-    w = $('.hoverable').width();
+    h = $('.card').height();
+    w = $('.card').width();
+    ih = $('.card-image').height();
+    iw = $('.card-image').width();
 
     $('.club-img').css({
       position: 'absolute',
+      height: ih,
+      width: iw,
       top: imgTop,
       left: imgLeft
     });
@@ -347,7 +372,7 @@ function closeInfo() {
       $('.club-details-content').remove();
       $('.club-details').remove();
       $('body').css('overflow','auto');
-      $('.header-fixed').css('opacity', '1');
+      $('nav').css('display', 'inherit');
     }, 300);
   });
 }

@@ -18,10 +18,40 @@ body {
   height: 350px;
 }
 
+.club-card-title {
+  font-weight: bold;
+}
+
 .majevents,.clubproj{
   font-size: 20px;
   color: yellow;
   font-family: sans-serif;
+}
+
+.club-details, .club-details-content, .club-img, .club-card-temp, .club-card {
+  transition: top .4s ease-in, left .4s ease-out, width .4s ease-in-out, height .4s ease-in-out;
+  -webkit-transition: top .4s ease-in, left .4s ease-out, height .4s ease-in-out, width .4s ease-in-out;
+}
+
+.club-details {
+  transition: background-color 0.4s linear;
+  -webkit-transition: background-color 0.4s linear;
+}
+
+.close-button {
+  position: absolute;
+  top: 2vh;
+  left:5vw;
+  color: #fff;
+  font-size: 30px;
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
+
+.card-content {
+  padding: 30px;
 }
 
 .welcome-text {
