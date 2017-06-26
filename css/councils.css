@@ -10,15 +10,6 @@
 .tabs .tab a:hover,.tabs .tab a.active {
   color: black !important;
 }
-
-.con{
-    font-size: 16px;
-    color: black;
-}
-.det{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
     
 #sidenav-overlay {
     z-index: 996;
