@@ -17,36 +17,33 @@ function loadfests() {
       var row = document.createElement('div');
       row.className = "row";
       row.id = "fest-row-" + i/2;
-      row.setAttribute("style","padding-top:30px;");
+
       $('#festview').append(row);
     }
     fest = fests[i];
-    var holder = document.createElement('div');
-    holder.className = "col s12 m4 offset-m2";
-    holder.setAttribute("style","padding-top:45px;");
+    var holder = document.createElement('a');
+    holder.className = "col s12 m6";
+    holder.setAttribute('href', "/fests.html?id=" + fest.id);
 
-    var linkWrapper = document.createElement('a');
-    linkWrapper.setAttribute('href', 'fests.html?id=' + fest.id);
-
-    var container = document.createElement('div');
-    container.className = "fest-card z-depth-3";
-    container.setAttribute("style","width:280px; height:280px;");
+    var card = document.createElement('div');
+    card.className = "card center-align hoverable";
+    card.style = "height: 390px;"
 
     var image = document.createElement('img');
-    image.className = "fest-image";
-    image.src = "img/fests/"+fest.image;
-    image.setAttribute("style","width:280px; height:280px;");
-    image.setAttribute("media","only screen and (max-width : 1024px){.image{height:200px;}}")
-    
-    var title = document.createElement('div');
-    title.className = "fest-title";
-    title.innerText = fest.name;
-    title.setAttribute("style","color:orange; font-size:30px; background: black;")
+    image.src = "img/fests/" + fest.image;
+    image.className = "card-image";
+    image.style = "height: 300px; width: auto;"
 
-    container.appendChild(image);
-    container.appendChild(title);
-    linkWrapper.appendChild(container);
-    holder.appendChild(linkWrapper);
+    card.appendChild(image);
+
+    card.innerHTML += "<br>";
+
+    var title = document.createElement('h3');
+    title.className = "fest-name";
+    title.innerText = fest.name;
+
+    card.appendChild(title);
+    holder.appendChild(card);
 
     $('#fest-row-'+ parseInt(i/2)).append(holder);
   }
