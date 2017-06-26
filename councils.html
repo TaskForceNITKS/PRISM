@@ -24,7 +24,7 @@
   </script>
 
 </head>
-<body onload="load();,load1();">
+<body>
 
   <!-- Navbar  -->
   <div class="navbar-fixed">
@@ -80,14 +80,14 @@
 
 
   <div class ="container">
-    <ul class="tabs row transparent">
-      <li class="tab col s6 "><a class="orange-text " href="#studentview" style="font-size: 25px;"><b>Student Council</b></a></li>
-      <li class="tab col s6 "><a class="orange-text" href="#hostelview" style="font-size: 25px;"><b>Hostel Council</b></a></li>
-    </ul>
-
-    <div id="studentview" class="col s8 offset-s2 white-text"></div>
-    <div id="hostelview" class="col s8 offset-s2 white-text"></div>
-
+    <div class="row flow-text">
+      <h2><b>Student Council</b></h2>
+      <div id="sc-content"></div>  
+    </div>
+    <div class="row flow-text">
+      <h2><b>Hostel Council</b></h2>
+      <div id="hc-content"></div>
+    </div>
   </div>
 </body>
 </html>
