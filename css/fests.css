@@ -1,43 +1,43 @@
 .con{
-              font-size: 16px;
-              color: yellow;
-        }
-      
-        .det{
-          padding-top: 5px;
-          padding-bottom: 5px;
-        }
-
-
-      .page-info {
-    margin-top: 20px;
-    margin-bottom: -10px: 
-    }
-    #sidenav-overlay {
-      z-index: 996;
-     }
-    #content,#content1{
-    font-size: 20px;
-    padding-bottom: 20px;
-
-
-  } 
-  .fest-nitk {
-    background: url(/img/festbanner.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  font-size: 16px;
+  color: yellow;
 }
+
+.det{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fests-page-banner {
+  margin-top: -64px;
+  width: 100%;
+  height: 100vh;
+  background: url('/img/festbanner.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.page-info {
+  margin-top: 20px;
+  margin-bottom: -10px: 
+}
+
+#sidenav-overlay {
+  z-index: 996;
+}
+
+#content,#content1{
+  font-size: 20px;
+  padding-bottom: 20px;
+} 
 
 .bodyfest {
   width: 100vw;
   overflow-x: hidden;
   background: -webkit-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* For Opera 11.6 to 12.0 */
-    background: -moz-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* For Firefox 3.6 to 15 */
-    background: linear-gradient(0deg, #ef6c00, #ff9800) fixed; /* Standard syntax */
-    font-family: 'PT Sans', sans-serif;
+  background: -o-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(0deg, #03a9f4, #0277bd) fixed; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, #ef6c00, #ff9800) fixed; /* Standard syntax */
+  font-family: 'PT Sans', sans-serif;
 }
 .header {
   display: flex;
