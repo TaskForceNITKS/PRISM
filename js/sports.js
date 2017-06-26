@@ -1,5 +1,10 @@
 $(function() {
 	$("#sidenav").sideNav(); 
+	$(document).scroll(function() { 
+		var $nav = $('.navbar-fixed');
+      	$nav.find('nav').toggleClass('orange', $(this).scrollTop() > $nav.height());
+    	$nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $nav.height());
+    });
 	loadSports();
 })
 
