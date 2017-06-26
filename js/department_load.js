@@ -25,21 +25,21 @@ function loadDepartmentInfo(id) {
     console.log(department);
 
     for (var i = 0; i < department.core_specializations.length; i++) {
-        var container = document.createElement('div');
-        container.className = "specialization-container";
+        var c = document.createElement('div');
+        c.className = "specialization-container";
 
         var title = document.createElement('h4');
         title.className = "pt-sans"; 
         title.innerText = department.core_specializations[i].title;
 
-        container.appendChild(title);
+        c.appendChild(title);
 
         var description = document.createElement('p');
         description.innerText = department.core_specializations[i].desc;
 
-        container.appendChild(description);
+        c.appendChild(description);
 
-        $('.core_specializations').append(container);
+        $('.core_specializations').append(c);
     }
      
 

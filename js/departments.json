@@ -10,6 +10,10 @@
  	* Post Degree Stuff
  	* Student Activities 
 */
+var content=[{
+	"content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Nosti, credo, illud: Nemo pius est, qui pietatem-; Tanta vis admonitionis inest in locis; Huius, Lyco, oratione locuples, rebus ipsis ielunior. Haec para/doca illi, nos admirabilia dicamus. Duo Reges: constructio interrete. Quod quidem iam fit etiam in Academia. Dic in quovis conventu te omnia facere, ne doleas. "
+}
+]
 var departments = [
 {
 	"name": "Chemical Engineering",
