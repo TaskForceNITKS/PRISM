@@ -1,15 +1,15 @@
 var fests=[
 {
-	"name": "Incident 2018",
-	"image":"incident.png",
+	"name": "Incident",
+	"image":"inci.jpg",
 	"convenor" : "Adarsh Pai",
 	 "id": "inci",
 	"events":"1)There are a plethora of events including musical events, dance events, dramatics, art and literary events. These events witness participation from many colleges. <br><br> 2) The Pronite events, since its inception  have witnessed performances by top musicians like Sunidhi Chauhan, KK, Kunal Ganjawala, Nikhil Chinappa , DJ Oliver Moldan, Vishal - Shekhar, Salim - Suleiman and bands like Breathe Floyd, Led Zepplica, Mother Jane, Euphoria, Indian Ocean, Galeej Gurus, Parikrama and many more.<br><br>  3) There are also the Inci Specials, which are unique to the fest. Having beach events at our own beach has always been a major boost to the fest.",
 	"description":" Incident is the annual cultural festival of NITK, generally held in the month of March. It is considered to be one of the biggest cultural festivals in India. Incident was started in the year 1980 and since then, it has grown by leaps and bounds to achieve its present stature. "
 },
 {
-	"name": "Engineer 2017",
-	"image":"engineer.png",
+	"name": "Engineer",
+	"image":"engineer.jpg",
 	"convenor" : "Sachin Kumar",
 	"id":"en",
 	"events":"",
