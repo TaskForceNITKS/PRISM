@@ -8,6 +8,14 @@ body {
   	font-family: 'PT Sans', sans-serif;
 }
 
+.dept-page-banner {
+	margin-top: -64px;
+	width: 100%;
+	height: 100vh;
+	background: url('/img/departments-img.jpg') no-repeat center center;
+	background-size: cover;
+}
+
 .header {
 	display: flex;
 	flex-direction: column;
