@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-  height: 350px;
+  height: 360px;
 }
 
 .club-card-title {
@@ -95,6 +95,31 @@ body {
 
 @media only screen and (max-width: 600px) {
   .card {
-    height: 320px;
+    height: 330px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .card {
+    height: 430px;
+  }
+
+  .club-card {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  .card {
+    height: 450px;
+  }
+  .club-card {
+    margin-top: 130px;
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  .club-card {
+    margin-top: 200px;
   }
 }
