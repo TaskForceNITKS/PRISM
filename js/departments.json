@@ -14,6 +14,7 @@ var content=[{
 	"content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Nosti, credo, illud: Nemo pius est, qui pietatem-; Tanta vis admonitionis inest in locis; Huius, Lyco, oratione locuples, rebus ipsis ielunior. Haec para/doca illi, nos admirabilia dicamus. Duo Reges: constructio interrete. Quod quidem iam fit etiam in Academia. Dic in quovis conventu te omnia facere, ne doleas. "
 }
 ]
+
 var departments = [
 {
 	"name": "Chemical Engineering",
@@ -38,24 +39,45 @@ var departments = [
 	"name": "Civil Engineering",
 	"icon": "civil.png",
 	"intro": "Civil Engineering is one of the oldest engineering branches started in NITK. Civil Engineering deals with airports, bridges, buildings, highways, networks, tunnels, water supply networks, transportation, construction, etc. In addition to all this analysis and planning of all these structures also comes under Civil Engineering.",
-	"definition": "",
-	"course_information":"",
+	"definition": "There are several sub discipline under civil engineering. Few of them are as follows: Coastal engineering, Ocean engineering, Transportation, Geotech, Environment, Water Resource, Construction & Project Management, Earthquake Engineering, Structural engineering, Control engineering, Forensic engineering, Marine, etc.",
+	"course_information":"There are all the basic courses that a civil engineer needs - to design, develop and analyse structures. They start teaching us from the basic level, hence understanding won’t be an issue. The professors of this department are really friendly and generate immense interest in the subjects through various practical sessions, seminars and projects. Second year, is when you get into the department. We have subjects like Surveying, Construction of materials, Mechanics of material, Disaster Management, that actually help in creating a strong foundation for the future semesters. Third year, there are subjects like Soil mechanics. Prestressed concrete structures, Design of Steel structures, Architectural Drawings, Environmental engineering, where you’re exposed to the different fields of Civil engineering. You also get to do Mini Projects in this year (under a professor who is working in the same interest area). Final year, you have subjects related to Construction Project Management and you can choose from various electives offered. You have to do a Major Project in the final year.",
 	"core_specializations": [
 		{	
-			"title":"Thermodynamics and Kinetics",
-			"desc":"Being a healthy skeptic, X is not entirely convinced about the chemists' calculations. So he first studies the thermodynamics of the process to understand the conditions at which it would be feasible to carry out the reaction. Temperature, pressure, composition, solvent nature ... all are variables which X can adapt and fine-tune to the process at hand. He also understands the factors that affect the reaction rate to use them favorably. Apart from the reaction being feasible and fast, he also has to worry about side reactions, stability of all concerned species and phase homogeneity. These are complex calculations and so he uses computational techniques and software to help him in making decisions. He also requests the chemists to double-check his results in some lab experiments. "
+			"title":"Coastal",
+			"desc":"Protect coastal areas against erosion and flooding."
+		},
+		{	
+			"title":"Earthquake",
+			"desc":"Test structures to ensure they are earthquake-resistant."
+		},
+		{	
+			"title":"Environmental ",
+			"desc":"Find new ways to protect our environment; create wind farms, work on water purification, wastewater treatment and solid waste treatment, etc."
+		},
+		{	
+			"title":"Structural ",
+			"desc":"Design and build bridges, towers, flyovers, tunnels, and offshore structures like oil and gas fields in the sea."
+		},
+		{	
+			"title":"Transport ",
+			"desc":"Work on building and maintaining roads, canals, highways, rail systems, airports, and ports."
+		},
+		{	
+			"title":"Urban ",
+			"desc":"Primarily focus on designing, constructing, and maintaining the roads, water supply networks, sewers, municipal solid waste management and disposal, public parks, etc."
 		},
 		{
-			"title":"Reactor Design",
-			"desc":"Once X is satisfied that the reaction can be implemented, he turns to the heart of the process, the reactor. He has briefly looked at possible catalysts when studying the kinetics, but this time he goes deeper. He plays around with some molecular simulation tools to find what catalyst could give the best results in terms of conversion, yield and selectivity. He also factors in the catalyst stability into his calculations. Once he's done on this front, he wonders what reactor design to use. A fixed bed? A fluidized bed? A stirred tank? A membrane reactor? Is it advantageous to use multiple reactors? How large should these reactors be? Of what material should they be made? He pays special attention to the physical phases and chemical natures of the participating species while making this decision. "
+			"title":"Hydraulic & Water resources ",
+			"desc":"Design and construct water resources such as pipelines, drainage facilities (including dams, channels, culverts, storm sewers), and canals."
 		}
 	],
-	"pg":"Lots of options are available. Pharma companies, Oil and gas companies (Reliance, IOCL etc), other chemical companies (Pepsi Co, Jindal Steels etc) or even non-core jobs like marketing, analyst, coding etc. If you are interested in pharmaceutical or petroleum based areas or other subjects like thermodynamics or control of the process in any industry then it's a good option. There's theory as well as a lot of concept based numericals.",
+	"pg":"There a whole lot of opportunities in this field: Continue in the field and take a core job. Pursue higher studies. Masters in India or abroad will definitely add up to your resume. Go in the research side and get innovative. You can take up Management studies and continue in the construction field. Take up a non core job (depends on your interest).
+",
 	"id":"cv"
 },
 {
 	"name": "Computer Engineering",
-	"icon": "computer.png",
+	"icon": "cse.png",
 	"intro": "A Computer Engineer is one who ensures that the communication devices that you use in daily life, stay connected that way to the outside world, and give you the best experience. Computer Engineering breaks down a complex system into many parts (not just limited at the software level) and tries to analyze and optimize each of them separately.",
 	"definition": "",
 	"course_information":"",
@@ -74,21 +96,21 @@ var departments = [
 },
 {
 	"name": "Electrical Engineering",
-	"icon": "civil.png",
-	"intro": "Civil Engineering is one of the oldest engineering branches started in NITK. Civil Engineering deals with airports, bridges, buildings, highways, networks, tunnels, water supply networks, transportation, construction, etc. In addition to all this analysis and planning of all these structures also comes under Civil Engineering.",
+	"icon": "eee.png",
+	"intro": "",
 	"definition": "",
 	"course_information":"",
 	"core_specializations": [
 		{	
-			"title":"Thermodynamics and Kinetics",
-			"desc":"Being a healthy skeptic, X is not entirely convinced about the chemists' calculations. So he first studies the thermodynamics of the process to understand the conditions at which it would be feasible to carry out the reaction. Temperature, pressure, composition, solvent nature ... all are variables which X can adapt and fine-tune to the process at hand. He also understands the factors that affect the reaction rate to use them favorably. Apart from the reaction being feasible and fast, he also has to worry about side reactions, stability of all concerned species and phase homogeneity. These are complex calculations and so he uses computational techniques and software to help him in making decisions. He also requests the chemists to double-check his results in some lab experiments. "
+			"title":"",
+			"desc":""
 		},
 		{
-			"title":"Reactor Design",
-			"desc":"Once X is satisfied that the reaction can be implemented, he turns to the heart of the process, the reactor. He has briefly looked at possible catalysts when studying the kinetics, but this time he goes deeper. He plays around with some molecular simulation tools to find what catalyst could give the best results in terms of conversion, yield and selectivity. He also factors in the catalyst stability into his calculations. Once he's done on this front, he wonders what reactor design to use. A fixed bed? A fluidized bed? A stirred tank? A membrane reactor? Is it advantageous to use multiple reactors? How large should these reactors be? Of what material should they be made? He pays special attention to the physical phases and chemical natures of the participating species while making this decision. "
+			"title":"",
+			"desc":""
 		}
 	],
-	"pg":"Lots of options are available. Pharma companies, Oil and gas companies (Reliance, IOCL etc), other chemical companies (Pepsi Co, Jindal Steels etc) or even non-core jobs like marketing, analyst, coding etc. If you are interested in pharmaceutical or petroleum based areas or other subjects like thermodynamics or control of the process in any industry then it's a good option. There's theory as well as a lot of concept based numericals.",
+	"pg":"",
 	"id":"ee"
 },
 {
@@ -99,8 +121,16 @@ var departments = [
 	"course_information":"Circuit design- they teach you building blocks and then how to put them together to make interesting stuff, communication- has quite some physics and derivations, DSP- has math as well as programming, microcontrollers- a way to code hardware, very simple computers, DSA- data structures and algorithms, digital communication- math based algorithms and techniques for communication.",
 	"core_specializations": [
 		{	
-			"title":"Circuit Design",
-			"desc":""
+			"title":"Communication engineering",
+			"desc":"Deals with mathematical analysis and algorithms to transfer messages from one place to other issuing appropriate coding and modulation to achieve maximum reliability. "
+		},
+		{	
+			"title":"Microwave engineering",
+			"desc":"Most of the circuit theory cannot be used for analysing high frequency and RF systems. This requires the use of field theory developed through Maxwell’s equations, which becomes a highly mathematical specialization in itself. It supplements communication engineering building building antennas and systems that actually facilitate communication."
+		},
+		{	
+			"title":"Signal Processing ",
+			"desc":"Focus here is mainly on data and how to manipulate it by forming appropriate system models. Signal processing forms the basic foundation for communication engineering, control theory, and also helps supplement machine learning. "
 		},
 		{
 			"title":"Digital Signal Processing",
@@ -112,40 +142,40 @@ var departments = [
 },
 {
 	"name": "Information Technology",
-	"icon": "civil.png",
-	"intro": "Civil Engineering is one of the oldest engineering branches started in NITK. Civil Engineering deals with airports, bridges, buildings, highways, networks, tunnels, water supply networks, transportation, construction, etc. In addition to all this analysis and planning of all these structures also comes under Civil Engineering.",
+	"icon": "it.png",
+	"intro": "",
 	"definition": "",
 	"course_information":"",
 	"core_specializations": [
 		{	
-			"title":"Thermodynamics and Kinetics",
-			"desc":"Being a healthy skeptic, X is not entirely convinced about the chemists' calculations. So he first studies the thermodynamics of the process to understand the conditions at which it would be feasible to carry out the reaction. Temperature, pressure, composition, solvent nature ... all are variables which X can adapt and fine-tune to the process at hand. He also understands the factors that affect the reaction rate to use them favorably. Apart from the reaction being feasible and fast, he also has to worry about side reactions, stability of all concerned species and phase homogeneity. These are complex calculations and so he uses computational techniques and software to help him in making decisions. He also requests the chemists to double-check his results in some lab experiments. "
+			"title":"",
+			"desc":""
 		},
 		{
-			"title":"Reactor Design",
-			"desc":"Once X is satisfied that the reaction can be implemented, he turns to the heart of the process, the reactor. He has briefly looked at possible catalysts when studying the kinetics, but this time he goes deeper. He plays around with some molecular simulation tools to find what catalyst could give the best results in terms of conversion, yield and selectivity. He also factors in the catalyst stability into his calculations. Once he's done on this front, he wonders what reactor design to use. A fixed bed? A fluidized bed? A stirred tank? A membrane reactor? Is it advantageous to use multiple reactors? How large should these reactors be? Of what material should they be made? He pays special attention to the physical phases and chemical natures of the participating species while making this decision. "
+			"title":"",
+			"desc":""
 		}
 	],
-	"pg":"Lots of options are available. Pharma companies, Oil and gas companies (Reliance, IOCL etc), other chemical companies (Pepsi Co, Jindal Steels etc) or even non-core jobs like marketing, analyst, coding etc. If you are interested in pharmaceutical or petroleum based areas or other subjects like thermodynamics or control of the process in any industry then it's a good option. There's theory as well as a lot of concept based numericals.",
+	"pg":"",
 	"id":"it"
 },
 {
 	"name": "Mechanical Engineering",
 	"icon": "mech.png",
-	"intro": "Civil Engineering is one of the oldest engineering branches started in NITK. Civil Engineering deals with airports, bridges, buildings, highways, networks, tunnels, water supply networks, transportation, construction, etc. In addition to all this analysis and planning of all these structures also comes under Civil Engineering.",
+	"intro": "",
 	"definition": "",
-	"course_information":"",
+	"course_information":"Basic and Advanced Thermodynamics, Machine Design, Synthesis of Mechanisms, Material Science, Fluid Mechanical, etc as core subjects. CFD, Robotics, Nuclear Science, Wind Energy, etc as department electives, and other open electives from the Mathematics department, Basic Sciences department, and School of Management.",
 	"core_specializations": [
 		{	
-			"title":"Thermodynamics and Kinetics",
-			"desc":"Being a healthy skeptic, X is not entirely convinced about the chemists' calculations. So he first studies the thermodynamics of the process to understand the conditions at which it would be feasible to carry out the reaction. Temperature, pressure, composition, solvent nature ... all are variables which X can adapt and fine-tune to the process at hand. He also understands the factors that affect the reaction rate to use them favorably. Apart from the reaction being feasible and fast, he also has to worry about side reactions, stability of all concerned species and phase homogeneity. These are complex calculations and so he uses computational techniques and software to help him in making decisions. He also requests the chemists to double-check his results in some lab experiments. "
+			"title":"",
+			"desc":""
 		},
 		{
-			"title":"Reactor Design",
-			"desc":"Once X is satisfied that the reaction can be implemented, he turns to the heart of the process, the reactor. He has briefly looked at possible catalysts when studying the kinetics, but this time he goes deeper. He plays around with some molecular simulation tools to find what catalyst could give the best results in terms of conversion, yield and selectivity. He also factors in the catalyst stability into his calculations. Once he's done on this front, he wonders what reactor design to use. A fixed bed? A fluidized bed? A stirred tank? A membrane reactor? Is it advantageous to use multiple reactors? How large should these reactors be? Of what material should they be made? He pays special attention to the physical phases and chemical natures of the participating species while making this decision. "
+			"title":"",
+			"desc":""
 		}
 	],
-	"pg":"Lots of options are available. Pharma companies, Oil and gas companies (Reliance, IOCL etc), other chemical companies (Pepsi Co, Jindal Steels etc) or even non-core jobs like marketing, analyst, coding etc. If you are interested in pharmaceutical or petroleum based areas or other subjects like thermodynamics or control of the process in any industry then it's a good option. There's theory as well as a lot of concept based numericals.",
+	"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PHD, and also ample opportunities to pursue an MBA.",
 	"id":"me"
 },
 {
