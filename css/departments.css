@@ -12,6 +12,14 @@ body {
 	background-size: cover;
 }
 
+.each-dept-page-banner {
+	margin-top: -64px;
+	width: 100%;
+	height: 110vh;
+	background: url('/img/departments-img.jpg') no-repeat center center;
+	background-size: cover;	
+}
+
 .header {
 	display: flex;
 	flex-direction: column;
@@ -19,9 +27,11 @@ body {
 	width: 100%;
 	height: 80vh;
 }
+
 #departmentinfo{
 font-family:'PT Sans', 'sans-serif'; 
 }
+
 .header-title {
 	font-weight: bold;
 	color: white;

@@ -10,9 +10,10 @@
  	* Post Degree Stuff
  	* Student Activities 
 */
-var content=[{
-	"content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Nosti, credo, illud: Nemo pius est, qui pietatem-; Tanta vis admonitionis inest in locis; Huius, Lyco, oratione locuples, rebus ipsis ielunior. Haec para/doca illi, nos admirabilia dicamus. Duo Reges: constructio interrete. Quod quidem iam fit etiam in Academia. Dic in quovis conventu te omnia facere, ne doleas. "
-}
+var content=[
+	{
+	"content":"This page is specifically made for Students who are confused about the choice of department and often look at placements and highest salary in a particular as a metric to joining a particular field. A lot of students often end up hating the very field that they joined. Hence we've created this page to prevent this trend from occurring. Please make sure to read each and every page proerly and make a wise decision. You can leave any comments in the section below! </br></br> Please note that this information is <b>NOT officially endorsed</b> by NITK Surathkal and merely represents the opinions of the students who have contributed to it. "
+	}
 ]
 
 var departments = [
@@ -71,8 +72,7 @@ var departments = [
 			"desc":"Design and construct water resources such as pipelines, drainage facilities (including dams, channels, culverts, storm sewers), and canals."
 		}
 	],
-	"pg":"There a whole lot of opportunities in this field: Continue in the field and take a core job. Pursue higher studies. Masters in India or abroad will definitely add up to your resume. Go in the research side and get innovative. You can take up Management studies and continue in the construction field. Take up a non core job (depends on your interest).
-",
+	"pg":"There a whole lot of opportunities in this field: Continue in the field and take a core job. Pursue higher studies. Masters in India or abroad will definitely add up to your resume. Go in the research side and get innovative. You can take up Management studies and continue in the construction field. Take up a non core job (depends on your interest).",
 	"id":"cv"
 },
 {
@@ -83,34 +83,54 @@ var departments = [
 	"course_information":"",
 	"core_specializations": [
 		{	
-			"title":"",
-			"desc":""
+			"title":"Algorithms and Theoretical Computers ",
+			"desc":"Algorithms are mainly what drive Computers and perform computational calculation and automated reasoning. Theoretical Computer Science mainly deals with the mathematical aspects of computing. This field is a research oriented field where new theories help engineers to create better and new solutions."
+		},
+		{	
+			"title":"Networks and Security",
+			"desc":"In this digital era, most of life, entertainment and business activities are conducted online, either in cyberspace or mobile applications. Examples of these activities are banking, learning, socializing and buying merchandises like books, gadgets and even groceries. Network and information security issues are important issues that influence the smooth running of these activities. Thus protecting this information and securing it against unauthorised users is what is done in this specialisation"
+		},
+		{	
+			"title":"Machine Learning and Artificial Intelligence",
+			"desc":"Machine Learning and Artificial Intelligence though both not the same thing, are among the trending topics in Computer Science for this decade! Machine Learning is basically the functioning of programs to do tasks without being explicitly programmed to do so! The Big-Four (Google, Facebook, Amazon and Microsoft) explicitly look for engineers for placements in this specialisations and engineers are in huge demand for this!"
+		},
+		{	
+			"title":"Web Development",
+			"desc":"Web Development is primarily divided into Front End and Back End Web Development. Front End is basically what the end-user sees in their browser whereas backend refers to server code which is basically where all the information is stored! Lots of roles are open for Front end and Back end with a specific rise for further specialisation in either front end or backend!"
 		},
 		{
-			"title":"",
-			"desc":""
+			"title":"Mobile Development(Android, iOS, Hybrid)",
+			"desc":"Mobile Application Development is a career that is steadily on the rise with the advent of smartphones. There’s a huge demand for Native App developers on Android and iOS. Hybrid refers to app development which works both in Android and iOS. Often these apps fetch jobs in well-known startups with further specialisations like UI and UX (User Interface and User Experience)"
 		}
 	],
-	"pg":"",
+	"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PhD, and also ample opportunities to pursue an MBA.",
 	"id":"cs"
 },
 {
 	"name": "Electrical Engineering",
 	"icon": "eee.png",
-	"intro": "",
-	"definition": "",
-	"course_information":"",
+	"intro": "Electrical engineering is the Godfather branch of all the circuit branches and is one of those which solves one of the most fundamental problems that faces society: (electrical) power. ECE, CS etc are all off-shoots from this branch. A branch highly under-rated because of its deglamorous perception in society and specifically urban India, it is by far one of the most challenging, intellectually involving and a first point in many interdisciplinary areas.  It is highly mathematical and requires a lot of in-depth analysis as well as critical thinking since not all what you learn is tangibly seen.  A branch meant for the lion hearts who wish to do some REAL engineering and get their hands (not literally) dirty.",
+	"definition": "Unlike what your Kapoor chachas and Malhotra uncles make you believe tIRRcal (as we call it in NITK) is NOT about fixing bulbs, fans and wires. Though it will help you in life in general if you could do these things. You will pick up the elementary KVL, KCL from Class 11th and dig circuits, networks and systems deeper. It is a study of electrical phenomenon pertaining to generating electricity. You will use these techniques to analyze larger power systems, energy systems etc. A lot of what you learn will be just analysis and can be applied in a variety of fields ranging from aerospace to finance to robotics. ",
+	"course_information":"You will have easy sounding courses like Circuit Theory, Electrical Machines and EM Theory which will actually be very involved. The longer the name of the course the easier it is (generally). Other courses like Digital circuits and Analog circuits form the backbone for the later courses like Power Electronics, Photovoltaics etc. You will have a lot of basic courses in the second year. They will pick up school level physics concepts and apply them to engineering. These courses will be needed to do the higher ones in third year.  In third year the major track is Power Electronics and Power Systems. There will be a few core courses but our department is very flexible and offers many electives. Take as many as you can if you wish to stay in this field. Our department has relatively fewer (thankfully) courses in ECE areas like DSP, communication, embedded etc. Also no coding courses like DSA and DBMS so make beware of this in advance.",
 	"core_specializations": [
 		{	
-			"title":"",
-			"desc":""
+			"title":"Power Systems",
+			"desc":"Power systems is a lot to do with large scale layouts of electrical lines, how to protect them, analyzing these systems and finding faults if any."
+		},
+		{	
+			"title":"Power Electronics",
+			"desc":"Power electronics (Inverter from 3 Idiots) is about designing devices to augment electrical machines and power systems in general. It has a lot to do with analog and digital electronics. "
+		},
+		{	
+			"title":"Renewable Energy",
+			"desc":"This is basically a vast and intricate intersection of numerous fields which is particularly trending in today's time due to increased use of renewable sources of energy."
 		},
 		{
-			"title":"",
-			"desc":""
+			"title":"Control Systems / SysCon",
+			"desc":"In NITK there is at most two courses on the same hence not a lot of concentration on this. It is however a very vast and general field with numerous applications in almost all areas. Basically SysCon is a way of analysis, sadly NITK doesn’t have too much emphasis on this."
 		}
 	],
-	"pg":"",
+	"pg":"Apart from pursuing Core Electrical Engineering, there are options of joining IT, consulting, analytics etc.  There is also the assembly line path of MBA and a WPM job as well. A lot of people do GATE, IES and look for government jobs like PSUs, Railways etc. A large bunch of people also apply for MS in various areas and bounce off abroad for their courses. US, Netherlands, NUS, Canada and  ETH, Zurich are popular for tIRRcal masters. One can always find placements on campus in various companies for both core and non-core. As of 2016 around 10+ companies recruit tIRRcal core each year. You can always do out of the box stuff like work in rural electrification, NGOs etc which work on solar power, electric vehicles etc. ",
 	"id":"ee"
 },
 {
@@ -143,20 +163,32 @@ var departments = [
 {
 	"name": "Information Technology",
 	"icon": "it.png",
-	"intro": "",
-	"definition": "",
-	"course_information":"",
+	"intro": "Information Technology is the field of study, design, development, implementation, support and management of computer-based information systems, particularly software applications and computer hardware. Generally, information technology helps to create, control, store, communicate, and circulate information.",
+	"definition": "While the degree has a major focus on computers and technology, it differs from a Computer Science degree in that students are also expected to study management and information science, and there are reduced requirements for mathematics. A degree in computer science can be expected to concentrate on the scientific aspects of computing, while a degree in information technology can be expected to concentrate on the business and communication applications of computing. There is more emphasis on these two areas in the e-commerce, e-business and business information technology undergraduate courses.",
+	"course_information":"Courses are pretty similar to what Computer Science offers. A full list of courses offered by the IT Department can be found at http://infotech.nitk.ac.in/courses. However be warned that all the courses cannot be taken up as it depends on the professors who are offering that particular elective in a particular semester. Second year is when people get into the department and the actual work behind courses start! Third year is the most hectic one with almost 8 courses per semester if you take the compulsory electives! Also IT has more labs than CS with preference given to project work and lab work rather than just Theory!",
 	"core_specializations": [
 		{	
-			"title":"",
-			"desc":""
+			"title":"Algorithms and Theoretical Computers ",
+			"desc":"Algorithms are mainly what drive Computers and perform computational calculation and automated reasoning. Theoretical Computer Science mainly deals with the mathematical aspects of computing. This field is a research oriented field where new theories help engineers to create better and new solutions."
+		},
+		{	
+			"title":"Networks and Security",
+			"desc":"In this digital era, most of life, entertainment and business activities are conducted online, either in cyberspace or mobile applications. Examples of these activities are banking, learning, socializing and buying merchandises like books, gadgets and even groceries. Network and information security issues are important issues that influence the smooth running of these activities. Thus protecting this information and securing it against unauthorised users is what is done in this specialisation"
+		},
+		{	
+			"title":"Machine Learning and Artificial Intelligence",
+			"desc":"Machine Learning and Artificial Intelligence though both not the same thing, are among the trending topics in Computer Science for this decade! Machine Learning is basically the functioning of programs to do tasks without being explicitly programmed to do so! The Big-Four (Google, Facebook, Amazon and Microsoft) explicitly look for engineers for placements in this specialisations and engineers are in huge demand for this!"
+		},
+		{	
+			"title":"Web Development",
+			"desc":"Web Development is primarily divided into Front End and Back End Web Development. Front End is basically what the end-user sees in their browser whereas backend refers to server code which is basically where all the information is stored! Lots of roles are open for Front end and Back end with a specific rise for further specialisation in either front end or backend!"
 		},
 		{
-			"title":"",
-			"desc":""
+			"title":"Mobile Development(Android, iOS, Hybrid)",
+			"desc":"Mobile Application Development is a career that is steadily on the rise with the advent of smartphones. There’s a huge demand for Native App developers on Android and iOS. Hybrid refers to app development which works both in Android and iOS. Often these apps fetch jobs in well-known startups with further specialisations like UI and UX (User Interface and User Experience)"
 		}
 	],
-	"pg":"",
+	"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PhD, and also ample opportunities to pursue an MBA.",
 	"id":"it"
 },
 {
