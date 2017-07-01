@@ -21,7 +21,7 @@ for file_name in files_list:
 
 	with Image.open(file_name) as img:
 
-		if extension == '.png': 
+		if extension == '.JPG': 
 			img = img.convert('RGB')
 			img.save(str(name + '.jpg'))
 			os.system("rm " + file_name)
@@ -29,12 +29,12 @@ for file_name in files_list:
 		width,height = img.size
 		print(str(width) + " " + str(height))
 
-		if height > 500:
-			new_width = ((int)((width*500.0)/height))
-			img = img.resize((new_width,500), Image.ANTIALIAS)
+		if height > 400:
+			new_width = ((int)((width*400.0)/height))
+			img = img.resize((new_width,400), Image.ANTIALIAS)
 
-		# print("Image size after resizing")
+		print("Image size after resizing")
 		width,height = img.size
-		# print(str(width) + " " + str(height))
+		print(str(width) + " " + str(height))
 
-		img.save(file_name, optimize=True, quality=85)
+		img.save(file_name, optimize=True, quality=75)

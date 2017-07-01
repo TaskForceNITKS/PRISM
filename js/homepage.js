@@ -46,7 +46,7 @@ function loadTechTeam() {
 		link.appendChild(icon);
 		container.appendChild(link);
 
-		console.log(container.innerText);
+		// console.log(container.innerText);
 
 		$('#tech-team-container').append(container);
 	}
@@ -88,7 +88,7 @@ function loadContentTeam() {
 		link.appendChild(icon);
 		container.appendChild(link);
 
-		console.log(container.innerText);
+		// console.log(container.innerText);
 
 		$('#content-team-container').append(container);
 	}
@@ -98,7 +98,7 @@ function loadHelpdeskTeam() {
 	for (var i = 0; i < helpdesk_team.length; i++) {
 		member = helpdesk_team[i];
 		var container = document.createElement('div');
-		container.className = "member-container col s12 m4 l4";
+		container.className = "member-container col s12 m6 l6";
 
 		var image = document.createElement('img');
 		image.src = "img/team/" + member.image;
@@ -115,17 +115,18 @@ function loadHelpdeskTeam() {
 		var description = document.createElement('div');
 		description.className = "member-description";
 		description.innerText = member.description;
-		description.setAttribute('style', 'text-align:center');
+		description.setAttribute('style', 'text-align:center;');
 
 		container.appendChild(description);
 
 		var number = document.createElement('div');
 		number.className = "member-number";
 		number.innerText = member.number;
+		number.setAttribute('style', 'padding-bottom:25px;');
 
 		container.appendChild(number);
 
-		console.log(container.innerText);
+		// console.log(container.innerText);
 
 		$('#helpdesk-team-container').append(container);
 	}

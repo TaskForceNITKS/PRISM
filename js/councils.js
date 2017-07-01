@@ -2,8 +2,8 @@ $(document).ready(function(){
   $("#sidenav").sideNav();
   $(document).scroll(function() { 
     var $nav = $('.navbar-fixed');
-      $nav.find('nav').toggleClass('orange', $(this).scrollTop() > $('.dept-page-banner').height());
-      $nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $('.dept-page-banner').height());
+      $nav.find('nav').toggleClass('orange', $(this).scrollTop() > $('.council-page-banner').height());
+      $nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $('.council-page-banner').height());
   });
   loadCouncils();         
 });

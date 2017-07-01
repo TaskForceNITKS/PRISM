@@ -13,7 +13,7 @@ var tech_team = [
 },
 {
 	"name": "Anumeha Agrawal",
-	"image": "anumeha-agrawal.jpg",
+	"image": "anumeha.jpg",
 	"description": "Web Developer",
 	"facebook": "https://www.facebook.com/anumeha.agrawal.9"
 }
@@ -22,7 +22,7 @@ var tech_team = [
 var content_team = [
 {
 	"name": "Chayanika Das",
-	"image": "chayanika-das.jpg",
+	"image": "chayanika.jpg",
 	"description": "Content Contributor",
 	"facebook": "https://www.facebook.com/chayanika.das.7796"
 },
@@ -54,10 +54,15 @@ var helpdesk_team = [
 	"number":"+91 96113 44476"
 },
 {
+	"name": "P Uday Kumar",
+	"image": "uday.jpg",
+	"description": "Help Desk Team",
+	"number":"+91 95050 70175"
+},
+{
 	"name": "Reethu",
 	"image": "reethu.jpg",
 	"description": "Help Desk Team",
 	"number":"+91 96861 92124"
 }
 ]
-
