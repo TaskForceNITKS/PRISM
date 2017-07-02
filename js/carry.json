@@ -1,0 +1,52 @@
+var documents = [" Portable router(need to get permission from CCC)",
+	"Admit Card of JEE (MAIN)",
+	" Score Card of JEE (MAIN) [*The score cards are sent by post to the students after the results are out, but if one hasn’t received it before the admission, a printed copy of the result page of JEE (MAIN) will also suffice)",
+	"Marks card of qualifying examination.",
+	"Character & Study Certificate from the Institution last attended.",
+	"Certificate of Category (SC/ST/BC-NCL) issued by the competent authority in the prescribed format. [*if applicable]",
+	"Class X marks card for proof of Date of Birth.",
+	"Certificate of Persons with Disabilities (PWD) [*if applicable]",
+	"Transfer/Leaving Certificate issued by the college/institution last attended.[*If not available then this should be produced within a month of admission] ",
+	"Migration Certificate for candidates from other Boards(Other than Karnataka Pre University) [*If not available then this should be produced within a month of admission]",
+	"Medical Fitness certificate issued by Registered Medical Practitioner.",
+	" 2-Passport size photographs [*advisable to carry more]"
+]
+
+
+var carry = ["Cotton clothes (the only material which makes the heat tolerable) At least 7 pairs",
+	"Swimwear (can also be bought in the campus)",
+	"Bedsheets / blankets",
+	"A pair of sport shoes",
+	"Toileteries( Toothbrush/Toothpaste, Handwash, Sanitiser, Shampoo, deodorant)",
+	"Umbrella (a MUST have!)",
+	"Torch / Emergency lamp ",
+	"Table tennis or badminton racquets; only if possible, as they can be bought from Mangalore or Surathkal.",
+	"Water heating rods; if having a bath with cold water is impossible, otherwise not required.",
+	"Mirror",
+	"Odomos / mosquito repellent coil ( If mosquitoes are a real problem, get a net or a bat!)",
+	"LAN cable (for the guys only)",
+	"Slippers - the primary footwear of NITK ",
+	"Insect spray - can be a lifesaver :P",
+	"A Bagpack - for college ",
+	"A knife (for fruits and Birthdays)",
+	"Laptop(VVIP for Boys :p #justkidding )",
+	"Air-tight containers - food gets spoilt very quickly ",
+	"Shoulder bag",
+	" Sling bag( for girls)",
+	"Towels and napkins",
+	"A Medicinal Box(Vicks, Crocin , Strepsils, Benadryl, Bandage, volini)"
+]
+
+var buy = ["Mattress and Pillow ",
+	"Bucket and Mug",
+	"Dustbin and doormat",
+	"Clothesline and clips - if one intends to wash their own clothes(Clips too)",
+	"Broom - if cleanliness is considered important ",
+	"Tubelights and bulbs (can also write a complaint and get it fixed instead)",
+	"Soaps, shampoos, detergents, scrubbers",
+	"Notebooks and other stationery items",
+	"Scientific Calculator - a MUST have",
+	"Odonil and room fresheners",
+	"Hangers",
+	" Portable router(need to get permission from CCC)"
+]

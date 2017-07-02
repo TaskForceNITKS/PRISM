@@ -7,6 +7,12 @@ $(function() {
         $nav.find('nav').toggleClass('orange', $(this).scrollTop() > $('.dept-page-banner').height());
         $nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $('.dept-page-banner').height());
     });
+    $(".dropdown-button").dropdown();
+    $('.dropdown-button').dropdown({
+      hover: true, // Activate on hover
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+  });
 });
 
 function loadFestInfo(id) {
@@ -27,9 +33,9 @@ function loadFestInfo(id) {
 
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
+    sURLVariables = sPageURL.split('&'),
+    sParameterName,
+    i;
 
     for (i = 0; i < sURLVariables.length; i++) {
         sParameterName = sURLVariables[i].split('=');

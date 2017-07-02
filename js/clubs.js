@@ -1,14 +1,21 @@
  $(document).ready(function(){
   $("#sidenav").sideNav(); 
   // load();
-    $(document).scroll(function() { 
+  $(document).scroll(function() { 
     var $nav = $('.navbar-fixed');
     $nav.find('nav').toggleClass('orange', $(this).scrollTop() > $('.club-page-banner').height());
     $nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $('.club-page-banner').height());
-    });
+  });
+  $(".dropdown-button").dropdown();
+  $('.dropdown-button').dropdown({
+      hover: true, // Activate on hover
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+    }
+    );
 });
 
-function init(){
+ function init(){
   loadCulturalClubs();
   loadTechClubs();
 }
@@ -66,54 +73,54 @@ function loadCulturalClubs() {
 }
 
 function loadTechClubs() {
-   for (var i = 0; i < techClubs.length; i++) {
-    if(i%2===0) {
-      var row = document.createElement('div');
-      row.className = "row";
-      row.id = "tech-row-" + i/2;
+ for (var i = 0; i < techClubs.length; i++) {
+  if(i%2===0) {
+    var row = document.createElement('div');
+    row.className = "row";
+    row.id = "tech-row-" + i/2;
 
-      $('#techClubs').append(row);
-    }
-    var holder = document.createElement('div');
-    holder.className = "col s12 m6";
+    $('#techClubs').append(row);
+  }
+  var holder = document.createElement('div');
+  holder.className = "col s12 m6";
 
-    var card = document.createElement('div');
-    card.className = "card";
+  var card = document.createElement('div');
+  card.className = "card";
 
-    var image = document.createElement('img');
-    image.src = "img/tech_clubs/" + techClubs[i].image;
-    image.className = "card-image";
-    image.style = "width: 100%; height: auto"
+  var image = document.createElement('img');
+  image.src = "img/tech_clubs/" + techClubs[i].image;
+  image.className = "card-image";
+  image.style = "width: 100%; height: auto"
 
-    card.appendChild(image);
+  card.appendChild(image);
 
-    var contents = document.createElement('div');
-    contents.className = "card-contents";
-    contents.style = "padding: 20px;"
+  var contents = document.createElement('div');
+  contents.className = "card-contents";
+  contents.style = "padding: 20px;"
 
-    var title = document.createElement('span');
-    title.className = "card-title";
-    title.innerHTML = techClubs[i].name + "<br>";
+  var title = document.createElement('span');
+  title.className = "card-title";
+  title.innerHTML = techClubs[i].name + "<br>";
 
-    contents.appendChild(title);
+  contents.appendChild(title);
 
-    var con = document.createElement('span');
-    con.innerText = "Convener: ";
+  var con = document.createElement('span');
+  con.innerText = "Convener: ";
 
-    contents.appendChild(con);
-    con.innerHTML += "<b>" + techClubs[i].convenor + "</b>";
+  contents.appendChild(con);
+  con.innerHTML += "<b>" + techClubs[i].convenor + "</b>";
 
-    card.appendChild(contents);
-    holder.appendChild(card);
+  card.appendChild(contents);
+  holder.appendChild(card);
 
-    card.id = "tech-"+i;
+  card.id = "tech-"+i;
 
-    card.addEventListener('click', function() {
-      displayClubInfo.bind(this).call();
-    });
+  card.addEventListener('click', function() {
+    displayClubInfo.bind(this).call();
+  });
 
-    $('#tech-row-'+parseInt(i/2)).append(holder);
-  } 
+  $('#tech-row-'+parseInt(i/2)).append(holder);
+} 
 }
 
 var cardTop, cardLeft, imgTop,imgLeft;
@@ -124,11 +131,11 @@ function displayClubInfo() {
   var index = id.substr(id.lastIndexOf('-') + 1);
   switch(type){
     case "tech":
-      club = techClubs[index];
-      break;
+    club = techClubs[index];
+    break;
     case "cultural":
-      club = culturalClubs[index];
-      break;
+    club = culturalClubs[index];
+    break;
   }
   
   var body = document.createElement('div');
@@ -254,7 +261,7 @@ function displayClubInfo() {
     $('.club-card-details').append('<h5><b>Projects:</b></h5>');
     $('.club-card-details').append(projects);
 
-  
+
     
   }, 400);
   setTimeout(function(){
