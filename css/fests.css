@@ -3,6 +3,11 @@
   color: yellow;
 }
 
+.pt-sans {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
 .det{
   padding-top: 5px;
   padding-bottom: 5px;
