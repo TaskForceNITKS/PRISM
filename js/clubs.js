@@ -265,12 +265,12 @@ function displayClubInfo() {
     
   }, 400);
   setTimeout(function(){
-    h = $('.club-card-details').height() + $('.club-card-title').height() + 220 + 'px';
+    // h = $('.club-card-details').height() + $('.club-card-title').height() + 220 + 'px';
     $('.club-card-details').css('display', 'inherit');
     $('.club-card-title').css('display', 'inherit');
     $('.club-card').css({
       position: 'relative',
-      height: h,
+      height: 'auto',
       width: '80vw',
       left: '10vw',
       backgroundColor: '#fff'
