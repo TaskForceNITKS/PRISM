@@ -2,6 +2,7 @@ var sports = [
 {
 	"title": "Athletics",
 	"captainName": "Dhyvik G J",
+	"introduction": "",
 	"selectionProcedure": "Selection process will be in the first week of September; prior notices will be put up.",
 	"competitions": "All athletics and Gym events.",
 	"achievements": "Two gold and one silver at All India Inter NIT sports meet 2017 .",
@@ -10,6 +11,7 @@ var sports = [
 {
 	"title": "Badminton",
 	"captainName": "Sathya Deep", 
+	"introduction": "",
 	"selectionProcedure": "Selections will be carried out through knockout matches and will be held in August.",
 	"competitions": "INTER NIT, Revels cup .",
 	"achievements": "Two golds and a bronze in the last three Inter NIT tournaments",
@@ -18,6 +20,7 @@ var sports = [
 {
 	"title": "Basketball (Boys)",
 	"captainName": "KG Srinidhi",
+	"introduction": "",
 	"selectionProcedure": "Selection is through performance and improvement based on regular practice at the court. Basic skills and knowledge of the sport is necessary.",
 	"competitions": "Inter NIT, James Naismith Cup, Revels Basketball tournament, Dusshera cup and the most awaited Slam Dunk during Incident.",
 	"achievements": "Winners of James Naismith cup, Yenepoya basketball tournament, runners up at the Inter NIT tournament, winners of the Dusshera cup Mangalore and represented Mangalore region at the state level Dusshera cup.",
@@ -26,6 +29,7 @@ var sports = [
 { 
 	"title": "Basketball (Girls)",
 	"captainName": "Sanmathi Kamath",
+	"introduction": "",
 	"selectionProcedure": "Selection is through performance and improvement based on regular practice at the court. Basic skills and knowledge of the sport is necessary.",
 	"competitions": "Inter NIT, James Naismith Cup, Revels Basketball tournament, Dusshera cup and the most awaited Slam Dunk during Incident.",
 	"achievements": "Winners of the Inter NIT Basketball tournament, runners-up of Father Muller tournament.",
@@ -34,6 +38,7 @@ var sports = [
 { 
 	"title": "Chess",
 	"captainName": "Anishcharith C Bhandary",
+	"introduction": "",
 	"selectionProcedure": "A chess tournament in the month of August or September will be conducted and the top 5 will be added to the team.",
 	"competitions": "Inter NIT, FMMC Adrenaline, MIT Revels, NITK cup.",
 	"achievements": "FMMC Adrenaline 2015 champions, MIT revels 2017 2nd runners up",
@@ -42,6 +47,7 @@ var sports = [
 { 
 	"title": "Cricket",
 	"captainName": "Anil Jangid",
+	"introduction": "",
 	"selectionProcedure": "Open trials in the month of October.",
 	"competitions": "Inter NIT, MIT Revels, DKCA inter college tournaments, KSCA inter club tournaments.",
 	"achievements": "DKCA runners up in 2016 and winner in 2015.",
@@ -50,6 +56,7 @@ var sports = [
 {
 	"title": "Football",
 	"captainName": "Hitesh Bhadana",
+	"introduction": "",
 	"selectionProcedure": "Selection will be on the basis of performance in trials and trials will be held in the first or second weekend of August.", 
 	"competitions": "Independence Day Cup, Inter NIT, Revels, Yenepoya, Friendly matches and RV college fest.",
 	"achievements": "Inter NIT champions, Promotion to Mangalore league-A.",
@@ -58,6 +65,7 @@ var sports = [
 {
 	"title": "Hockey",
 	"captainName": "Abhijith P A",
+	"introduction": "",
 	"selectionProcedure": "Anyone who knows hockey and/or wants to learn hockey and has a passion towards the game are welcome.", 
 	"competitions": "Revels(MIT), Dasara Cup, Inter NIT tournament.",
 	"achievements": "Inter NIT champions for the past three consecutive years.",
@@ -66,6 +74,7 @@ var sports = [
 { 
 	"title": "Kabaddi",
 	"captainName": "S.Naresh",
+	"introduction": "",
 	"selectionProcedure": "Selections are held at the beginning of odd semester based on performance and regular practice.", 
 	"competitions": "Inter NIT tournament and tournaments held in and around Mangalore.",
 	"achievements": "1st place in the year 2013-2014.",
@@ -74,6 +83,7 @@ var sports = [
 {
 	"title": "Lawn Tennis",
 	"captainName": "Aniroodh Kumaraswamy",
+	"introduction": "",
 	"selectionProcedure": "Selection based on performance in mini-tournament held usually in November.",
 	"competitions": "Inter NIT, Revels Manipal, Spree Bits Goa, District tournament at Bramhavar, VIT, BMS, SSN (probably).",
 	"achievements": "Inter NIT winner and runners-up for several years, Winneroft District Tournament at Bramhavar, Semifinalists at Spree Bits Goa and Revels Manipal.",
@@ -82,6 +92,7 @@ var sports = [
 {
 	"title": "Swimming (Boys)",
 	"captainName": "Gautham D P",
+	"introduction": "",
 	"selectionProcedure": "Trials will be held in June or July.",
 	"competitions": "Inter NIT, MIT Revels, Dasara meet.",
 	"achievements": "Champions in Inter NIT for the years  2015, 2016, 2017.",
@@ -90,6 +101,7 @@ var sports = [
 { 
 	"title": "Swimming (Girls)",
 	"captainName": "Aishwarya Kumar",
+	"introduction": "",
 	"selectionProcedure": "Trials will be held based in July/August.",
 	"competitions": "Inter NIT, Revels, Dasara.", 
 	"achievements": "Winner of Inter NIT AQUATICS 2015, 2016 & 2017.",
@@ -98,6 +110,7 @@ var sports = [
 {
 	"title": "Table Tennis",
 	"captainName": "Himadri Pal",
+	"introduction": "",
 	"selectionProcedure": "Selection based on performance in tournament, conducted within the first two months of the semester. Knockout till quarters and League based system after that..",
 	"competitions": "Revels, Yennepoya, Bits Goa Sport fest, Father Muller, Inter NIT .",
 	"achievements": "Semifinalists in Revels - Manipal and: Father Muller.",
@@ -107,6 +120,7 @@ var sports = [
 {
 	"title": "Throwball",
 	"captainName": "Divya N A",
+	"introduction": "",
 	"selectionProcedure": "Selection based on trial match, held in August.",
 	"competitions": "Adrenaline, Dasara, revels and Spinshock (during Incident) .",
 	"achievements": "Semifinalists in revels and Spinshock tournament.",
@@ -115,6 +129,7 @@ var sports = [
 {
 	"title": "Volleyball (Boys)",
 	"captainName": "G. Kiran Kumar",
+	"introduction": "",
 	"selectionProcedure": "Selection is through performance and improvement based on regular practice. Basic skills and knowledge of the sport is necessary.",
 	"competitions": "Inter NIT, Revels tournament, Father mullers tournament.",
 	"achievements": "Father Mullers Tournament- Runners-up, Revels- semi finals.",
@@ -123,6 +138,7 @@ var sports = [
 {
 	"title": "Volleyball (Girls)",
 	"captainName": "Malvika D Shetty",
+	"introduction": "",
 	"selectionProcedure": "Date for trial will be given around the 2nd or 3rd week after the college starts. Interested players should assemble on the court on that day. Selection will be based on regular practice and performance.",
 	"competitions": "Inter Nit and a few other college tournaments in and around Mangalore.",
 	"achievements": "Won the first place in Inter NIT 2017.",
