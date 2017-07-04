@@ -12,7 +12,7 @@ var fests=[
 		{
 			"name":"Adarsh Pai",
 			"post_name":"Convenor",
-			"image":"Adarsh Pai.jpg"
+			"image":"Adarsh Pai.JPG"
 		},
 		{
 			"name":"Srikanth Dasari",
@@ -22,7 +22,7 @@ var fests=[
 		{
 			"name":"Revanth Reddy",
 			"post_name":"Treasurer",
-			"image":"Revanth Reddy.jpg"
+			"image":"Revanth Reddy.jpeg"
 		}
 	],
 	"id": "inci",
@@ -156,7 +156,7 @@ By 1985, Incident events were split between the SAC and the SJA. By the beginnin
   4. Unplugged: Western Acoustic Band and A Cappella Competition. 
   5. Raagalaya: Solo Eastern Vocals Competition.
   6. Center Stage: Solo Instrumental Competition.",
-			"image":"music.jpg"
+			"image":"music.JPG"
 		},
 
 
@@ -167,7 +167,7 @@ By 1985, Incident events were split between the SAC and the SJA. By the beginnin
  	 2. Step Up (Duet)
  	 3. Promenade: Semi Professional Western Group Dance Competition.
   	4. Tandav: Semi Professional Eastern and Contemporary Group Dance  Competition.",
-			"image":"dance.jpg"
+			"image":"dance.JPG"
 		},
 
 
@@ -181,14 +181,14 @@ By 1985, Incident events were split between the SAC and the SJA. By the beginnin
 		{
 			"name":"Haute Couture",
 			"description":" Incident invites you to sizzle the ramp with enchanting choreographies, exotic costumes and searing attitude at our Fashion Show Competition – Haute Couture.",
-			"image":"hauteCouture.jpg"
+			"image":"hauteCouture.JPG"
 		},
 
 
 		{
 			"name":"Inci Talks",
 			"description":"This was started for the first time in Inci’17.Famous personalities such as JayaPrakash Narayan,Balaji Viswanath,Prach Tehlan etc. come to address the students.",
-			"image":"inciTalks.jpg"
+			"image":"inciTalks.JPG"
 		},
 
 
@@ -205,7 +205,7 @@ By 1985, Incident events were split between the SAC and the SJA. By the beginnin
 		{
 			"name":"Workshops",
 			"description":"Incident brings to you an appetising list of workshops to nurture your body, heart and mind alike, encompassing music, dance, art, fitness and more. Last Incident we had Frisbee workshop, Guitar Clinic, Hip-Hop workshop, Mask Making workshop, TTT workshop etc.",
-			"image":"workshops.jpg"
+			"image":"workshops.JPG"
 		},
 
 
@@ -214,7 +214,7 @@ By 1985, Incident events were split between the SAC and the SJA. By the beginnin
 		{
 			"name":"Beach Events",
 			"description":"The NITK Beach plays host to a party that you wouldn't want to miss . Beach events during Incident are held on our very own private beach. This is something very unique to NITK and Incident.DJ Wars, Beach Informals and Kite Fest provides an experience that you would cherish for a long time",
-			"image":"beach.jpg"
+			"image":"beach.JPG"
 		},
 
 		
@@ -224,7 +224,7 @@ By 1985, Incident events were split between the SAC and the SJA. By the beginnin
   2. KALAKRITI : An art exhibition organized by Artists’ 				Forum.
   3.HOGATHON :The perfect platform to show off your hogging skills. Come in teams of two and compete with others to win the Hogathn title.
   4. PROM NIGHT:Want a romantic night where you can dance under the stars with your date? If yes,then you should definitely go for prom night.",
-			"image":"inciSpecials.jpg"
+			"image":"inciSpecials.JPG"
 		},
 
 
@@ -243,14 +243,14 @@ By 1985, Incident events were split between the SAC and the SJA. By the beginnin
 			"name":"Pronites",
 			"description":"Incident Proshows feature various national and international artists spanning various genres of music including rock, heavy metal, pop, electronic and Sufi music. The festival's Pro-Nite event has featured top Indian artists including Parikrama in 2005,Euphoria in 2006, Raghu Dixit and Indian Ocean in 2007, KK in 2008  and again in 2010, Nikhil Chinapa and Kunal Ganjawala in 2009, Motherjane in 2010, Sunidhi Chauhan in 2011, Javed Ali in March 2013, Salim Sulaiman,in March 2014 .
 Last year pro shows : Karthick Iyer, Baiju Dharmajan, Masala Coffee, Angad Singh, Red Bull Tour Bus, The Local Train, Lost Stories, Ace Axe.",
-			"image":"pronites.jpg"
+			"image":"pronites.JPG"
 		},
 
 
 		{
 			"name":"Other events",
 			"description":"There are many more exciting events like ‘My Story’, a blogging contest for enthusiastic writers, Body Art Competition, Newspaper Costume Design and many more.I-Care Beach is a social initiative during Incident that has been changing the lives of several children from financially poor backgrounds.",
-			"image":"icare.jpg"
+			"image":"icare.JPG"
 		}
 
 	]
@@ -342,7 +342,7 @@ Soon, preliminary rounds of robotics events' were held at a venue outside the in
 		{
 			"name":"Mechanical Events",
 			"description":"This has some of the major crowd pulling events.These events usually have some problem statements and restrictions for bots. Robowars is a major event held under mechanical events. The RC car competition Velocity also is a major attraction.Other events under this committee are Perfect Machine, Proteus, Blueprint etc. Proteus is an event with the objective to fabricate a bot that could travel along a specified length of the tank (which constituted the arena) and shoot a jet of water that covered a minimum horizontal range. Once the bot satisfied these qualifying criteria, the participating bots had to shoot a maximum of three targets placed at gradually increasing heights placed at different distances within 6 minutes. Wright Flight is about choosing the right material, building a model and making it fly.",
-			"image":"mechanical.png"
+			"image":"mechanical.jpg"
 		},
 
 		{
@@ -354,7 +354,7 @@ Soon, preliminary rounds of robotics events' were held at a venue outside the in
 		{
 			"name":"Civil Events",
 			"description":"There are many events like Nirvahana and Collosus which are basically related to Civil Engineering concepts. These events are designed to test whether you can apply your mind to solve some Civil engineering problems of the real world and build stable structures. Events are Colossus, Nirvahana, Fantasticity etc. Colossus is an event of civil engineering which made bridge designing a reality by letting builders design and make a real model bridge that was to be tested according to the given conditions.",
-			"image":"civil.png"
+			"image":"civil.jpg"
 		},
 
 		{
@@ -366,14 +366,14 @@ Soon, preliminary rounds of robotics events' were held at a venue outside the in
 		{
 			"name":"Materials Events",
 			"description":"The material science committee has a Scanning Electron Microscope (SEM) expo, showcasing a working demonstration of the high-tech equipment. MetaMagic is an open exhibition to show the wonders of the materials around us. Apart from this Quizzes and casting workshops are also held by the committee.",
-			"image":"materials.png"
+			"image":"materials.jpg"
 		},
 
 
 		{
 			"name":"Electronix Events",
 			"description":"Symphony - Musical Fountains and Trailblazer - Competition for line follower bots are major attractions under tronix events. The Automata is another event by the tronix committee based on Image processing. An overhead camera provided the participants with a string of images of the arena using which they had to figure out the shortest way to the end and make the bot go there. Any dictionary you pick up will define Trailblazer as an inventor, a pioneer, or a person who makes a new track through wild country. But here at ENGINEER in NITK, it translates to a line following bot.",
-			"image":"electronix.png"
+			"image":"electronix.jpg"
 		},
 		
 		{
@@ -399,25 +399,25 @@ Soon, preliminary rounds of robotics events' were held at a venue outside the in
 		{
 			"name":"Astro Events",
 			"description":"This includes a group of events held by the astronomy enthusiasts of NITK. Ever dreamt of flying a spaceship? Here’s your chance. Don’t miss out on Orbiter, a flight simulator setup designed to give you the vibes and feels of the Martian terrain. And if you want to spot the beautiful constellations in the night sky and listen to the stories of Greek Heroes after whom they were named, surely attend Starry Nights.The Astro committee hosts other events such as Antariksh (exhibition) and Star Wars (quiz) as well. ",
-			"image":"astro.png"
+			"image":"astro.jpg"
 		},
 		
 		{
 			"name":"Workshops",
 			"description":"Held with the intention of expanding the knowledge of students beyond what is learnt in classrooms, previously held workshops include Ethical Hacking, Bridge Design, 3D photography, Android App Development, Humanoid Robotics, Augmented reality etc.",
-			"image":"workshops.png"
+			"image":"workshops.jpg"
 		},
 
 		{
 			"name":"Gaming and Freefall",
 			"description":"Gaming events include games like NFS, Counter Strike, FIFA and DOTA as participants battle each other to show their gaming supremacy. Freefall includes the informal contests held in Engineer. With fun and games all around, participants head over here to relax and have fun.",
-			"image":"gaming.png"
+			"image":"gaming.jpg"
 		},
 		
 		{
 			"name":"Technites",
 			"description":"Showcases the fun and brilliance of technology after dark. Witness your favorite android games come alive at Technites. Also featuring several events like Blitzkrieg/Laser Tag,Megapixel- The larger than life avatar of Tetris among others. Apart from this PyroShows, Laser shows, 3D mapping shows also are crowd pullers. The Technites main show also witnesses street performers enthralling the crowd.",
-			"image":"technites.png"
+			"image":"technites.jpg"
 		},
 
 
@@ -432,7 +432,7 @@ Soon, preliminary rounds of robotics events' were held at a venue outside the in
 			"name":"Engi Connect",
 			"description":"It is a science exhibition cum competition held for school and pre-university students to promote innovative scientific ideas. Exciting prizes and free workshop tickets attract many students to this competition.
  ",
-			"image":"engiconnect.png"
+			"image":"engiconnect.jpg"
 		},
 
 		{
