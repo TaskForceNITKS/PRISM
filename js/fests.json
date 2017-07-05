@@ -7,12 +7,12 @@ var fests=[
 {
 	"name": "Incident",
 	"image":"inci.jpg",
-	"head_image":"",
+	"head_image":"inci_head.jpg",
 	"team" : [
 		{
 			"name":"Adarsh Pai",
 			"post_name":"Convenor",
-			"image":"Adarsh Pai.JPG"
+			"image":"adarsh_pai.jpg"
 		},
 		{
 			"name":"Srikanth Dasari",
@@ -121,7 +121,7 @@ var fests=[
 	"events": [
 		{
 			"name":"Sports",
-			"description":"1. SLAM DUNK: The biggest inter-collegiate basketball tournament. Prizes worth 75k. <br> 2. SPIN SHOCK: The Inter-Collegiate THROWBALL tournament.",
+			"description":"1. SLAM DUNK: The biggest inter-collegiate basketball tournament. Prizes worth 75k.  2. SPIN SHOCK: The Inter-Collegiate THROWBALL tournament.",
 			"image":"sports.jpg"
 		},
 		{
@@ -131,12 +131,12 @@ var fests=[
 		},
 		{
 			"name":"Musicals",
-			"description":" Events held under this are: <br> 1. Bandish: The Eastern Rock Band Competition. <br> 2. Dhwanik: Eastern Acoustic Band Competition. <br> 3. Pulse: Semi Professional Western Rock Band Competition. <br> 4. Unplugged: Western Acoustic Band and A Cappella Competition. <br> 5. Raagalaya: Solo Eastern Vocals Competition. <br> 6. Center Stage: Solo Instrumental Competition.",
+			"description":" Events held under this are:  1. Bandish: The Eastern Rock Band Competition.  2. Dhwanik: Eastern Acoustic Band Competition.  3. Pulse: Semi Professional Western Rock Band Competition.  4. Unplugged: Western Acoustic Band and A Cappella Competition.  5. Raagalaya: Solo Eastern Vocals Competition.  6. Center Stage: Solo Instrumental Competition.",
 			"image":"music.JPG"
 		},
 		{
 			"name":"Dance",
-			"description":"Events held under this are: <br>1. Step Up (Solo) <br> 2. Step Up (Duet)<br> 3. Promenade: Semi Professional Western Group Dance Competition.<br> 4. Tandav: Semi Professional Eastern and Contemporary Group Dance  Competition.",
+			"description":"Events held under this are: 1. Step Up (Solo)  2. Step Up (Duet) 3. Promenade: Semi Professional Western Group Dance Competition. 4. Tandav: Semi Professional Eastern and Contemporary Group Dance  Competition.",
 			"image":"dance.JPG"
 		},
 		{
@@ -152,7 +152,7 @@ var fests=[
 		{
 			"name":"Inci Talks",
 			"description":"This was started for the first time in Inci’17.Famous personalities such as JayaPrakash Narayan,Balaji Viswanath,Prach Tehlan etc. come to address the students.",
-			"image":"inciTalks.JPG"
+			"image":"inciTalks.jpg"
 		},
 		{
 			"name":"Gaming",
@@ -171,7 +171,7 @@ var fests=[
 		},
 		{
 			"name":"Inci Specials",
-			"description":" 1.EXPOSE : Photography 				Exhibition organized in association with the Photography Club. <br> 2. KALAKRITI : An art exhibition organized by Artists’ Forum. <br> 3.HOGATHON :The perfect platform to show off your hogging skills. Come in teams of two and compete with others to win the Hogathn title. <br> 4. PROM NIGHT:Want a romantic night where you can dance under the stars with your date? If yes,then you should definitely go for prom night.",
+			"description":" 1.EXPOSE : Photography 				Exhibition organized in association with the Photography Club.  2. KALAKRITI : An art exhibition organized by Artists’ Forum.  3.HOGATHON :The perfect platform to show off your hogging skills. Come in teams of two and compete with others to win the Hogathn title.  4. PROM NIGHT:Want a romantic night where you can dance under the stars with your date? If yes,then you should definitely go for prom night.",
 			"image":"inciSpecials.JPG"
 		},
 		{
@@ -181,7 +181,7 @@ var fests=[
 		},
 		{
 			"name":"Pronites",
-			"description":"Incident Proshows feature various national and international artists spanning various genres of music including rock, heavy metal, pop, electronic and Sufi music. The festival's Pro-Nite event has featured top Indian artists including Parikrama in 2005,Euphoria in 2006, Raghu Dixit and Indian Ocean in 2007, KK in 2008  and again in 2010, Nikhil Chinapa and Kunal Ganjawala in 2009, Motherjane in 2010, Sunidhi Chauhan in 2011, Javed Ali in March 2013, Salim Sulaiman, in March 2014 . <br> Last year pro shows : Karthick Iyer, Baiju Dharmajan, Masala Coffee, Angad Singh, Red Bull Tour Bus, The Local Train, Lost Stories, Ace Axe.",
+			"description":"Incident Proshows feature various national and international artists spanning various genres of music including rock, heavy metal, pop, electronic and Sufi music. The festival's Pro-Nite event has featured top Indian artists including Parikrama in 2005,Euphoria in 2006, Raghu Dixit and Indian Ocean in 2007, KK in 2008  and again in 2010, Nikhil Chinapa and Kunal Ganjawala in 2009, Motherjane in 2010, Sunidhi Chauhan in 2011, Javed Ali in March 2013, Salim Sulaiman, in March 2014 .  Last year pro shows : Karthick Iyer, Baiju Dharmajan, Masala Coffee, Angad Singh, Red Bull Tour Bus, The Local Train, Lost Stories, Ace Axe.",
 			"image":"pronites.JPG"
 		},
 		{
@@ -194,7 +194,7 @@ var fests=[
 {
 	"name": "Engineer",
 	"image":"engi.jpg",
-	"head_image":"engineer.jpg",
+	"head_image":"engi_head.jpg",
 	"team" : [
 		{
 			"name":"Sachin Kumar",
@@ -202,14 +202,14 @@ var fests=[
 			"image":"convenor.jpg"
 		},
 			{
-			"name":"Ashok Jangir",
-			"post_name":"Joint Convenor",
-			"image":"jointcon.jpg"
-		},
-			{
 			"name":"Pratyush Giri",
 			"post_name":"Treasurer",
 			"image":"treasurer.jpg"
+		},
+		{
+			"name":"Ashok Jangir",
+			"post_name":"Joint Convenor",
+			"image":"jointconvenor.jpg"
 		}
 	],
 	"id": "engi",
@@ -340,7 +340,7 @@ var fests=[
 		},
 		{
 			"name":"Exhibition/Attractions",
-			"description":"Chronus:A countdown clock is put up in the main building which displays the time remaining for Engineer till the fest starts and begins the up count after the inauguration of the fest. <br> Piano Stairs:The stairs to the main building entrance are turned musical. Different steps play different musical notes. <br> Musical Bench: With the help of some simple circuitry, musical notes are generated based on the way people sitting on the bench interact with each other.",
+			"description":"Chronus:A countdown clock is put up in the main building which displays the time remaining for Engineer till the fest starts and begins the up count after the inauguration of the fest.  Piano Stairs:The stairs to the main building entrance are turned musical. Different steps play different musical notes.  Musical Bench: With the help of some simple circuitry, musical notes are generated based on the way people sitting on the bench interact with each other.",
 			"image":"attractions.jpg"
 		}
 	]

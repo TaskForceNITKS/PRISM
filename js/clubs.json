@@ -1,111 +1,115 @@
 var techClubs=[
-{
+	{
 
-	"name": "IEEE-NITK",
-	"image":"ieee.jpg",
-	"convenor" : "Anand Thamban",
-	"events":"Ignite-Career &Internship talk series First Fest - Platform for IEEE student members to work on innovative projects for the whole year. Knowledge Sharing Sessions Technical Workshops Talk Series by prominent members of Academia or Industry Summer Mentorship Program.",
-	"projects":"Compsoc -Age and gender classification using CNNs , AI-NLP : Deep learning for conversational information agents Circuits and Systems  , Automatic Wheelchair, Piston - Smart electromagnetic clutch, Photo catalytic degradation of azodyes using PANI - Ag doped TiO2 particles."	,
-	"description":"  IEEE is the world's largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE NITK belongs to the Region 10 under Bangalore Section and is an award winning student branch and one of the biggest worldwide. Students who have taken IEEE Student Membership in their 1st year, directly qualify for the interview rounds during their second year. Other Non-Member Students need to give a screening test, to qualify for the interviews. "
-},
+		"name": "IEEE-NITK",
+		"image":"ieee.jpg",
+		"convenor" : "Anand Thamban",
+		"events":"Ignite-Career &Internship talk series First Fest - Platform for IEEE student members to work on innovative projects for the whole year. Knowledge Sharing Sessions Technical Workshops Talk Series by prominent members of Academia or Industry Summer Mentorship Program.",
+		"projects":"Compsoc -Age and gender classification using CNNs , AI-NLP : Deep learning for conversational information agents Circuits and Systems  , Automatic Wheelchair, Piston - Smart electromagnetic clutch, Photo catalytic degradation of azodyes using PANI - Ag doped TiO2 particles."	,
+		"description":"  IEEE is the world's largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE NITK belongs to the Region 10 under Bangalore Section and is an award winning student branch and one of the biggest worldwide. Students who have taken IEEE Student Membership in their 1st year, directly qualify for the interview rounds during their second year. Other Non-Member Students need to give a screening test, to qualify for the interviews. "
+	},
 
-{
-	"name": "Institution of Engineers NITK Chapter ( IE-NITK)",
-	"image":"iet.jpg",
-	"convenor" : "Nitya C Kamala",
-	"events":" Spark is the flagship event, inspired by the TED Talk Series where NITK students, are invited as speakers to share their experience of traversing roads less taken. <br>“Read the F**king Manual” is an event that tests critical reading skills and logical abilities.<br> “Sync” is an enigmatic event wherein the final round involves a crime scene set-up.<br> The event “Logician” is based on deterministic logic and electronics know-how. ",
-	"projects":" Web and App Development, Home Automation with Internet of Things (IoT) ,Biogas Digester Design , Wearable Robotic Arm, Obstacle Avoider Bot - to name a few.",
-	"description":"  The Institution of Engineers, NITK Chapter is an exclusive technical club. We aim to enhance the technical expertise of our fellow members and the student community, while acknowledging the importance of interdisciplinary and social work. The members fall into three core Special Interest Groups (SIGs), namely Code, Gadget and Garage. We also have auxiliary SIGs for members who are passionate about literature, social service or robotics. Second years are eligible for recruitment. "
-},
+	{
+		"name": "Institution of Engineers NITK Chapter ( IE-NITK)",
+		"image":"ie.jpg",
+		"convenor" : "Nitya C Kamala",
+		"events":" Spark is the flagship event, inspired by the TED Talk Series where NITK students, are invited as speakers to share their experience of traversing roads less taken. <br>“Read the F**king Manual” is an event that tests critical reading skills and logical abilities.<br> “Sync” is an enigmatic event wherein the final round involves a crime scene set-up.<br> The event “Logician” is based on deterministic logic and electronics know-how. ",
+		"projects":" Web and App Development, Home Automation with Internet of Things (IoT) ,Biogas Digester Design , Wearable Robotic Arm, Obstacle Avoider Bot - to name a few.",
+		"description":"  The Institution of Engineers, NITK Chapter is an exclusive technical club. We aim to enhance the technical expertise of our fellow members and the student community, while acknowledging the importance of interdisciplinary and social work. The members fall into three core Special Interest Groups (SIGs), namely Code, Gadget and Garage. We also have auxiliary SIGs for members who are passionate about literature, social service or robotics. Second years are eligible for recruitment. "
+	},
+	{
+		"name": "ACM - NITK",
+		"image":"acm.jpg",
+		"convenor" : "Vishakh P",
+		"events":"Apprentice, Vidyarthi, Shiksha, Cryptick, Jugaad, Hard Wired",
+		"projects":" A 3-D printed prosthetic underactuated robotic arm controlled using EEG sensors. The robotic arm uses 6 servo motors controlled using an Arduino microcontroller. A collaboration with NIMHANS Bangalore to improve the prediction of diseases based on the results of diagnostic tests using Machine Learning."	,
+		"description":" ACM NITK plans and organizes a wide range of events that include technical workshops, guest lectures, online events and various other competitions at NITK, throughout the year. Our members come from all disciplines, backgrounds and interests providing a forum for students to undertake technical projects, develop organisational and leadership skills, and find like-minded students to work with.  Students are eligible for recruitment in at the start of their second year. For first years, it's an open invite to come and attend our events year round and get to know the seniors at the club."
+	},
+	{
+		"name": "IRIS",
+		"image":"iris.jpg",
+		"convenor" : "Akshay Revankar",
+		"events":"None",
+		"projects":"Timetable and Attendance Tracking (Manage students' attendance online with dynamic class scheduling. Integration with prototype biometric attendance), Examination and Grading Management (Auto calculating outcomes, program outcomes, program elective outcomes, online Grade sheet generation), Alumni Association (An online platform will make it easier for the current students to network with the alumni. )",
+		"description":"A team of motivated students of NITK, ventured to build and develop an e-portal for enhanced student –teacher interaction. Under the guidance of Dr K V Gangadharan and with the resources provided by the CSD (Center for System Design) laboratory, the team has successfully developed a website with functionality to support efficient administration. Apart from the general advantages of switching to an e-platform, what makes this an indispensable alternative is that it avoids the negative connotations of security of data by strong encryption. Also, compatibility across various platforms and software has been considered. We have tried our best to maintain a strong backend to deliver the best service from our server."
+	},
+	{
+		"name": "Indian Society for Technical Education (ISTE-NITK)",
+		"image":"iste.jpg",
+		"convenor" : "Ankit Rege",
+		"events":" Scotland Yard, Transcend, Basic Electronics Workshop, Spectacle, Cryptonite, Social Initiative, Samsung Appathon",
+		"projects":"An Analysis of Sleep Hygiene (selected for national finals as part of INKtalks Make-a-thon), Closed Eye Pupil Tracking, Perception of Online Shopping in the E-Commerce Industry"	,
+		"description":" Indian Society for Technical Education - NITK Chapter is the oldest technical society at the National Institute of Technology Karnataka. Besides organizing technical and cultural events and competitions for students of the institution, ISTE - NITK also hosts a range of workshops and educational seminars. ISTE - NITK also strives to promote liberal arts of our members via Special Interest Groups within the club, including, but not limited to, computer science, electronics, mechanics and robotics, civil engineering, business , literature ,video editing, photography and digital content creation. Recruitments take place in second year."
+	},
 
-{
-	"name": "ACM - NITK",
-	"image":"acm.jpg",
-	"convenor" : "Vishakh P",
-	"events":"Apprentice, Vidyarthi, Shiksha, Cryptick, Jugaad, Hard Wired",
-	"projects":" A 3-D printed prosthetic underactuated robotic arm controlled using EEG sensors. The robotic arm uses 6 servo motors controlled using an Arduino microcontroller. A collaboration with NIMHANS Bangalore to improve the prediction of diseases based on the results of diagnostic tests using Machine Learning."	,
-	"description":" ACM NITK plans and organizes a wide range of events that include technical workshops, guest lectures, online events and various other competitions at NITK, throughout the year. Our members come from all disciplines, backgrounds and interests providing a forum for students to undertake technical projects, develop organisational and leadership skills, and find like-minded students to work with.  Students are eligible for recruitment in at the start of their second year. For first years, it's an open invite to come and attend our events year round and get to know the seniors at the club."
-},
+	{
+		"name": "The Institute of Engineering and Technology (IET-NITK)",
+		"image":"iet.jpg",
+		"convenor" : "Sai Abhishek L",
+		"events":"  IET innerve and present around the world (PATW)",
+		"projects":"1.Automated toll collection system using Rfid <br>  2.Stair climbing robot using crank mechanisms"	,
+		"description":" IET NITK chapter is a exclusive technical club under IET london division.It is actively involved in inculcating a passion for innovation and appreciation for scientific temperament in the minds of those who have the potential to change the future. It conducts seminars and workshops throughout the academic calendar striving to impart techincal ,social and managerial skills to the students. IET plays an integral role in planning and organizing various events in the techno-cultural fests of the institute ie ENGINEER and INCIDENT. Recruitment process takes place for second years."
+	},
+	{
+		"name":"Web Club",
+		"image":"webclub.jpg",
+		"convenor":"Mohit Reddy",
+		"events":"Tuxride, Tuxcoder, Software freedom week and regular technical talks on trending topics in both technical and research fields of Computer Science.",
+		"projects":"PWL - Papers We Love, is an initiative by Web Club where Web Club members implement recent research papers trending in the field of Computer Science.",
+		"description":"Webclub is a technical club with members enthusiastic about anything related to Computer Science. They currently focus mostly on making everyone familiar with competitive programming by conducting frequent coding competitions. They are also planning to contribute to open source communities and get involved more in the field of Machine Learning."
+	},
+	{
+		"name": "BAJA NITK Racing",
+		"image":"baja.jpg",
+		"convenor" : " David Nazareth",
+		"events":" 1. Baja Sae India <br> 2.Virtual Baja",
+		"projects":" Building of our 9th Atv vehicle. Design of a custom gearbox out of aluminum. Manufacture of chromoly wishbone for the suspension"	,
+		"description":" We are a team of undergraduate students that design, fabricate, race and market all terrain vehicles to compete in the Baja Sae collegiate series. Recruitment to the team (technical and marketing) is done through a written test and 2 interviews that take place in March every year."
 
-{
-	"name": "Indian Society for Technical Education (ISTE-NITK)",
-	"image":"iste.jpg",
-	"convenor" : "Ankit Rege",
-	"events":" Scotland Yard, Transcend, Basic Electronics Workshop, Spectacle, Cryptonite, Social Initiative, Samsung Appathon",
-	"projects":"An Analysis of Sleep Hygiene (selected for national finals as part of INKtalks Make-a-thon), Closed Eye Pupil Tracking, Perception of Online Shopping in the E-Commerce Industry"	,
-	"description":" Indian Society for Technical Education - NITK Chapter is the oldest technical society at the National Institute of Technology Karnataka. Besides organizing technical and cultural events and competitions for students of the institution, ISTE - NITK also hosts a range of workshops and educational seminars. ISTE - NITK also strives to promote liberal arts of our members via Special Interest Groups within the club, including, but not limited to, computer science, electronics, mechanics and robotics, civil engineering, business , literature ,video editing, photography and digital content creation. Recruitments take place in second year."
-},
+	},
+	{
+		"name": "Amateur Astronomy Club",
+		"image":"aac.jpg",
+		"convenor" : "Vedant Dhruv",
+		"events":" 1. The Astro Committee conducts various astronomy events in Engineer.<br> 2. Currently in the possession of two telescopes, the club conducts frequent 'Starry Nights' where it shows various celestial bodies.<br> 3. Professionals from outside the college are invited to give a talk on astronomy.<br> ",
+		"projects":" : 1. Rover: The club is working on a rover, based on the ones that are sent to Mars. This will be exhibited during the fest Engineer.<br> 2. Motorization of the telescope."	,
+		"description":" The Amateur Astronomy Club is a family of space enthusiasts that aims to develop an awareness of astronomy and astrophysics among people and encourage an interest in the field. It undertakes projects, conducts events, organizes talks by famous personalities and much more to cultivate interest in this field in NITK and beyond. Recruitments are held in the month of August. The club recruits B.Tech students in their second year and interested M.Sc. and M.Tech students."
 
-{
-	"name": "The Institute of Engineering and Technology (IET-NITK)",
-	"image":"iet.jpg",
-	"convenor" : "Sai Abhishek L",
-	"events":"  IET innerve and present around the world (PATW)",
-	"projects":"1.Automated toll collection system using Rfid <br>  2.Stair climbing robot using crank mechanisms"	,
-	"description":" IET NITK chapter is a exclusive technical club under IET london division.It is actively involved in inculcating a passion for innovation and appreciation for scientific temperament in the minds of those who have the potential to change the future. It conducts seminars and workshops throughout the academic calendar striving to impart techincal ,social and managerial skills to the students. IET plays an integral role in planning and organizing various events in the techno-cultural fests of the institute ie ENGINEER and INCIDENT. Recruitment process takes place for second years."
-},
+	},
+	{
+		"name": "ASCE NITK Student Chapter",
+		"image":"asce.jpg",
+		"convenor" : "Loganathan Navaneethan",
+		"events":" Seminars Guest Lectures by professors of IITs and NITs Workshops Site Visits",
+		"description":" A student group with an international recognition, which conducts activities like Seminars, Workshops, Site Visits and Student Competitions related to various aspects of Civil Engineering. Recruitment of students will start with the pre recruitment talk for second years only. "
 
-{
-	"name": "BAJA NITK Racing",
-	"image":"baja.jpg",
-	"convenor" : " David Nazareth",
-	"events":" 1. Baja Sae India <br> 2.Virtual Baja",
-	"projects":" Building of our 9th Atv vehicle. Design of a custom gearbox out of aluminum. Manufacture of chromoly wishbone for the suspension"	,
-	"description":" We are a team of undergraduate students that design, fabricate, race and market all terrain vehicles to compete in the Baja Sae collegiate series. Recruitment to the team (technical and marketing) is done through a written test and 2 interviews that take place in March every year."
+	},
+	{
+		"name": "Flying and Robotics ",
+		"image":"sae.jpg",
+		"convenor" : "Sourabh Kamath",
+		"events":" Wright flight",
+		"projects": " Grade remote controlled planes",
+		"description":" We build hobby grade remote controlled planes and take part in various national level competitions. First a written test is conducted and then the shortlisted candidates will be interviewed and then recruited based on their performance in the interview"
+	},
+	{
+		"name": "Society of Automotive Engineers (SAE-NITK)",
+		"image": "sae.jpg",
+		"convenor" : "V K Vamsi Krishna",
+		"events":"  SAE FEST(otto quiz-conducted for juniors) , workshops, Knowledge exchange program (KEP)",
+		"projects":" Stair climbing robot, study of sky scarpers , design and analysis of gear"	,
+		"description":" A technical club for the automotive enthusiasts, dealing in projects related to automotive field. A 2 step recruitment process. 1st one is a written test and 2nd one is a interview followed by a small HR interview. (written test is based on the basics learnt)."
 
-},
-{
-	"name": "Amateur Astronomy Club",
-	"image":"aac.jpg",
-	"convenor" : "Vedant Dhruv",
-	"events":" 1. The Astro Committee conducts various astronomy events in Engineer.<br> 2. Currently in the possession of two telescopes, the club conducts frequent 'Starry Nights' where it shows various celestial bodies.<br> 3. Professionals from outside the college are invited to give a talk on astronomy.<br> ",
-	"projects":" : 1. Rover: The club is working on a rover, based on the ones that are sent to Mars. This will be exhibited during the fest Engineer.<br> 2. Motorization of the telescope."	,
-	"description":" The Amateur Astronomy Club is a family of space enthusiasts that aims to develop an awareness of astronomy and astrophysics among people and encourage an interest in the field. It undertakes projects, conducts events, organizes talks by famous personalities and much more to cultivate interest in this field in NITK and beyond. Recruitments are held in the month of August. The club recruits B.Tech students in their second year and interested M.Sc. and M.Tech students."
+	},
+	{
+		"name": "NITK Racing (FSAE)",
+		"image":"fsae.jpg",
+		"convenor" : "Giriraj Heda",
+		"events":" The team is involved in designing building, testing and improvising a FS Car throughout the year.",
+		"projects":" The team has built its new FS Car, NR-17. The further developments would involve testing and tuning the car. Alongside the projects like variable intake runner system, Data Acquisition System, diffuser analysis and mounting would be implemented in the coming semester"	,
+		"description":" Formula Student team of NITK that designs and build a Formula style race car. The team has participated in national as well as international Formula Student Completions. Recruitments are usually in the even semesters, in the month of February- March which tests basic engineering aptitude.The final stages are the interview rounds."
 
-},
-{
-	"name": "ASCE NITK Student Chapter",
-	"image":"asce.jpg",
-	"convenor" : "Loganathan Navaneethan",
-	"events":" Seminars Guest Lectures by professors of IITs and NITs Workshops Site Visits",
-	"description":" A student group with an international recognition, which conducts activities like Seminars, Workshops, Site Visits and Student Competitions related to various aspects of Civil Engineering. Recruitment of students will start with the pre recruitment talk for second years only. "
-
-},
-{
-	"name": "Flying and Robotics ",
-	"image":"sae.jpg",
-	"convenor" : "Sourabh Kamath",
-	"events":" Wright flight",
-	"projects": " Grade remote controlled planes",
-	"description":" We build hobby grade remote controlled planes and take part in various national level competitions. First a written test is conducted and then the shortlisted candidates will be interviewed and then recruited based on their performance in the interview"
-},
-
-{
-	"name": "Society of Automotive Engineers (SAE-NITK)",
-	"image": "sae.jpg",
-	"convenor" : "V K Vamsi Krishna",
-	"events":"  SAE FEST(otto quiz-conducted for juniors) , workshops, Knowledge exchange program (KEP)",
-	"projects":" Stair climbing robot, study of sky scarpers , design and analysis of gear"	,
-	"description":" A technical club for the automotive enthusiasts, dealing in projects related to automotive field. A 2 step recruitment process. 1st one is a written test and 2nd one is a interview followed by a small HR interview. (written test is based on the basics learnt)."
-
-},
-{
-	"name": "NITK Racing (FSAE)",
-	"image":"fsae.jpg",
-	"convenor" : "Giriraj Heda",
-	"events":" The team is involved in designing building, testing and improvising a FS Car throughout the year.",
-	"projects":" The team has built its new FS Car, NR-17. The further developments would involve testing and tuning the car. Alongside the projects like variable intake runner system, Data Acquisition System, diffuser analysis and mounting would be implemented in the coming semester"	,
-	"description":" Formula Student team of NITK that designs and build a Formula style race car. The team has participated in national as well as international Formula Student Completions. Recruitments are usually in the even semesters, in the month of February- March which tests basic engineering aptitude.The final stages are the interview rounds."
-
-},
-{
-	"name":"Web Club",
-	"image":"webclub.jpg",
-	"convenor":"Mohit Reddy",
-	"events":"Tuxride, Tuxcoder, Software freedom week and regular technical talks on trending topics in both technical and research fields of Computer Science.",
-	"projects":"PWL - Papers We Love, is an initiative by Web Club where Web Club members implement recent research papers trending in the field of Computer Science.",
-	"description":"Webclub is a technical club with members enthusiastic about anything related to Computer Science. They currently focus mostly on making everyone familiar with competitive programming by conducting frequent coding competitions. They are also planning to contribute to open source communities and get involved more in the field of Machine Learning."
-}
+	},
 ]
 var culturalClubs=[
 	
@@ -118,7 +122,6 @@ var culturalClubs=[
 	"description":" NITK Toastmasters’ is affiliated to Toastmasters' International and aims to help students take up the art of speaking and offers communication and leadership projects for the same. It doesn't have any additional recruitment process. NITK Toastmasters got chartered in Jan - Apr 2017 with 20 members."
 	
 	},
-
 	{
 	"name": "Rotaract Club NITK Chapter",
 	"image":"roto.jpg",
@@ -128,7 +131,6 @@ var culturalClubs=[
 	"description":" Rotaract Club NITK Chapter is a socio-cultural club that is affiliated with the Surathkal division of Rotary International. The student members organize several events that not only raise awareness about specific causes but also proactively help redress problems in the local society through initiatives such as orphanage trips, marathons and beach cleanup drives. Recruitment process for the second years."
 	
 	},
-
 	{
 	"name": "Artists' Forum",
 	"image":"af.jpg",
@@ -136,9 +138,7 @@ var culturalClubs=[
 	"events":"UDAAN (Annual Beach Kite Festival), Art Beat , Campus decoration during Incident and Engineer,Fine art Competitions, Kalakriti (art exhibition during Incident).",
 	"projects":""	,
 	"description":"Expressing emotions and envisaging ideals through Art' : that is our mission. We at Artists' Forum, believe in bigger ideas and better outcomes. The recruitment will be done in late August Selection based on Resume, Written test, various skill based tests and Personal interview."
-	
 	},
-
 	{
 	"name": "E-Cell",
 	"image":"e-cell.jpg",
@@ -146,9 +146,7 @@ var culturalClubs=[
 	"events":" E-summit, Enterprise.",
 	"projects":"We're working on getting E-summit even bigger and better than the last year, since it's an inter college event it's a business fest of sorts. We even have start up funding happening through STEP."	,
 	"description":"The entrepreneurship club of nitk that focuses on business, startups, marketing, finance etc. The recruitment process will consist of several rounds of interaction and tasks. Happening once a week for the first three weeks, followed by interviews and intake. "
-	
 	},
-
 	{
 	"name": "Kannada Vedike - NITK",
 	"image":"kannadavedikke.jpg",
@@ -156,9 +154,7 @@ var culturalClubs=[
 	"events":" Treasure hunt, Parva, BD_Karnataka, Kannada events during Incident and Engineer etc.",
 	"projects":""	,
 	"description":"Conducting kannada competitions, seminars and cultural programs to create awareness and teach the regional language kannada which is significantly essential to communicate with the local bodies while shopping in markets, participating in teaching govt. school children, other utilities like bicycle repair, bargaining and at many more places. It's open club. Who ever are interested can join and help in organizing events "
-	
 	},
-
 	{
 	"name": "Music Club",
 	"image":"music.jpg",
@@ -166,9 +162,7 @@ var culturalClubs=[
 	"events":" Organized 4 music nights last year. Went for multiple local fests. Also went for Saarang and Raagam, where our bands won prizes for some of the events.",
 	"projects":"Audio production, Song writing"	,
 	"description":"The Music Club provides a creative outlet for those who consider themselves musicians to perform on stage and better themselves through jams and practices. Music nights and fests are the primary activities, with audio production becoming increasingly more popular.The recruitment process usually consists of two rounds. The first round tests the basic musical abilities of the participant and the second goes more in depth and tests their strengths and weaknesses."
-	
 	},
-
 	{
 	"name": "Media Arts and Creative Design (MACD)",
 	"image":"macd.jpg",
@@ -176,9 +170,7 @@ var culturalClubs=[
 	"events":"  Photography workshop, Vegas workshop, online design video events",
 	"projects":"",
 	"description":"Behind the exhilarating teaser trailers and captivating posters for various occasions and events in the campus, is MACD, a group of media and creativity enthusiasts. Consisting of three SIGs - Media, Design and Content development, we make sure that all the three fuse together in spectacular fashion. The recruitment will be done in the beginning of the even sem, and will have two rounds. The first round will be done online where candidates will be asked to do tasks in a limited time. The best candidates will be interviewed and then selected."
-	
 	},
-
 	{
 	"name": "Photography Club",
 	"image":"photography.jpg",

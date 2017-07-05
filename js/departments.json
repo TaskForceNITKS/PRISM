@@ -17,263 +17,279 @@ var content=[
 ]
 
 var departments = [
-{
-	"name": "Chemical Engineering",
-	"icon": "chemistry.png",
-	"intro": "Chemical Engineers have the primary responsibility of using raw materials and turning them into products which can be used in day-to-day lives of the people. Several of these products are commodities obtained from oil and gas and all these products are made with the help of chemical processes which allow us to access them.",
-	"definition": "Chemical Engineering, in principle, deals with the various physical and chemical processes that transpire in daily life, ranging from microscale to macroscale, and the understanding of these processes and how best to improve them, to suit the needs of the population. It is not to be confused with chemistry though as most students often do. Chemical Engineering is a huge and diverse branch. You'll be interested in building, designing and working of large industries and not so much about reactions/microscale details that happen inside (that is what Chemistry students concentrate about).",
-	"course_information":"Well it involves a wide range of courses from heat transfer, mass transfer, momentum transfer, chemical reaction engineering, separation processes, process control, petroleum engineering, thermodynamics etc. Quite a few students also go for higher studies to specialize in the field they're most interested in. (Almost all of them are 2 semester courses)",
-	"core_specializations": [
-		{	
-			"title":"Thermodynamics and Kinetics",
-			"desc":""
-		},
-		{
-			"title":"Reactor Design",
-			"desc":""
-		}
-	],
-	"pg":"Lots of options are available. Pharma companies, Oil and gas companies (Reliance, IOCL etc), other chemical companies (Pepsi Co, Jindal Steels etc) or even non-core jobs like marketing, analyst, coding etc. If you are interested in pharmaceutical or petroleum based areas or other subjects like thermodynamics or control of the process in any industry then it's a good option. There's theory as well as a lot of concept based numericals.",
-	"id":"ch"
-},
-{
-	"name": "Civil Engineering",
-	"icon": "civil.png",
-	"intro": "Civil Engineering is one of the oldest engineering branches started in NITK. Civil Engineering deals with airports, bridges, buildings, highways, networks, tunnels, water supply networks, transportation, construction, etc. In addition to all this analysis and planning of all these structures also comes under Civil Engineering.",
-	"definition": "There are several sub discipline under civil engineering. Few of them are as follows: Coastal engineering, Ocean engineering, Transportation, Geotech, Environment, Water Resource, Construction & Project Management, Earthquake Engineering, Structural engineering, Control engineering, Forensic engineering, Marine, etc.",
-	"course_information":"There are all the basic courses that a civil engineer needs - to design, develop and analyse structures. They start teaching us from the basic level, hence understanding won’t be an issue. The professors of this department are really friendly and generate immense interest in the subjects through various practical sessions, seminars and projects. Second year, is when you get into the department. We have subjects like Surveying, Construction of materials, Mechanics of material, Disaster Management, that actually help in creating a strong foundation for the future semesters. Third year, there are subjects like Soil mechanics. Prestressed concrete structures, Design of Steel structures, Architectural Drawings, Environmental engineering, where you’re exposed to the different fields of Civil engineering. You also get to do Mini Projects in this year (under a professor who is working in the same interest area). Final year, you have subjects related to Construction Project Management and you can choose from various electives offered. You have to do a Major Project in the final year.",
-	"core_specializations": [
-		{	
-			"title":"Coastal",
-			"desc":"Protect coastal areas against erosion and flooding."
-		},
-		{	
-			"title":"Earthquake",
-			"desc":"Test structures to ensure they are earthquake-resistant."
-		},
-		{	
-			"title":"Environmental ",
-			"desc":"Find new ways to protect our environment; create wind farms, work on water purification, wastewater treatment and solid waste treatment, etc."
-		},
-		{	
-			"title":"Structural ",
-			"desc":"Design and build bridges, towers, flyovers, tunnels, and offshore structures like oil and gas fields in the sea."
-		},
-		{	
-			"title":"Transport ",
-			"desc":"Work on building and maintaining roads, canals, highways, rail systems, airports, and ports."
-		},
-		{	
-			"title":"Urban ",
-			"desc":"Primarily focus on designing, constructing, and maintaining the roads, water supply networks, sewers, municipal solid waste management and disposal, public parks, etc."
-		},
-		{
-			"title":"Hydraulic & Water resources ",
-			"desc":"Design and construct water resources such as pipelines, drainage facilities (including dams, channels, culverts, storm sewers), and canals."
-		}
-	],
-	"pg":"There a whole lot of opportunities in this field: Continue in the field and take a core job. Pursue higher studies. Masters in India or abroad will definitely add up to your resume. Go in the research side and get innovative. You can take up Management studies and continue in the construction field. Take up a non core job (depends on your interest).",
-	"id":"cv"
-},
-{
-	"name": "Computer Engineering",
-	"icon": "computer.png",
-	"intro": "A Computer Engineer is one who ensures that the communication devices that you use in daily life, stay connected that way to the outside world, and give you the best experience. Computer Engineering breaks down a complex system into many parts (not just limited at the software level) and tries to analyze and optimize each of them separately.",
-	"definition": "",
-	"course_information":"",
-	"core_specializations": [
-		{	
-			"title":"Algorithms and Theoretical Computers ",
-			"desc":"Algorithms are mainly what drive Computers and perform computational calculation and automated reasoning. Theoretical Computer Science mainly deals with the mathematical aspects of computing. This field is a research oriented field where new theories help engineers to create better and new solutions."
-		},
-		{	
-			"title":"Networks and Security",
-			"desc":"In this digital era, most of life, entertainment and business activities are conducted online, either in cyberspace or mobile applications. Examples of these activities are banking, learning, socializing and buying merchandises like books, gadgets and even groceries. Network and information security issues are important issues that influence the smooth running of these activities. Thus protecting this information and securing it against unauthorised users is what is done in this specialisation"
-		},
-		{	
-			"title":"Machine Learning and Artificial Intelligence",
-			"desc":"Machine Learning and Artificial Intelligence though both not the same thing, are among the trending topics in Computer Science for this decade! Machine Learning is basically the functioning of programs to do tasks without being explicitly programmed to do so! The Big-Four (Google, Facebook, Amazon and Microsoft) explicitly look for engineers for placements in this specialisations and engineers are in huge demand for this!"
-		},
-		{	
-			"title":"Web Development",
-			"desc":"Web Development is primarily divided into Front End and Back End Web Development. Front End is basically what the end-user sees in their browser whereas backend refers to server code which is basically where all the information is stored! Lots of roles are open for Front end and Back end with a specific rise for further specialisation in either front end or backend!"
-		},
-		{
-			"title":"Mobile Development(Android, iOS, Hybrid)",
-			"desc":"Mobile Application Development is a career that is steadily on the rise with the advent of smartphones. There’s a huge demand for Native App developers on Android and iOS. Hybrid refers to app development which works both in Android and iOS. Often these apps fetch jobs in well-known startups with further specialisations like UI and UX (User Interface and User Experience)"
-		}
-	],
-	"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PhD, and also ample opportunities to pursue an MBA.",
-	"id":"cs"
-},
-{
-	"name": "Electrical Engineering",
-	"icon": "eee.png",
-	"intro": "Electrical engineering is the Godfather branch of all the circuit branches and is one of those which solves one of the most fundamental problems that faces society: (electrical) power. ECE, CS etc are all off-shoots from this branch. A branch highly under-rated because of its deglamorous perception in society and specifically urban India, it is by far one of the most challenging, intellectually involving and a first point in many interdisciplinary areas.  It is highly mathematical and requires a lot of in-depth analysis as well as critical thinking since not all what you learn is tangibly seen.  A branch meant for the lion hearts who wish to do some REAL engineering and get their hands (not literally) dirty.",
-	"definition": "Unlike what your Kapoor chachas and Malhotra uncles make you believe tIRRcal (as we call it in NITK) is NOT about fixing bulbs, fans and wires. Though it will help you in life in general if you could do these things. You will pick up the elementary KVL, KCL from Class 11th and dig circuits, networks and systems deeper. It is a study of electrical phenomenon pertaining to generating electricity. You will use these techniques to analyze larger power systems, energy systems etc. A lot of what you learn will be just analysis and can be applied in a variety of fields ranging from aerospace to finance to robotics. ",
-	"course_information":"You will have easy sounding courses like Circuit Theory, Electrical Machines and EM Theory which will actually be very involved. The longer the name of the course the easier it is (generally). Other courses like Digital circuits and Analog circuits form the backbone for the later courses like Power Electronics, Photovoltaics etc. You will have a lot of basic courses in the second year. They will pick up school level physics concepts and apply them to engineering. These courses will be needed to do the higher ones in third year.  In third year the major track is Power Electronics and Power Systems. There will be a few core courses but our department is very flexible and offers many electives. Take as many as you can if you wish to stay in this field. Our department has relatively fewer (thankfully) courses in ECE areas like DSP, communication, embedded etc. Also no coding courses like DSA and DBMS so make beware of this in advance.",
-	"core_specializations": [
-		{	
-			"title":"Power Systems",
-			"desc":"Power systems is a lot to do with large scale layouts of electrical lines, how to protect them, analyzing these systems and finding faults if any."
-		},
-		{	
-			"title":"Power Electronics",
-			"desc":"Power electronics (Inverter from 3 Idiots) is about designing devices to augment electrical machines and power systems in general. It has a lot to do with analog and digital electronics. "
-		},
-		{	
-			"title":"Renewable Energy",
-			"desc":"This is basically a vast and intricate intersection of numerous fields which is particularly trending in today's time due to increased use of renewable sources of energy."
-		},
-		{
-			"title":"Control Systems / SysCon",
-			"desc":"In NITK there is at most two courses on the same hence not a lot of concentration on this. It is however a very vast and general field with numerous applications in almost all areas. Basically SysCon is a way of analysis, sadly NITK doesn’t have too much emphasis on this."
-		}
-	],
-	"pg":"Apart from pursuing Core Electrical Engineering, there are options of joining IT, consulting, analytics etc.  There is also the assembly line path of MBA and a WPM job as well. A lot of people do GATE, IES and look for government jobs like PSUs, Railways etc. A large bunch of people also apply for MS in various areas and bounce off abroad for their courses. US, Netherlands, NUS, Canada and  ETH, Zurich are popular for tIRRcal masters. One can always find placements on campus in various companies for both core and non-core. As of 2016 around 10+ companies recruit tIRRcal core each year. You can always do out of the box stuff like work in rural electrification, NGOs etc which work on solar power, electric vehicles etc. ",
-	"id":"ee"
-},
-{
-	"name": "Electronics Engineering",
-	"icon": "ece.png",
-	"intro": "Electronics engineering, or electronic engineering, is an electrical engineering discipline which utilizes nonlinear and active electrical components (such as semiconductor devices, especially transistors, diodes and integrated circuits) to design electronic circuits, devices, microprocessors, microcontrollers and other systems. The discipline typically also designs passive electrical components, usually based on printed circuit boards.",
-	"definition": "There are two aspects- hardware and software. Hardware is about designing circuits- analog and digital. Software is basically digital signal processing which is about sending data from the surrounding, converting it into numbers and then manipulating the numbers. Communication is about designing effective algorithms and systems for communication.",
-	"course_information":"Circuit design- they teach you building blocks and then how to put them together to make interesting stuff, communication- has quite some physics and derivations, DSP- has math as well as programming, microcontrollers- a way to code hardware, very simple computers, DSA- data structures and algorithms, digital communication- math based algorithms and techniques for communication.",
-	"core_specializations": [
-		{	
-			"title":"Communication engineering",
-			"desc":"Deals with mathematical analysis and algorithms to transfer messages from one place to other issuing appropriate coding and modulation to achieve maximum reliability. "
-		},
-		{	
-			"title":"Microwave engineering",
-			"desc":"Most of the circuit theory cannot be used for analysing high frequency and RF systems. This requires the use of field theory developed through Maxwell’s equations, which becomes a highly mathematical specialization in itself. It supplements communication engineering building building antennas and systems that actually facilitate communication."
-		},
-		{	
-			"title":"Signal Processing ",
-			"desc":"Focus here is mainly on data and how to manipulate it by forming appropriate system models. Signal processing forms the basic foundation for communication engineering, control theory, and also helps supplement machine learning. "
-		},
-		{
-			"title":"Digital Signal Processing",
-			"desc":""
-		}
-	],
-	"pg":"1) Core- Design engineer, test engineer in analog or digital or microcontrollers or DSP <br> 2) Non-Core - IT or Finance/Analytics <br>3) Research in any field of ECE in a university",
-	"id":"ec"
-},
-{
-	"name": "Information Technology",
-	"icon": "it.png",
-	"intro": "Information Technology is the field of study, design, development, implementation, support and management of computer-based information systems, particularly software applications and computer hardware. Generally, information technology helps to create, control, store, communicate, and circulate information.",
-	"definition": "While the degree has a major focus on computers and technology, it differs from a Computer Science degree in that students are also expected to study management and information science, and there are reduced requirements for mathematics. A degree in computer science can be expected to concentrate on the scientific aspects of computing, while a degree in information technology can be expected to concentrate on the business and communication applications of computing. There is more emphasis on these two areas in the e-commerce, e-business and business information technology undergraduate courses.",
-	"course_information":"Courses are pretty similar to what Computer Science offers. A full list of courses offered by the IT Department can be found at http://infotech.nitk.ac.in/courses. However be warned that all the courses cannot be taken up as it depends on the professors who are offering that particular elective in a particular semester. Second year is when people get into the department and the actual work behind courses start! Third year is the most hectic one with almost 8 courses per semester if you take the compulsory electives! Also IT has more labs than CS with preference given to project work and lab work rather than just Theory!",
-	"core_specializations": [
-		{	
-			"title":"Algorithms and Theoretical Computers ",
-			"desc":"Algorithms are mainly what drive Computers and perform computational calculation and automated reasoning. Theoretical Computer Science mainly deals with the mathematical aspects of computing. This field is a research oriented field where new theories help engineers to create better and new solutions."
-		},
-		{	
-			"title":"Networks and Security",
-			"desc":"In this digital era, most of life, entertainment and business activities are conducted online, either in cyberspace or mobile applications. Examples of these activities are banking, learning, socializing and buying merchandises like books, gadgets and even groceries. Network and information security issues are important issues that influence the smooth running of these activities. Thus protecting this information and securing it against unauthorised users is what is done in this specialisation"
-		},
-		{	
-			"title":"Machine Learning and Artificial Intelligence",
-			"desc":"Machine Learning and Artificial Intelligence though both not the same thing, are among the trending topics in Computer Science for this decade! Machine Learning is basically the functioning of programs to do tasks without being explicitly programmed to do so! The Big-Four (Google, Facebook, Amazon and Microsoft) explicitly look for engineers for placements in this specialisations and engineers are in huge demand for this!"
-		},
-		{	
-			"title":"Web Development",
-			"desc":"Web Development is primarily divided into Front End and Back End Web Development. Front End is basically what the end-user sees in their browser whereas backend refers to server code which is basically where all the information is stored! Lots of roles are open for Front end and Back end with a specific rise for further specialisation in either front end or backend!"
-		},
-		{
-			"title":"Mobile Development(Android, iOS, Hybrid)",
-			"desc":"Mobile Application Development is a career that is steadily on the rise with the advent of smartphones. There’s a huge demand for Native App developers on Android and iOS. Hybrid refers to app development which works both in Android and iOS. Often these apps fetch jobs in well-known startups with further specialisations like UI and UX (User Interface and User Experience)"
-		}
-	],
-	"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PhD, and also ample opportunities to pursue an MBA.",
-	"id":"it"
-},
-{
-	"name": "Mechanical Engineering",
-	"icon": "mech.png",
-	"intro": "",
-	"definition": "",
-	"course_information":"Basic and Advanced Thermodynamics, Machine Design, Synthesis of Mechanisms, Material Science, Fluid Mechanical, etc as core subjects. CFD, Robotics, Nuclear Science, Wind Energy, etc as department electives, and other open electives from the Mathematics department, Basic Sciences department, and School of Management.",
-	"core_specializations": [
-		{	
-			"title":"",
-			"desc":""
-		},
-		{
-			"title":"",
-			"desc":""
-		}
-	],
-	"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PHD, and also ample opportunities to pursue an MBA.",
-	"id":"me"
-},
-{
-	"name": "Metallurgy Engineering",
-	"icon": "meta.png",
-	"intro": "Materials science studies the properties of matter to solve science and engineering problems. It uses applied physics and chemistry. Supersmall nanotechnology has got attention in recent years. There are many inventions of new material. Work on why structures fail or break down is very important to engineering.",
-	"definition": "In a nutshell, this department studies the structure-property relations of metals and other materials. Basically, we look at the structure of the metal at the atomic scale (FCC, BCC, that sort of stuff), how the atoms are arranged and bonded, and use this information to figure out what the macroscopic properties of the metal/material should be. Metallurgy is at the intersection of Mechanical Engineering and Chemical Engineering, along with some other concepts as well. We need to understand how stresses/strains work and how they effect the structures of metals at the atomic scale and hence the macro properties. This is where the concepts of Mechanical Engineering come in. Some fields of metallurgy deal with the science of the flow and reactions of molten metal, and this is where Chemical Engineering is needed. Of course, extraction of metals from ores is another important field.",
-	"course_information":"Metallurgical and Materials Engineering at NITK actually has the highest credit requirement of any department-180 credits over 4 years. There are 3 courses from Materials Engineering: Polymers, Ceramics, and Composites. Some of the metallurgy courses we have are: Physical Metallurgy (lays down the basic concepts needed to understand structure property relations), Principles of Extractive Metallurgy, Process Engineering (teaches fluid mechanics, heat transfer, mass transfer), X-Ray and Electron Metallography (how to view and understand microstructures), Fatigue Fracture and Creep (3 very important concepts of mechanical metallurgy), Heat Treatment (how to modify properties of metals by manipulating heating and cooling cycles), Production of Iron and Ferroalloys, Production of Steel, Corrosion Engineering, Aerospace Materials, Powder Metallurgy, Nanotechnology.",
-	"core_specializations": [
-		{	
-			"title":"Mechanical Metallurgy",
-			"desc":"Dealing with effects of stress, strain, etc"
-		},
-		{	
-			"title":"Failure Analysis",
-			"desc":"Understanding and explaining the underlying metallurgical cause of failure or fracture in metals"
-		},
-		{	
-			"title":"Process Metallurgy",
-			"desc":"How to handle metals in solid and molten states"
-		},
-		{	
-			"title":"Extractive Metallurgy",
-			"desc":"How to burn metals out of rocks"
-		},
-		{	
-			"title":"Materials Science",
-			"desc":"Can be in polymers, ceramics, etc"
-		},
-		{	
-			"title":"Nanotechnology",
-			"desc":"Playing with materials at the nano-scale"
-		},
-		{
-			"title":"Computational Materials Science",
-			"desc":"Using simulations to predict material behaviour"
-		}
-	],
-	"pg":"There are a lot of opportunities in this field. After graduating, you can take up a job or pursue further studies. Jobs can be obtained in industries such as SAIL, Tata Steel, etc. They can also be obtained in organisations such as DRDO, BARC, DMRL (Defence Metallurgical Research Laboratories), etc, although it is much easier to get such jobs with a Masters degree. Further studies can be pursued in India or abroad. Some of the finest work in India happens in universities such as IISc, Bengaluru and IIT Madras. BARC undertakes research and projects in the bleeding edge of metallurgy (dealing with the properties, modification and application of nuclear materials), and provides opportunities for students to obtain a Master's degree before starting their work. Alumni of NITK Metallurgy regularly go abroad for further studies. Some examples from the batches of 2016 and 2017 include Cornell, UCSD, Michigan State University, TU Delft, Chalmers University, EPFL, Erasmus Mundus (2 year funded programme in Europe), Polimi University and University of South Australia. After obtaining a Master's degree or even a PhD, you can get well-paying positions in academia or industry. Many metallurgists work as analytic consultants, performing failure analysis for industries.",
-	"id":"mt"
-},
-{
-	"name": "Mining Engineering",
-	"icon": "mining.png",
-	"intro": "Mining Engineering is about efficient extraction of minerals from the earth and at the same time looking after the economical and environmental factors. One gets to learn about the methods of mining and the technology to be used for profitable extraction.",
-	"definition": "Mining does not have any rocket science concepts. It needs simple analytical and managerial skills. The courses are simple as compared to other branches and will give you the same career opportunities and pay. There is not much competition in this field of engineering so there are ample of opportunities to excel and make it big. Have a look at the core courses again and check yourself if you want to pursue mining engineering for your B.Tech.",
-	"course_information":"The course is designed in such a way that it covers everything a mining engineer must know before he joins the industry and it also provides equal emphasis on pursing research. In the first year the courses will be common as for all branches. The second year will give an insight to what mining engineering is about and courses that develop the fundamentals of mining engineering are taught. Courses like geology, development of mineral deposits, drilling and blasting, surveying, mining machinery are covered. The third year covers all the important courses a mining engineer must know. These include rock mechanics, mine environment engineering, surface mining, underground coal mining, mine power systems. In the final year students are taught advanced courses that utilizes the knowledge of previous years. These courses include rock fragmentation engineering, underground metal mining, mineral processing, environmental management and mine legislation. Each semester courses have labs that cover theoretical concepts and the classes are supplemented with seminars, assignments, projects and presentations.",
-	"pg":"Joining the industry - One can join the industry and work as a mining engineer. There is periodic growth and can climb the engineer's grade ladder. One can leverage the knowledge and work experience to get into D.G.M.S Further studies - Those interested in pursuing research interests, generally apply for Masters and Ph.Ds in universities abroad. Non core - One can take up managerial jobs , become a business analyst, data analyst. Students also take up entrepreneurial pursuits after graduation.",
-	"core_specializations": [
-		{	
-			"title":"Rock Mechanics",
-			"desc":"The geophysical properties of rocks are studied in rock mechanics for understanding the stability of structures inside the mine. Rock mechanics has wide applications and is used in designing of pillars in underground coal mines, development of benches, monitoring the stability of slopes etc. Various tools and cutting edge software are used in the analysis."
-		},
-		{	
-			"title":"Mine Environment Engineering",
-			"desc":"The presence of gases in underground mines can lead to fire inside the mine (Google Jharia coal field to get an idea). In order to maintain safety and prevent disasters the knowledge of mine environment engineering is very important. One learns about ventilation in underground mine, gas monitoring equipments, methods to tackle fire and rescue operation techniques."
-		},
-		{	
-			"title":"Methods of Mining",
-			"desc":"Surface mining and underground mining are the two types of mining methods. In each of these one can specialize by understanding the principles of planning a surface or underground mine, methods of extraction, machinary to be employed, excavation and transportation of the minerals."
-		},
-		{
-			"title":"Drilling and Blasting ",
-			"desc":"For efficient extraction and maintaining the safety of the mine, the study of drilling and blasting is very important. Different blast layouts based on the properties of the soil are designed for an effective blast. Drilling techniques and different explosives combination are experimented for proper rock fragmentation. Further specialization can be done in controlled blasting and dredging operations. The knowledge of drilling can be leveraged to enter oil well drilling fields."
-		}
-	],
-	"id":"mn"
-}
+	{
+		"name": "Chemical Engineering",
+		"icon": "chemistry.png",
+		"intro": "Chemical Engineers have the primary responsibility of using raw materials and turning them into products which can be used in day-to-day lives of the people. Several of these products are commodities obtained from oil and gas and all these products are made with the help of chemical processes which allow us to access them.",
+		"definition": "Chemical Engineering, in principle, deals with the various physical and chemical processes that transpire in daily life, ranging from microscale to macroscale, and the understanding of these processes and how best to improve them, to suit the needs of the population. It is not to be confused with chemistry though as most students often do. Chemical Engineering is a huge and diverse branch. You'll be interested in building, designing and working of large industries and not so much about reactions/microscale details that happen inside (that is what Chemistry students concentrate about).",
+		"course_information":"Well it involves a wide range of courses from heat transfer, mass transfer, momentum transfer, chemical reaction engineering, separation processes, process control, petroleum engineering, thermodynamics etc. Quite a few students also go for higher studies to specialize in the field they're most interested in. (Almost all of them are 2 semester courses)",
+		"core_specializations": [
+			{	
+				"title":"Thermodynamics and Kinetics",
+				"desc":""
+			},
+			{
+				"title":"Reactor Design",
+				"desc":""
+			}
+		],
+		"pg":"Lots of options are available. Pharma companies, Oil and gas companies (Reliance, IOCL etc), other chemical companies (Pepsi Co, Jindal Steels etc) or even non-core jobs like marketing, analyst, coding etc. If you are interested in pharmaceutical or petroleum based areas or other subjects like thermodynamics or control of the process in any industry then it's a good option. There's theory as well as a lot of concept based numericals.",
+		"id":"ch"
+	},
+	{
+		"name": "Civil Engineering",
+		"icon": "civil.png",
+		"intro": "Civil Engineering is one of the oldest engineering branches started in NITK. Civil Engineering deals with airports, bridges, buildings, highways, networks, tunnels, water supply networks, transportation, construction, etc. In addition to all this analysis and planning of all these structures also comes under Civil Engineering.",
+		"definition": "There are several sub discipline under civil engineering. Few of them are as follows: Coastal engineering, Ocean engineering, Transportation, Geotech, Environment, Water Resource, Construction & Project Management, Earthquake Engineering, Structural engineering, Control engineering, Forensic engineering, Marine, etc.",
+		"course_information":"There are all the basic courses that a civil engineer needs - to design, develop and analyse structures. They start teaching us from the basic level, hence understanding won’t be an issue. The professors of this department are really friendly and generate immense interest in the subjects through various practical sessions, seminars and projects. Second year, is when you get into the department. We have subjects like Surveying, Construction of materials, Mechanics of material, Disaster Management, that actually help in creating a strong foundation for the future semesters. Third year, there are subjects like Soil mechanics. Prestressed concrete structures, Design of Steel structures, Architectural Drawings, Environmental engineering, where you’re exposed to the different fields of Civil engineering. You also get to do Mini Projects in this year (under a professor who is working in the same interest area). Final year, you have subjects related to Construction Project Management and you can choose from various electives offered. You have to do a Major Project in the final year.",
+		"core_specializations": [
+			{	
+				"title":"Coastal",
+				"desc":"Protect coastal areas against erosion and flooding."
+			},
+			{	
+				"title":"Earthquake",
+				"desc":"Test structures to ensure they are earthquake-resistant."
+			},
+			{	
+				"title":"Environmental ",
+				"desc":"Find new ways to protect our environment; create wind farms, work on water purification, wastewater treatment and solid waste treatment, etc."
+			},
+			{	
+				"title":"Structural ",
+				"desc":"Design and build bridges, towers, flyovers, tunnels, and offshore structures like oil and gas fields in the sea."
+			},
+			{	
+				"title":"Transport ",
+				"desc":"Work on building and maintaining roads, canals, highways, rail systems, airports, and ports."
+			},
+			{	
+				"title":"Urban ",
+				"desc":"Primarily focus on designing, constructing, and maintaining the roads, water supply networks, sewers, municipal solid waste management and disposal, public parks, etc."
+			},
+			{
+				"title":"Hydraulic & Water resources ",
+				"desc":"Design and construct water resources such as pipelines, drainage facilities (including dams, channels, culverts, storm sewers), and canals."
+			}
+		],
+		"pg":"There a whole lot of opportunities in this field: Continue in the field and take a core job. Pursue higher studies. Masters in India or abroad will definitely add up to your resume. Go in the research side and get innovative. You can take up Management studies and continue in the construction field. Take up a non core job (depends on your interest).",
+		"id":"cv"
+	},
+	{
+		"name": "Computer Engineering",
+		"icon": "computer.png",
+		"intro": "A Computer Engineer is one who ensures that the communication devices that you use in daily life, stay connected that way to the outside world, and give you the best experience. Computer Engineering breaks down a complex system into many parts (not just limited at the software level) and tries to analyze and optimize each of them separately.",
+		"definition": "",
+		"course_information":"",
+		"core_specializations": [
+			{	
+				"title":"Algorithms and Theoretical Computers ",
+				"desc":"Algorithms are mainly what drive Computers and perform computational calculation and automated reasoning. Theoretical Computer Science mainly deals with the mathematical aspects of computing. This field is a research oriented field where new theories help engineers to create better and new solutions."
+			},
+			{	
+				"title":"Networks and Security",
+				"desc":"In this digital era, most of life, entertainment and business activities are conducted online, either in cyberspace or mobile applications. Examples of these activities are banking, learning, socializing and buying merchandises like books, gadgets and even groceries. Network and information security issues are important issues that influence the smooth running of these activities. Thus protecting this information and securing it against unauthorised users is what is done in this specialisation"
+			},
+			{	
+				"title":"Machine Learning and Artificial Intelligence",
+				"desc":"Machine Learning and Artificial Intelligence though both not the same thing, are among the trending topics in Computer Science for this decade! Machine Learning is basically the functioning of programs to do tasks without being explicitly programmed to do so! The Big-Four (Google, Facebook, Amazon and Microsoft) explicitly look for engineers for placements in this specialisations and engineers are in huge demand for this!"
+			},
+			{	
+				"title":"Web Development",
+				"desc":"Web Development is primarily divided into Front End and Back End Web Development. Front End is basically what the end-user sees in their browser whereas backend refers to server code which is basically where all the information is stored! Lots of roles are open for Front end and Back end with a specific rise for further specialisation in either front end or backend!"
+			},
+			{
+				"title":"Mobile Development(Android, iOS, Hybrid)",
+				"desc":"Mobile Application Development is a career that is steadily on the rise with the advent of smartphones. There’s a huge demand for Native App developers on Android and iOS. Hybrid refers to app development which works both in Android and iOS. Often these apps fetch jobs in well-known startups with further specialisations like UI and UX (User Interface and User Experience)"
+			}
+		],
+		"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PhD, and also ample opportunities to pursue an MBA.",
+		"id":"cs"
+	},
+	{
+		"name": "Electrical Engineering",
+		"icon": "eee.png",
+		"intro": "Electrical engineering is the Godfather branch of all the circuit branches and is one of those which solves one of the most fundamental problems that faces society: (electrical) power. ECE, CS etc are all off-shoots from this branch. A branch highly under-rated because of its deglamorous perception in society and specifically urban India, it is by far one of the most challenging, intellectually involving and a first point in many interdisciplinary areas.  It is highly mathematical and requires a lot of in-depth analysis as well as critical thinking since not all what you learn is tangibly seen.  A branch meant for the lion hearts who wish to do some REAL engineering and get their hands (not literally) dirty.",
+		"definition": "Unlike what your Kapoor chachas and Malhotra uncles make you believe tIRRcal (as we call it in NITK) is NOT about fixing bulbs, fans and wires. Though it will help you in life in general if you could do these things. You will pick up the elementary KVL, KCL from Class 11th and dig circuits, networks and systems deeper. It is a study of electrical phenomenon pertaining to generating electricity. You will use these techniques to analyze larger power systems, energy systems etc. A lot of what you learn will be just analysis and can be applied in a variety of fields ranging from aerospace to finance to robotics. ",
+		"course_information":"You will have easy sounding courses like Circuit Theory, Electrical Machines and EM Theory which will actually be very involved. The longer the name of the course the easier it is (generally). Other courses like Digital circuits and Analog circuits form the backbone for the later courses like Power Electronics, Photovoltaics etc. You will have a lot of basic courses in the second year. They will pick up school level physics concepts and apply them to engineering. These courses will be needed to do the higher ones in third year.  In third year the major track is Power Electronics and Power Systems. There will be a few core courses but our department is very flexible and offers many electives. Take as many as you can if you wish to stay in this field. Our department has relatively fewer (thankfully) courses in ECE areas like DSP, communication, embedded etc. Also no coding courses like DSA and DBMS so make beware of this in advance.",
+		"core_specializations": [
+			{	
+				"title":"Power Systems",
+				"desc":"Power systems is a lot to do with large scale layouts of electrical lines, how to protect them, analyzing these systems and finding faults if any."
+			},
+			{	
+				"title":"Power Electronics",
+				"desc":"Power electronics (Inverter from 3 Idiots) is about designing devices to augment electrical machines and power systems in general. It has a lot to do with analog and digital electronics. "
+			},
+			{	
+				"title":"Renewable Energy",
+				"desc":"This is basically a vast and intricate intersection of numerous fields which is particularly trending in today's time due to increased use of renewable sources of energy."
+			},
+			{
+				"title":"Control Systems / SysCon",
+				"desc":"In NITK there is at most two courses on the same hence not a lot of concentration on this. It is however a very vast and general field with numerous applications in almost all areas. Basically SysCon is a way of analysis, sadly NITK doesn’t have too much emphasis on this."
+			}
+		],
+		"pg":"Apart from pursuing Core Electrical Engineering, there are options of joining IT, consulting, analytics etc.  There is also the assembly line path of MBA and a WPM job as well. A lot of people do GATE, IES and look for government jobs like PSUs, Railways etc. A large bunch of people also apply for MS in various areas and bounce off abroad for their courses. US, Netherlands, NUS, Canada and  ETH, Zurich are popular for tIRRcal masters. One can always find placements on campus in various companies for both core and non-core. As of 2016 around 10+ companies recruit tIRRcal core each year. You can always do out of the box stuff like work in rural electrification, NGOs etc which work on solar power, electric vehicles etc. ",
+		"id":"ee"
+	},
+	{
+		"name": "Electronics Engineering",
+		"icon": "ece.png",
+		"intro": "Electronics engineering, or electronic engineering, is an electrical engineering discipline which utilizes nonlinear and active electrical components (such as semiconductor devices, especially transistors, diodes and integrated circuits) to design electronic circuits, devices, microprocessors, microcontrollers and other systems. The discipline typically also designs passive electrical components, usually based on printed circuit boards.",
+		"definition": "There are two aspects- hardware and software. Hardware is about designing circuits- analog and digital. Software is basically digital signal processing which is about sending data from the surrounding, converting it into numbers and then manipulating the numbers. Communication is about designing effective algorithms and systems for communication.",
+		"course_information":"Circuit design- they teach you building blocks and then how to put them together to make interesting stuff, communication- has quite some physics and derivations, DSP- has math as well as programming, microcontrollers- a way to code hardware, very simple computers, DSA- data structures and algorithms, digital communication- math based algorithms and techniques for communication.",
+		"core_specializations": [
+			{	
+				"title":"Communication engineering",
+				"desc":"Deals with mathematical analysis and algorithms to transfer messages from one place to other issuing appropriate coding and modulation to achieve maximum reliability. "
+			},
+			{	
+				"title":"Embedded System design",
+				"desc":"This area deals with controlling a processor, one writes code (c/assembly) to perform a specific function and also control various peripherals. Not only that but also deal with selecting the component which will be best suited for the task mainly based on power and performance. "
+			},
+			{	
+				"title":"Digital VLSI",
+				"desc":"Deals with the concepts related to various types of MOSFET circuits used in digital ICs. Mostly this ends up in using CMOS for your designs. One will do the layout, routing and the simulation of the designed circuit."
+			},
+			{	
+				"title":"Communication engineering",
+				"desc":"Deals with mathematical analysis and algorithms to transfer messages from one place to other issuing appropriate coding and modulation to achieve maximum reliability. "
+			},
+			{	
+				"title":"Microwave engineering",
+				"desc":"Most of the circuit theory cannot be used for analysing high frequency and RF systems. This requires the use of field theory developed through Maxwell’s equations, which becomes a highly mathematical specialization in itself. It supplements communication engineering building building antennas and systems that actually facilitate communication."
+			},
+			{	
+				"title":"Signal Processing ",
+				"desc":"Focus here is mainly on data and how to manipulate it by forming appropriate system models. Signal processing forms the basic foundation for communication engineering, control theory, and also helps supplement machine learning. "
+			}
+		],
+		"pg":"1) Core- Design engineer, test engineer in analog or digital or microcontrollers or DSP <br> 2) Non-Core - IT or Finance/Analytics <br>3) Research in any field of ECE in a university",
+		"id":"ec"
+	},
+	{
+		"name": "Information Technology",
+		"icon": "it.png",
+		"intro": "Information Technology is the field of study, design, development, implementation, support and management of computer-based information systems, particularly software applications and computer hardware. Generally, information technology helps to create, control, store, communicate, and circulate information.",
+		"definition": "While the degree has a major focus on computers and technology, it differs from a Computer Science degree in that students are also expected to study management and information science, and there are reduced requirements for mathematics. A degree in computer science can be expected to concentrate on the scientific aspects of computing, while a degree in information technology can be expected to concentrate on the business and communication applications of computing. There is more emphasis on these two areas in the e-commerce, e-business and business information technology undergraduate courses.",
+		"course_information":"Courses are pretty similar to what Computer Science offers. A full list of courses offered by the IT Department can be found at http://infotech.nitk.ac.in/courses. However be warned that all the courses cannot be taken up as it depends on the professors who are offering that particular elective in a particular semester. Second year is when people get into the department and the actual work behind courses start! Third year is the most hectic one with almost 8 courses per semester if you take the compulsory electives! Also IT has more labs than CS with preference given to project work and lab work rather than just Theory!",
+		"core_specializations": [
+			{	
+				"title":"Algorithms and Theoretical Computers ",
+				"desc":"Algorithms are mainly what drive Computers and perform computational calculation and automated reasoning. Theoretical Computer Science mainly deals with the mathematical aspects of computing. This field is a research oriented field where new theories help engineers to create better and new solutions."
+			},
+			{	
+				"title":"Networks and Security",
+				"desc":"In this digital era, most of life, entertainment and business activities are conducted online, either in cyberspace or mobile applications. Examples of these activities are banking, learning, socializing and buying merchandises like books, gadgets and even groceries. Network and information security issues are important issues that influence the smooth running of these activities. Thus protecting this information and securing it against unauthorised users is what is done in this specialisation"
+			},
+			{	
+				"title":"Machine Learning and Artificial Intelligence",
+				"desc":"Machine Learning and Artificial Intelligence though both not the same thing, are among the trending topics in Computer Science for this decade! Machine Learning is basically the functioning of programs to do tasks without being explicitly programmed to do so! The Big-Four (Google, Facebook, Amazon and Microsoft) explicitly look for engineers for placements in this specialisations and engineers are in huge demand for this!"
+			},
+			{	
+				"title":"Web Development",
+				"desc":"Web Development is primarily divided into Front End and Back End Web Development. Front End is basically what the end-user sees in their browser whereas backend refers to server code which is basically where all the information is stored! Lots of roles are open for Front end and Back end with a specific rise for further specialisation in either front end or backend!"
+			},
+			{
+				"title":"Mobile Development(Android, iOS, Hybrid)",
+				"desc":"Mobile Application Development is a career that is steadily on the rise with the advent of smartphones. There’s a huge demand for Native App developers on Android and iOS. Hybrid refers to app development which works both in Android and iOS. Often these apps fetch jobs in well-known startups with further specialisations like UI and UX (User Interface and User Experience)"
+			}
+		],
+		"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PhD, and also ample opportunities to pursue an MBA.",
+		"id":"it"
+	},
+	{
+		"name": "Mechanical Engineering",
+		"icon": "mech.png",
+		"intro": "Mechanical engineering is a huge field overlapping with many other engineering branches. Being one of the oldest branches, mechanical engineering is the study, design and production/manufacturing of machines and mechanical systems. It also deals with generating energy of various forms and its interconversion and creating and selecting materials for engineering applications.",
+		"definition": "Mainly we use the concepts and applications of physics and maths to develop solutions to design, analyze and produce manufacturing plants, industrial equipment and machinery, heating and cooling systems, transport systems, aircraft, watercraft, robotics, medical devices, weapons, and others. Due  to the large overlap with other fields mechanical engineering students are required to know some decent of information about other engineering branches. In general we engineer useful products and solutions for consumers that makes human life simpler.",
+		"course_information":"Basic and Advanced Thermodynamics, Machine Design, Synthesis of Mechanisms, Material Science, Fluid Mechanics and hydraulics, manufacturing processes and technology etc as core subjects. Computational Fluid Dynamics , Robotics, Nuclear Science, Wind Energy, etc as department electives, and other open electives from the Mathematics department, Basic Sciences department, and School of Management.",
+		"core_specializations": [
+			{	
+				"title":"Design ",
+				"desc":"Create structures and mechanisms for various machines that uses mechanics (including solid mechanics) to get a desired functionality."
+			},
+			{
+				"title":"Thermal ",
+				"desc":"Using concepts of heat flow and fluid mechanics, create stable or dynamic systems for heating, cooling, power generating or energy conversion purposes."
+			},
+			{
+				"title":"Manufacturing",
+				"desc":"Learn different ways to manufacture a components and to select the best methods."
+			},
+			{
+				"title":"Material",
+				"desc":"Learn how chemical properties of materials affect physical properties, and hence learn to produce and select appropriate materials for various applications."
+			}
+		],
+		"pg":"Technical and non technical jobs as part of campus placement, higher studies for MS or PHD, and also ample opportunities to pursue an MBA. Mechanical engineering deals with the design, development, installation, operation and maintenance of anything that has moving parts. Because of this, you will find relevant opportunities in a range of sectors, including: aerospace,automotive,construction,energy,manufacturing,medicine,railway, Sport, Nuclear, Service, Quality. Generally speaking, as a mechanical engineer, you will have plenty of opportunities to work abroad if you wish. You will also have the skills required for careers in business and management, IT, finance and law.",
+		"id":"me"
+	},
+	{
+		"name": "Metallurgy Engineering",
+		"icon": "meta.png",
+		"intro": "Materials science studies the properties of matter to solve science and engineering problems. It uses applied physics and chemistry. Supersmall nanotechnology has got attention in recent years. There are many inventions of new material. Work on why structures fail or break down is very important to engineering.",
+		"definition": "In a nutshell, this department studies the structure-property relations of metals and other materials. Basically, we look at the structure of the metal at the atomic scale (FCC, BCC, that sort of stuff), how the atoms are arranged and bonded, and use this information to figure out what the macroscopic properties of the metal/material should be. Metallurgy is at the intersection of Mechanical Engineering and Chemical Engineering, along with some other concepts as well. We need to understand how stresses/strains work and how they effect the structures of metals at the atomic scale and hence the macro properties. This is where the concepts of Mechanical Engineering come in. Some fields of metallurgy deal with the science of the flow and reactions of molten metal, and this is where Chemical Engineering is needed. Of course, extraction of metals from ores is another important field.",
+		"course_information":"Metallurgical and Materials Engineering at NITK actually has the highest credit requirement of any department-180 credits over 4 years. There are 3 courses from Materials Engineering: Polymers, Ceramics, and Composites. Some of the metallurgy courses we have are: Physical Metallurgy (lays down the basic concepts needed to understand structure property relations), Principles of Extractive Metallurgy, Process Engineering (teaches fluid mechanics, heat transfer, mass transfer), X-Ray and Electron Metallography (how to view and understand microstructures), Fatigue Fracture and Creep (3 very important concepts of mechanical metallurgy), Heat Treatment (how to modify properties of metals by manipulating heating and cooling cycles), Production of Iron and Ferroalloys, Production of Steel, Corrosion Engineering, Aerospace Materials, Powder Metallurgy, Nanotechnology.",
+		"core_specializations": [
+			{	
+				"title":"Mechanical Metallurgy",
+				"desc":"Dealing with effects of stress, strain, etc"
+			},
+			{	
+				"title":"Failure Analysis",
+				"desc":"Understanding and explaining the underlying metallurgical cause of failure or fracture in metals"
+			},
+			{	
+				"title":"Process Metallurgy",
+				"desc":"How to handle metals in solid and molten states"
+			},
+			{	
+				"title":"Extractive Metallurgy",
+				"desc":"How to burn metals out of rocks"
+			},
+			{	
+				"title":"Materials Science",
+				"desc":"Can be in polymers, ceramics, etc"
+			},
+			{	
+				"title":"Nanotechnology",
+				"desc":"Playing with materials at the nano-scale"
+			},
+			{
+				"title":"Computational Materials Science",
+				"desc":"Using simulations to predict material behaviour"
+			}
+		],
+		"pg":"There are a lot of opportunities in this field. After graduating, you can take up a job or pursue further studies. Jobs can be obtained in industries such as SAIL, Tata Steel, etc. They can also be obtained in organisations such as DRDO, BARC, DMRL (Defence Metallurgical Research Laboratories), etc, although it is much easier to get such jobs with a Masters degree. Further studies can be pursued in India or abroad. Some of the finest work in India happens in universities such as IISc, Bengaluru and IIT Madras. BARC undertakes research and projects in the bleeding edge of metallurgy (dealing with the properties, modification and application of nuclear materials), and provides opportunities for students to obtain a Master's degree before starting their work. Alumni of NITK Metallurgy regularly go abroad for further studies. Some examples from the batches of 2016 and 2017 include Cornell, UCSD, Michigan State University, TU Delft, Chalmers University, EPFL, Erasmus Mundus (2 year funded programme in Europe), Polimi University and University of South Australia. After obtaining a Master's degree or even a PhD, you can get well-paying positions in academia or industry. Many metallurgists work as analytic consultants, performing failure analysis for industries.",
+		"id":"mt"
+	},
+	{
+		"name": "Mining Engineering",
+		"icon": "mining.png",
+		"intro": "Mining Engineering is about efficient extraction of minerals from the earth and at the same time looking after the economical and environmental factors. One gets to learn about the methods of mining and the technology to be used for profitable extraction.",
+		"definition": "Mining does not have any rocket science concepts. It needs simple analytical and managerial skills. The courses are simple as compared to other branches and will give you the same career opportunities and pay. There is not much competition in this field of engineering so there are ample of opportunities to excel and make it big. Have a look at the core courses again and check yourself if you want to pursue mining engineering for your B.Tech.",
+		"course_information":"The course is designed in such a way that it covers everything a mining engineer must know before he joins the industry and it also provides equal emphasis on pursing research. In the first year the courses will be common as for all branches. The second year will give an insight to what mining engineering is about and courses that develop the fundamentals of mining engineering are taught. Courses like geology, development of mineral deposits, drilling and blasting, surveying, mining machinery are covered. The third year covers all the important courses a mining engineer must know. These include rock mechanics, mine environment engineering, surface mining, underground coal mining, mine power systems. In the final year students are taught advanced courses that utilizes the knowledge of previous years. These courses include rock fragmentation engineering, underground metal mining, mineral processing, environmental management and mine legislation. Each semester courses have labs that cover theoretical concepts and the classes are supplemented with seminars, assignments, projects and presentations.",
+		"pg":"Joining the industry - One can join the industry and work as a mining engineer. There is periodic growth and can climb the engineer's grade ladder. One can leverage the knowledge and work experience to get into D.G.M.S Further studies - Those interested in pursuing research interests, generally apply for Masters and Ph.Ds in universities abroad. Non core - One can take up managerial jobs , become a business analyst, data analyst. Students also take up entrepreneurial pursuits after graduation.",
+		"core_specializations": [
+			{	
+				"title":"Rock Mechanics",
+				"desc":"The geophysical properties of rocks are studied in rock mechanics for understanding the stability of structures inside the mine. Rock mechanics has wide applications and is used in designing of pillars in underground coal mines, development of benches, monitoring the stability of slopes etc. Various tools and cutting edge software are used in the analysis."
+			},
+			{	
+				"title":"Mine Environment Engineering",
+				"desc":"The presence of gases in underground mines can lead to fire inside the mine (Google Jharia coal field to get an idea). In order to maintain safety and prevent disasters the knowledge of mine environment engineering is very important. One learns about ventilation in underground mine, gas monitoring equipments, methods to tackle fire and rescue operation techniques."
+			},
+			{	
+				"title":"Methods of Mining",
+				"desc":"Surface mining and underground mining are the two types of mining methods. In each of these one can specialize by understanding the principles of planning a surface or underground mine, methods of extraction, machinary to be employed, excavation and transportation of the minerals."
+			},
+			{
+				"title":"Drilling and Blasting ",
+				"desc":"For efficient extraction and maintaining the safety of the mine, the study of drilling and blasting is very important. Different blast layouts based on the properties of the soil are designed for an effective blast. Drilling techniques and different explosives combination are experimented for proper rock fragmentation. Further specialization can be done in controlled blasting and dredging operations. The knowledge of drilling can be leveraged to enter oil well drilling fields."
+			}
+		],
+		"id":"mn"
+	}
 ]

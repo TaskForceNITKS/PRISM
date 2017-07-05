@@ -47,7 +47,7 @@ function loadDepartmentsList() {
 
 		var title = document.createElement('div');
 		title.className = "department-title";
-		title.innerText = department.name;
+		title.innerHTML = department.name;
 
 		container.appendChild(icon);
 		container.appendChild(title);
