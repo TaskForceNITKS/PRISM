@@ -1,39 +1,452 @@
+/*
+ * Store all images under folder fests/name-of-fest/image-name.jpg
+ * Make sure to compress all images in proper folder
+*/
+
 var fests=[
 {
 	"name": "Incident",
 	"image":"inci.jpg",
-	"convenor" : "Adarsh Pai",
-	 "id": "inci",
-	"events":"1)There are a plethora of events including musical events, dance events, dramatics, art and literary events. These events witness participation from many colleges. <br><br> 2) The Pronite events, since its inception  have witnessed performances by top musicians like Sunidhi Chauhan, KK, Kunal Ganjawala, Nikhil Chinappa , DJ Oliver Moldan, Vishal - Shekhar, Salim - Suleiman and bands like Breathe Floyd, Led Zepplica, Mother Jane, Euphoria, Indian Ocean, Galeej Gurus, Parikrama and many more.<br><br>  3) There are also the Inci Specials, which are unique to the fest. Having beach events at our own beach has always been a major boost to the fest.",
-	"description":" Incident is the annual cultural festival of NITK, generally held in the month of March. It is considered to be one of the biggest cultural festivals in India. Incident was started in the year 1980 and since then, it has grown by leaps and bounds to achieve its present stature. "
+	"head_image":"",
+	"team" : [
+		{
+			"name":"Adarsh Pai",
+			"post_name":"Convenor",
+			"image":"Adarsh Pai.JPG"
+		},
+		{
+			"name":"Srikanth Dasari",
+			"post_name":"Joint Convenor",
+			"image":"Srikanth.jpg"
+		},
+		{
+			"name":"Revanth Reddy",
+			"post_name":"Treasurer",
+			"image":"Revanth Reddy.jpeg"
+		}
+	],
+	"id": "inci",
+	"introduction": [
+		{
+			"image":"history.jpg",
+			"content":"INCIDENT, the annual cultural festival of NITK, Surathkal which began in the 1980s has now grown to be the 2nd largest cultural fest of South India with footfall of over 40,000 every year from all over the country. It comprises of over 60 events in total.The fest was started by the students of the college led by Umar Teekay during the 1980s,with a budget of Rs. 10000.
+By 1985, Incident events were split between the SAC and the SJA. By the beginning of the 1990s, the fest had become a legend among the Mangaloreans. In 1992, one of the biggest industries of Mangalore then – PVS beedies Pvt. Ltd. Sponsored Incident when it created history by holding Fashion shows contests for the first time. Incident in the 2000s was Gen Ys Incident where new cultural norms were arising everyday.However, the biggest revolution happened in Incident 2005 with the introduction of “Pronites” that took celebration to a whole new level with the Parikrama playing their groovy tunes to the cheers of the students. Incident 2006 marked the first “Beach events” that were held. 
+ Incident 2009-2015 were Incident's golden years where the fest went countrywide. Participation from colleges around Karnataka and the rest of country were at a new high. It has featured amazing performances by artistes of calibre like  KK, Kunal Ganjawala, Sunidhi Chauhan, , Salim-Sulaiman, as well as bands such as Indian Ocean,Swarathma and Led Zeppelica. International performing artistes like Roy Zaltsman and The Turbans have also performed at Incident. "
+		}
+	],
+	"committees": [
+		{
+			"name":"Office",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"Office is the heart of all committees.The main activities of this committee are selling tickets for events/shows and doing registrations for various events of the fest. It also allots rooms for participants from other colleges."
+		},
+		{
+			"name":"Corporate Hospitality",
+			"procedure":"a google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"Receives all the guests,judges,artists and provides hospitality to them."
+		},
+
+			{
+			"name":"Student Hospitality",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.", 
+			"committee_does":"Receives all the students and guides them to the allotted rooms.",
+			
+		},
+		{
+			"name":"Inci Force",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"Checks ID cards and entry passes for all the proshows.Controls Crowd and ensures that there is no disturbance."
+			
+		},
+
+		{
+			"name":"Pronites",
+			"procedure":"a google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"Makes sure that all proshows  are run smoothly.Takes care of artists in the back stage."
+			
+		},
+		
+		{
+			"name":"Beach",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"Organises Beach games,Kite festival,Dj war,informals."
+			
+		},
+
+		{
+			"name":"Foods and Refreshments",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"They look after setting up of food stalls for fest ."
+			
+		},
+
+		{
+			"name":"Facilities Management",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"They have to provide all the requirements for all the events of Incident(Fans/Coolers in SAC back stage).Providing necessary things for artists in backstage etc."
+			
+		},
+
+
+ 		{
+			"name":"Transport",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"Rents bikes,cars needed for events and looks after the bills related to rent and petrol expenses. "
+			
+		},
+
+		{
+			"name":"SJA",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"They are in charge of the events that happen in  SJA. They  ensure that the events run smoothly."
+			
+		},
+
+
+		{
+			"name":"LSD(Lights,Sound,Decoration)",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"committee_does":"Take care of Decorating and Lighting up the whole Campus.Also in charge of the sound systems for events. "
+			
+		},
+
+		{
+			"name":"Marketing and Publicity",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview.",
+			"committee_does":""
+			
+		},
+
+			{
+			"name":"Media",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
+			"committee_does":"They look after the poster designing and making of teasers which elevates the fest.Students who know photoshop can join this committee."
+			
+		},
+
+
+
+
+	],
+	"events": [
+		
+
+		{
+			"name":"Sports",
+			"description":"
+  1. SLAM DUNK: The biggest inter-collegiate basketball tournament. Prizes worth 75k.
+  2. SPIN SHOCK: The Inter-Collegiate THROWBALL tournament.",
+			"image":"sports.jpg"
+		},
+
+
+		{
+			"name":"Literary Events",
+			"description":"  General Quiz, India Quiz, Spent Quiz, Lone Wolf Quiz, Just a Minute, Sports Entertainment Quiz are some of the events held under this.",
+			"image":"literary.jpg"
+		},
+
+	
+		{
+			"name":"Musicals",
+			"description":" Events held under this are:
+1. Bandish: The Eastern Rock Band Competition.
+  2. Dhwanik: Eastern Acoustic Band Competition.
+  3. Pulse: Semi Professional Western Rock Band Competition.
+  4. Unplugged: Western Acoustic Band and A Cappella Competition. 
+  5. Raagalaya: Solo Eastern Vocals Competition.
+  6. Center Stage: Solo Instrumental Competition.",
+			"image":"music.JPG"
+		},
+
+
+		{
+			"name":"Dance",
+			"description":"Events held under this are:
+	 1. Step Up (Solo)
+ 	 2. Step Up (Duet)
+ 	 3. Promenade: Semi Professional Western Group Dance Competition.
+  	4. Tandav: Semi Professional Eastern and Contemporary Group Dance  Competition.",
+			"image":"dance.JPG"
+		},
+
+
+		{
+			"name":"Biz Events",
+			"description":"If Dalal Street is the right street for you, then here is the right checkpoint to get to it. Set your analytical minds in motion and outwit the smartest, take the boldest decisions and let your biz skills rule the stage. We have events like Biz Quiz, Mock Stock, Mock Press.",
+			"image":"bizEvents.jpg"
+		},
+
+
+		{
+			"name":"Haute Couture",
+			"description":" Incident invites you to sizzle the ramp with enchanting choreographies, exotic costumes and searing attitude at our Fashion Show Competition – Haute Couture.",
+			"image":"hauteCouture.JPG"
+		},
+
+
+		{
+			"name":"Inci Talks",
+			"description":"This was started for the first time in Inci’17.Famous personalities such as JayaPrakash Narayan,Balaji Viswanath,Prach Tehlan etc. come to address the students.",
+			"image":"inciTalks.JPG"
+		},
+
+
+		
+		{
+			"name":"Gaming",
+			"description":" Incident presents to you Oblivion, a collection of gaming events including DOTA, NFS, FIFA 11 and Counterstrike and many more.",
+			"image":"gaming.jpg"
+		},
+
+
+
+		
+		{
+			"name":"Workshops",
+			"description":"Incident brings to you an appetising list of workshops to nurture your body, heart and mind alike, encompassing music, dance, art, fitness and more. Last Incident we had Frisbee workshop, Guitar Clinic, Hip-Hop workshop, Mask Making workshop, TTT workshop etc.",
+			"image":"workshops.JPG"
+		},
+
+
+
+		
+		{
+			"name":"Beach Events",
+			"description":"The NITK Beach plays host to a party that you wouldn't want to miss . Beach events during Incident are held on our very own private beach. This is something very unique to NITK and Incident.DJ Wars, Beach Informals and Kite Fest provides an experience that you would cherish for a long time",
+			"image":"beach.JPG"
+		},
+
+		
+		{
+			"name":"Inci Specials",
+			"description":" 1.EXPOSE : Photography 				Exhibition organized in association with 				the Photography 	Club.
+  2. KALAKRITI : An art exhibition organized by Artists’ 				Forum.
+  3.HOGATHON :The perfect platform to show off your hogging skills. Come in teams of two and compete with others to win the Hogathn title.
+  4. PROM NIGHT:Want a romantic night where you can dance under the stars with your date? If yes,then you should definitely go for prom night.",
+			"image":"inciSpecials.JPG"
+		},
+
+
+
+		
+		{
+			"name":"Fresh Face Contest",
+			"description":"Incident presents the Fresh Face Contest for all those gorgeous rookies out there . You just have to send your photos to the Incident, NITK Surathkal facebook page and watch the world go mad with envy. Entries will be posted on your walls and the one with the maximum likes will be crowned the Fresh Face at Incident.",
+			"image":"freshFace.jpg"
+		},
+
+
+
+		
+		{
+			"name":"Pronites",
+			"description":"Incident Proshows feature various national and international artists spanning various genres of music including rock, heavy metal, pop, electronic and Sufi music. The festival's Pro-Nite event has featured top Indian artists including Parikrama in 2005,Euphoria in 2006, Raghu Dixit and Indian Ocean in 2007, KK in 2008  and again in 2010, Nikhil Chinapa and Kunal Ganjawala in 2009, Motherjane in 2010, Sunidhi Chauhan in 2011, Javed Ali in March 2013, Salim Sulaiman,in March 2014 .
+Last year pro shows : Karthick Iyer, Baiju Dharmajan, Masala Coffee, Angad Singh, Red Bull Tour Bus, The Local Train, Lost Stories, Ace Axe.",
+			"image":"pronites.JPG"
+		},
+
+
+		{
+			"name":"Other events",
+			"description":"There are many more exciting events like ‘My Story’, a blogging contest for enthusiastic writers, Body Art Competition, Newspaper Costume Design and many more.I-Care Beach is a social initiative during Incident that has been changing the lives of several children from financially poor backgrounds.",
+			"image":"icare.JPG"
+		}
+
+	]
 },
+
 {
 	"name": "Engineer",
-	"image":"engineer.jpg",
-	"convenor" : "Sachin Kumar",
-	"id":"en",
-	"events":"",
-	"description":"As a fresher, you will most longingly look forward to your first college fest, ENGINEER, the annual technical symposium of NITK.Held usually in the month of October, Engi is all about putting your technical skills to the test and bringing forth the very best of it. It gives you the chance to explore the inner tech geek in you. Apart from participating in the events, you can also be a part of various committees such as Freefall and Pronites. Make sure you do volunteer, as it is a great way to gain some hands-on experience as well as get to know your seniors and batchmates. <br><br> Apart from a wide variety of scintillating events, what you should be looking forward to is the ‘block timing extensions’! From the very first day of college you will have to be back in your hostels by 7:00 p.m. (excluding block VII students), but during Engineer, block timings get extended till the end of that night's show, which is around 12 or 1 in the night, or rather morning. You will be free to roam around the campus, under a blanket of starry skies and it will, most surely, be an amazing experience. <br><br> For the events, there’s always something for every branch. You can also look forward to the Astro and Business events along with the most-awaited Pronites events like Laser show, Comedy show and DJ night!<br><br> The Mechanical events are one of the most awaited ones. From Bot Hockey to Wright Flight and many such events see active participation from many colleges, not only in and around Mangalore, but also from afar. The crowd puller event is Robo Wars where you can watch robots get (literally) crushed .It’s not always a great sight and you sometimes end up feeling sorry for the participants, watching their efforts go up in flames (really) . <br><br> For all the Googlers out there, Virtual Bounty is the event of your dreams. It is the online treasure hunt competition of Engineer. Some of you might be familiar with what an OTH is, for others it is basically “How well can you Google? “. VB goes on throughout the Engineer schedule; so when you come back to the hostels after a long day of events, there is always some excitement waiting for you online.<br><br> Inscription is the online competitive coding contest of Engineer. It is generally hosted on the Sphere Online Judge platform (SPOJ).<br><br> Then, there’s also CTF( Capture the flag) and Hackathon for the avid coders.<br><br> Ever dreamt of flying a spaceship? Here’s your chance. Don’t miss out on Orbiter, a flight simulator setup designed to give you the vibes and feels of the Martian terrain.<br><br> And if you want to spot the beautiful constellations in the night sky and listen to the stories of Greek Heroes after whom they were named, do go for Starry Nights.The Astro committee hosts other events too, such as Antariksh (exhibition) and Star Wars (quiz) as well. <br><br> The most captivating part of Engi is Technites, brought to you by the students who call themselves ‘the magicians of the after dark’. They truly do create sheer magic with their technical and creative skills; like making flames dance to the the tunes of the latest songs. Moreover, to see the fountains dance to your favourite tunes, do visit Symphony and to create music with your footsteps, just walk down the piano stairs.<br><br> For those of you who want to add onto your skill set and hence your career prospects, there’s a plethora of workshops conducted by experts. Ranging from Ethical Hacking to Bridge Design, there is no lack of options to choose from. Some of these might just roll over your ears, but it is definitely worth giving a shot.<br><br> For all those budding quizzers, there will be no dearth of quizzing competitions during Engineer. Almost every branch hosts its own quiz, apart from the general ones. There will also be panel discussions for the debating community and a Tech Speak with foreign professors joining us in person or via Skype.<br><br> Last few editions of Engi saw a new segment called Socially Conscious Engineering aimed at promoting awareness about the social responsibilities of an Engineer. Umbrella Walk was one of the signature events last year, which saw a huge turnout. It was a walk aiming to spread awareness mainly on depression. Some of the other events included illuminating the night sky with sky lanterns to symbolise that light can be found even in the darkest of times. Engi ‘17, the 13th edition of Engineer, is expected to surpass all expectations and has a devoted team working towards making it a success. The core team consists of Sachin Kumar (Convenor), Ashok Jangir (Joint Convenor) and Pratyush Giri (Treasurer). It is hoped that their vision and dedication will make the upcoming fest a great success."
+	"image":"engi.jpg",
+	"head_image":"engineer.jpg",
+	"team" : [
+		{
+			"name":"Sachin Kumar",
+			"post_name":"Convenor",
+			"image":"convenor.jpg"
+		},
+			{
+			"name":"Ashok Jangir",
+			"post_name":"Joint Convenor",
+			"image":"jointcon.jpg"
+		},
+			{
+			"name":"Pratyush Giri",
+			"post_name":"Treasurer",
+			"image":"treasurer.jpg"
+		}
+
+
+	],
+	"id": "engi",
+	"introduction": [
+		{
+			"image":"history.jpg",
+			"content":"Back in 2005, technical events and fests organised by different      
+student clubs were brought together into one grand conglomeration and christened ‘Engineer’. Over the years, Engineer has grown in magnitude. Each edition of Engineer sees addition of new events and a large increase in participation.  Initially, it included paper presentation competitions, project presentations, robotics events , hacking contests, programming contests, design problems, and workshops and seminars. The next editions of Engineer was conducted on a larger scale and witnessed international participation. The online events drew programmers from universities in Europe, Americas and Asia. 
+Soon, preliminary rounds of robotics events' were held at a venue outside the institute's campus, in cities of Hyderabad, Bangalore and Pune. As time went by, the publicity and events gained more momentum.Engineer ‘13 featured a totally different publicity technique with students performing a Freeze Mob. A new segment called Socially Conscious Engineering(SCE) was introduced which aimed at promoting awareness about sustainable engineering. Over the years, Engineer has evolved to become one of the largest fests in South India."
+		}
+	],
+	"committees": [
+		{
+			"name":"Pronites",
+			"procedure":"Google Form will be rolled out before the fest. Interested students who fill up the form will be taken in.",
+			"committee_does":" On all four nights of the fest, a large scale show or event is held in the SAC. Pronites committee is responsible for hosting these events."
+		},
+
+		{
+			"name":"SCE",
+			"procedure":"Google Form will be rolled out before the fest. Interested students who fill up the form will be taken in.",
+			"committee_does":"The SCE committee is mainly responsible for handling the Socially Conscious Engineering Events. "
+		},
+
+		{
+			"name":"Freefall",
+			"procedure":"Google Form will be rolled out before the fest. Interested students who fill up the form will be taken in.",
+			"committee_does":"A wide array of fun events are conducted during all four days of the fest in the Pavilion. To organise these events, you need to be part of the Freefall committee."
+		},
+		{
+			"name":"EngiForce",
+			"procedure":"Google Form will be rolled out before the fest. Interested students who fill up the form will be taken in.",
+			"committee_does":"Engi Force is largely responsible for handling the crowds at events as well as checking ids’ before letting students enter a venue."
+		},
+
+		{
+			"name":"Corporate Hospitality",
+			"procedure":"Google Form will be rolled out before the fest. Interested students who fill up the form will be taken in.",
+			"committee_does":"A large number of companies who have sponsored the fest or collaborated with the college for the fest will be visiting the campus. Apart from these companies, we also have celebrities and performers coming in. Corporate Hospitality committee’s main duties include receiving these guests and making sure they have a pleasant stay.  "
+		},
+		
+		{
+			"name":"Student Hospitality",
+			"procedure":"Google Form will be rolled out before the fest. Interested students who fill up the form will be taken in.",
+			"committee_does":"Students from other colleges come to participate in Engineer. Ensuring their pleasant stay in our college is the main responsibility of the Student Hospitality committee."
+		},
+
+		{
+			"name":"Marketing",
+			"procedure":"Google Form will be rolled out before the fest. Interviews will be held and selected students will be taken in.",
+			"committee_does":"It involves getting sponsors for the fest. If you are a part of this committee, you will be talking to companies to convince them to sponsor Engineer."
+		},
+
+		{
+			"name":"Publicity",
+			"procedure":"Google Form will be rolled out before the fest. Interviews will be held and selected students  will be taken in.",
+			"committee_does":"The publicity committee is largely responsible for publicising the event in NITK as well as other colleges. Skits, flash mobs etc are some of the publicity events conducted by this committee."
+		}
+
+
+	],
+	"events": [
+		{
+			"name":"Mechanical Events",
+			"description":"This has some of the major crowd pulling events.These events usually have some problem statements and restrictions for bots. Robowars is a major event held under mechanical events. The RC car competition Velocity also is a major attraction.Other events under this committee are Perfect Machine, Proteus, Blueprint etc. Proteus is an event with the objective to fabricate a bot that could travel along a specified length of the tank (which constituted the arena) and shoot a jet of water that covered a minimum horizontal range. Once the bot satisfied these qualifying criteria, the participating bots had to shoot a maximum of three targets placed at gradually increasing heights placed at different distances within 6 minutes. Wright Flight is about choosing the right material, building a model and making it fly.",
+			"image":"mechanical.jpg"
+		},
+
+		{
+			"name":"Computer Events",
+			"description":"Inscription, which is the Computer events’ flagship online coding event, boasts of participation from over 47 countries and teams from Google, Microsoft and Yahoo. Marathon is a scripting and basic programming event spanning the entire festival. Android apps development, code error hunting and developing bots to play a variant of pacman are some other events/competitions coming under computer events.Virtual Bounty is an online treasure hunt which tests your common sense and Googling skills. Competitors from all over the world battle it out to complete the quest hidden in the cosmic web of the intenet.",
+			"image":"computer.jpg"
+		},
+		
+		{
+			"name":"Civil Events",
+			"description":"There are many events like Nirvahana and Collosus which are basically related to Civil Engineering concepts. These events are designed to test whether you can apply your mind to solve some Civil engineering problems of the real world and build stable structures. Events are Colossus, Nirvahana, Fantasticity etc. Colossus is an event of civil engineering which made bridge designing a reality by letting builders design and make a real model bridge that was to be tested according to the given conditions.",
+			"image":"civil.jpg"
+		},
+
+		{
+			"name":"Mining Events",
+			"description":"Events such as Mining Tycoon and Tech Mining are mainly aimed at showcasing the links between Mining, Management and Technology. Surveying based events such as Substantivo are also held which  try to create awareness about the role of surveying in exploration projects.",
+			"image":"mining.jpg"
+		},
+
+		{
+			"name":"Materials Events",
+			"description":"The material science committee has a Scanning Electron Microscope (SEM) expo, showcasing a working demonstration of the high-tech equipment. MetaMagic is an open exhibition to show the wonders of the materials around us. Apart from this Quizzes and casting workshops are also held by the committee.",
+			"image":"materials.jpg"
+		},
+
+
+		{
+			"name":"Electronix Events",
+			"description":"Symphony - Musical Fountains and Trailblazer - Competition for line follower bots are major attractions under tronix events. The Automata is another event by the tronix committee based on Image processing. An overhead camera provided the participants with a string of images of the arena using which they had to figure out the shortest way to the end and make the bot go there. Any dictionary you pick up will define Trailblazer as an inventor, a pioneer, or a person who makes a new track through wild country. But here at ENGINEER in NITK, it translates to a line following bot.",
+			"image":"electronix.jpg"
+		},
+		
+		{
+			"name":"Chemical Events",
+			"description":"Contraption, Chemical Breakdown and Industry Defined Problem are some of the main events under this. Contraption is about building a chemically functional robot. The bright minds come together to solve Industry Defined Problem. Challenging problem statements are given by leading industries. Chemical Breakdown is a flagship series of discipline specific quizzes, where engineering knowledge of the participants is tested.",
+			"image":"chemical.jpg"
+		},
+	
+		{
+			"name":"Business Events",
+			"description":"Business Events include AD venture and Mock Stock. Ad venture aims at picking out some of the most promising Ad campaigns. Mock Stock stimulates the dynamic schedule of the stock market, making the students rack their brains out for 4 days.",
+			"image":"business.jpg"
+		},
+
+
+		{
+			"name":"Socially Conscious Engineering(SCE)",
+			"description":"The Social initiative of Engineer, this usually has students taking up social/environmental initiatives to spread awareness about the responsibility of Engineers towards the society. In the 2016 edition, students carried out an umbrella walk to spread awareness about depression. Sky Lantern, organised by SCE is a visual spectacle.",
+			"image":"sce.jpg"
+		},
+
+
+		{
+			"name":"Astro Events",
+			"description":"This includes a group of events held by the astronomy enthusiasts of NITK. Ever dreamt of flying a spaceship? Here’s your chance. Don’t miss out on Orbiter, a flight simulator setup designed to give you the vibes and feels of the Martian terrain. And if you want to spot the beautiful constellations in the night sky and listen to the stories of Greek Heroes after whom they were named, surely attend Starry Nights.The Astro committee hosts other events such as Antariksh (exhibition) and Star Wars (quiz) as well. ",
+			"image":"astro.jpg"
+		},
+		
+		{
+			"name":"Workshops",
+			"description":"Held with the intention of expanding the knowledge of students beyond what is learnt in classrooms, previously held workshops include Ethical Hacking, Bridge Design, 3D photography, Android App Development, Humanoid Robotics, Augmented reality etc.",
+			"image":"workshops.jpg"
+		},
+
+		{
+			"name":"Gaming and Freefall",
+			"description":"Gaming events include games like NFS, Counter Strike, FIFA and DOTA as participants battle each other to show their gaming supremacy. Freefall includes the informal contests held in Engineer. With fun and games all around, participants head over here to relax and have fun.",
+			"image":"gaming.jpg"
+		},
+		
+		{
+			"name":"Technites",
+			"description":"Showcases the fun and brilliance of technology after dark. Witness your favorite android games come alive at Technites. Also featuring several events like Blitzkrieg/Laser Tag,Megapixel- The larger than life avatar of Tetris among others. Apart from this PyroShows, Laser shows, 3D mapping shows also are crowd pullers. The Technites main show also witnesses street performers enthralling the crowd.",
+			"image":"technites.jpg"
+		},
+
+
+		{
+			"name":"Bizwaves",
+			"description":"Stockoholic, Battle of Brands, Vipanan and CoHRence are some of the flagship events under Bizwaves. Marketing and innovation are the essence of these events. It is all about presentation, pitching,convincing and negotiating skills.",
+			"image":"bizwaves.jpg"
+		},
+
+
+		{
+			"name":"Engi Connect",
+			"description":"It is a science exhibition cum competition held for school and pre-university students to promote innovative scientific ideas. Exciting prizes and free workshop tickets attract many students to this competition.
+ ",
+			"image":"engiconnect.jpg"
+		},
+
+		{
+			"name":"Exhibition/Attractions",
+			"description":"Chronus:A countdown clock is put up in the main building which displays the time remaining for Engineer till the fest starts and begins the up count after the inauguration of the fest.
+ 
+Piano Stairs:The stairs to the main building entrance are turned musical. Different steps play different musical notes.
+ 
+Musical Bench: With the help of some simple circuitry, musical notes are generated based on the way people sitting on the bench interact with each other.",
+			"image":"attractions.jpg"
+		}
+
+
+	]
 }
-
-// {
-
-// 	"name": "Crresendo",
-// 	"image":"crresendo.png",
-// 	"convenor" : "",
-// 	"id":"cr",
-// 	"events":"1)There are a plethora of events including musical events, dance events, dramatics, art and literary events. These events witness participation from many colleges. <br><br> 2) The Pronite events, since its inception  have witnessed performances by top musicians like Sunidhi Chauhan, KK, Kunal Ganjawala, Nikhil Chinappa , DJ Oliver Moldan, Vishal - Shekhar, Salim - Suleiman and bands like Breathe Floyd, Led Zepplica, Mother Jane, Euphoria, Indian Ocean, Galeej Gurus, Parikrama and many more.<br><br>  3) There are also the Inci Specials, which are unique to the fest. Having beach events at our own beach has always been a major boost to the fest.",
-// 	"description":" Incident is the annual cultural festival of NITK, generally held in the month of March. It is considered to be one of the biggest cultural festivals in India. Incident was started in the year 1980 and since then, it has grown by leaps and bounds to achieve its present stature. "
-// },
-
-// {
-
-// 	"name": "Bharat Darshan",
-// 	"image":"bd.png",
-// 	"convenor" : "",
-// 	"id":"bd",
-// 	"events":"1)There are a plethora of events including musical events, dance events, dramatics, art and literary events. These events witness participation from many colleges. <br><br> 2) The Pronite events, since its inception  have witnessed performances by top musicians like Sunidhi Chauhan, KK, Kunal Ganjawala, Nikhil Chinappa , DJ Oliver Moldan, Vishal - Shekhar, Salim - Suleiman and bands like Breathe Floyd, Led Zepplica, Mother Jane, Euphoria, Indian Ocean, Galeej Gurus, Parikrama and many more.<br><br>  3) There are also the Inci Specials, which are unique to the fest. Having beach events at our own beach has always been a major boost to the fest.",
-// 	"description":" Incident is the annual cultural festival of NITK, generally held in the month of March. It is considered to be one of the biggest cultural festivals in India. Incident was started in the year 1980 and since then, it has grown by leaps and bounds to achieve its present stature. "
-// }
 
 ]
