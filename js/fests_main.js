@@ -7,6 +7,12 @@ $(function() {
     $nav.find('nav').toggleClass('orange', $(this).scrollTop() > $('.fests-page-banner').height());
     $nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $('.fests-page-banner').height());
     });
+    $(".dropdown-button").dropdown();
+    $('.dropdown-button').dropdown({
+      hover: true, // Activate on hover
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+  });
   loadfests();
 });
 
@@ -27,12 +33,12 @@ function loadfests() {
 
     var card = document.createElement('div');
     card.className = "card center-align hoverable";
-    card.style = "height: 390px;"
+    card.style = "height: 400px;"
 
     var image = document.createElement('img');
-    image.src = "img/fests/" + fest.image;
-    image.className = "card-image";
-    image.style = "height: 300px; width: auto;"
+    image.src = "img/fests/" + fest.id + "/" +  fest.image;
+    image.className = "card-image responsive-img";
+    image.style = "height: 300px; width: auto; padding:5%;"
 
     card.appendChild(image);
 
@@ -41,6 +47,7 @@ function loadfests() {
     var title = document.createElement('h3');
     title.className = "fest-name";
     title.innerText = fest.name;
+    title.style = "padding:-5px;"
 
     card.appendChild(title);
     holder.appendChild(card);

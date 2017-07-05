@@ -18,11 +18,11 @@ file_name = sys.argv[1]
 # for file_name in files_list:
 name, extension = os.path.splitext(file_name)
 # if extension == '.py':
-	# continue
+# 	continue
 
 with Image.open(file_name) as img:
 
-	if extension == '.JPG': 
+	if extension == '.png': 
 		img = img.convert('RGB')
 		img.save(str(name + '.jpg'))
 		os.system("rm " + file_name)
@@ -38,4 +38,4 @@ with Image.open(file_name) as img:
 	width,height = img.size
 	print(str(width) + " " + str(height))
 
-	img.save(file_name, optimize=True, quality=75)
+	img.save(file_name, optimize=True, quality=85)

@@ -3,6 +3,11 @@
   color: yellow;
 }
 
+.pt-sans {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
 .det{
   padding-top: 5px;
   padding-bottom: 5px;
@@ -83,6 +88,12 @@
 .flow-text {
   font-size: 20px;
 }
+
+img {
+    display: block;
+    margin: auto;
+/*    width: 40%;
+*/}
 
 @media only screen and (max-width: 600px) {
   .row {
