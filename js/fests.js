@@ -33,7 +33,6 @@ function loadFestInfo(id) {
     */
     $('.header-title').html(fest.name);  
 
-
     /*
      * Fests Core Team
     */
@@ -60,7 +59,7 @@ function loadFestInfo(id) {
         post.innerText = member.post_name;
         post.setAttribute('style', 'text-align:center');
 
-        container.appendChild(description);
+        container.appendChild(post);
 
         $('#team-details-container').append(container);
     }
@@ -118,7 +117,7 @@ function loadFestInfo(id) {
      * Fests Events
     */
     for (var i = 0; i < fest.events.length; i++) {
-        var event = fest.events.team[i];
+        var event = fest.events[i];
 
         var events_container = document.createElement('div');
         events_container.className = "member-container col s12";
@@ -144,7 +143,6 @@ function loadFestInfo(id) {
         $('#events').append(events_container); 
     }
 }
-
 
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
