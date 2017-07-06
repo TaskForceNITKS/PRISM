@@ -1,18 +1,3 @@
-var documents = [" Portable router(need to get permission from CCC)",
-	"Admit Card of JEE (MAIN)",
-	" Score Card of JEE (MAIN) [*The score cards are sent by post to the students after the results are out, but if one hasn’t received it before the admission, a printed copy of the result page of JEE (MAIN) will also suffice)",
-	"Marks card of qualifying examination.",
-	"Character & Study Certificate from the Institution last attended.",
-	"Certificate of Category (SC/ST/BC-NCL) issued by the competent authority in the prescribed format. [*if applicable]",
-	"Class X marks card for proof of Date of Birth.",
-	"Certificate of Persons with Disabilities (PWD) [*if applicable]",
-	"Transfer/Leaving Certificate issued by the college/institution last attended.[*If not available then this should be produced within a month of admission] ",
-	"Migration Certificate for candidates from other Boards(Other than Karnataka Pre University) [*If not available then this should be produced within a month of admission]",
-	"Medical Fitness certificate issued by Registered Medical Practitioner.",
-	" 2-Passport size photographs [*advisable to carry more]"
-]
-
-
 var carry = ["Cotton clothes (the only material which makes the heat tolerable) At least 7 pairs",
 	"Swimwear (can also be bought in the campus)",
 	"Bedsheets / blankets",

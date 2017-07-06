@@ -28,9 +28,9 @@ var content_team = [
 },
 {
 	"name": "Sunitha Selvan",
-	"image": "",
+	"image": "sunitha-selvan.jpg",
 	"description": "Content Contributor",
-	"facebook": ""
+	"facebook": "https://www.facebook.com/selvan.suni"
 },
 {
 	"name": "Dasari Srikanth",

@@ -13,19 +13,9 @@ $( document ).ready(function(){
       alignment: 'left', // Displays dropdown with edge aligned to the left of button
     }
   );    
-  getAdmissionDocs();
   getCarryItems();
   getBuyItems();
 });
-
-function getAdmissionDocs() {
-  var docs = documents;
-  for(var i = 0; i < docs.length; i ++) {
-    var p = document.createElement('p');
-    p.innerText = docs[i];
-    $('.docs-needed').append(p);
-  } 
-}
 
 function getCarryItems() {
   var carryItems = carry;

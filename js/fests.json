@@ -12,17 +12,17 @@ var fests=[
 		{
 			"name":"Adarsh Pai",
 			"post_name":"Convenor",
-			"image":"adarsh_pai.jpg"
+			"image":"adarsh-pai.jpg"
 		},
 		{
 			"name":"Srikanth Dasari",
 			"post_name":"Joint Convenor",
-			"image":"Srikanth.jpg"
+			"image":"srikanth-dasari.jpg"
 		},
 		{
 			"name":"Revanth Reddy",
 			"post_name":"Treasurer",
-			"image":"Revanth Reddy.jpeg"
+			"image":"revanth-reddy.jpeg"
 		}
 	],
 	"id": "inci",
