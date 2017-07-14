@@ -81,8 +81,8 @@ var departments = [
 		"name": "Computer Engineering",
 		"icon": "computer.png",
 		"intro": "A Computer Engineer is one who ensures that the communication devices that you use in daily life, stay connected that way to the outside world, and give you the best experience. Computer Engineering breaks down a complex system into many parts (not just limited at the software level) and tries to analyze and optimize each of them separately.",
-		"definition": "",
-		"course_information":"",
+		"definition": "Computer engineering is a discipline that combines logic and electronic engineering to develop hardware and software. It involves understanding how computers works and developing systems that make computation faster, robust and more resource efficient.",
+		"course_information":"The Computer Engineering Department offers  introductory courses for programming in C and object oriented JAVA programming where you also get to work on interesting projects as part of your lab. This does not require any prerequisite programming experience but  it becomes easy if you have some prior background knowledge. The Data Structures and Algorithms courses focus on optimization and and efficiency of programs.There are systems courses like Computer Networks and Databases, that teach you about data storage and transfer applications. Courses on Computer Architecture, Operating Systems, and Compilers, give you a better understanding about the inner workings of a computer and the lab sessions include building your own compiler from scratch and solving open problems in Operating Systems. Theoretical courses on Computation theory like Automata Theory are also part of the core curriculum. Beyond these core courses, the department offers a number of electives like Graph theory, Computer Graphics, Digital Image Processing, Artificial Intelligence, Number Theory and Cryptography and many more. Discrete and Concrete math and Linear Algebra are some of the electives the Department offers in collaboration with the Mathematics Department.",
 		"core_specializations": [
 			{	
 				"title":"Algorithms and Theoretical Computers ",
