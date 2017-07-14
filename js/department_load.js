@@ -42,6 +42,7 @@ function loadDepartmentInfo(id) {
         $('.core_specializations').append(c);
     }
      
+    $('.department-link').html(department.link)
 
 }
 

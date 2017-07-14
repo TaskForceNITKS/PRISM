@@ -12,17 +12,20 @@ var fests=[
 		{
 			"name":"Adarsh Pai",
 			"post_name":"Convenor",
-			"image":"adarsh-pai.jpg"
+			"image":"adarsh-pai.jpg", 
+			"email":"adarshpai96@gmail.com"
 		},
 		{
 			"name":"Srikanth Dasari",
 			"post_name":"Joint Convenor",
-			"image":"srikanth-dasari.jpg"
+			"image":"srikanth-dasari.jpg",
+			"email":"srikanth.dasari1998@gmail.com"
 		},
 		{
 			"name":"Revanth Reddy",
 			"post_name":"Treasurer",
-			"image":"revanth-reddy.jpeg"
+			"image":"revanth-reddy.jpeg",
+			"email":"mannem.revanth@gmail.com"
 		}
 	],
 	"id": "inci",
@@ -34,6 +37,22 @@ var fests=[
 	],
 	"committees": [
 		{
+			"name":"Marketing",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview.",
+			"committee_does":"This plays a vital role to make the fest a grand success.For getting into this committee you need to face an interview.They have to talk to sponsors and get funds to run the fest smooth."
+			
+		},
+		{
+			"name":"Publicity",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
+			"committee_does":"They play an important role in resonating the fest.They do flash mobs and visit colleges . A google form will be spammed and teams will be formed area wise ,interested students can fill according to their native."
+		},
+		{
+			"name":"Media",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
+			"committee_does":"They look after the poster designing,teasers which elevates the fest and increase the expectations.Students who knows photoshop well can join this committee."
+		},
+		{
 			"name":"Office",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
 			"committee_does":"Office is the heart of all committees.The main activities of this committee are selling tickets for events/shows and doing registrations for various events of the fest. It also allots rooms for participants from other colleges."
@@ -43,8 +62,7 @@ var fests=[
 			"procedure":"a google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
 			"committee_does":"Receives all the guests,judges,artists and provides hospitality to them."
 		},
-
-			{
+		{
 			"name":"Student Hospitality",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.", 
 			"committee_does":"Receives all the students and guides them to the allotted rooms.",
@@ -65,7 +83,7 @@ var fests=[
 		},
 		
 		{
-			"name":"Beach",
+			"name":"Beach Committee",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
 			"committee_does":"Organises Beach games,Kite festival,Dj war,informals."
 			
@@ -105,18 +123,6 @@ var fests=[
 			"committee_does":"Take care of Decorating and Lighting up the whole Campus.Also in charge of the sound systems for events. "
 			
 		},
-		{
-			"name":"Marketing and Publicity",
-			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview.",
-			"committee_does":""
-			
-		},
-		{
-			"name":"Media",
-			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
-			"committee_does":"They look after the poster designing and making of teasers which elevates the fest.Students who know photoshop can join this committee."
-			
-		},
 	],
 	"events": [
 		{
@@ -152,7 +158,7 @@ var fests=[
 		{
 			"name":"Inci Talks",
 			"description":"This was started for the first time in Inci’17.Famous personalities such as JayaPrakash Narayan,Balaji Viswanath,Prach Tehlan etc. come to address the students.",
-			"image":"inciTalks.jpg"
+			"image":"InciTalks.jpg"
 		},
 		{
 			"name":"Gaming",
@@ -171,8 +177,8 @@ var fests=[
 		},
 		{
 			"name":"Inci Specials",
-			"description":" 1.EXPOSE : Photography 				Exhibition organized in association with the Photography Club.  2. KALAKRITI : An art exhibition organized by Artists’ Forum.  3.HOGATHON :The perfect platform to show off your hogging skills. Come in teams of two and compete with others to win the Hogathn title.  4. PROM NIGHT:Want a romantic night where you can dance under the stars with your date? If yes,then you should definitely go for prom night.",
-			"image":"inciSpecials.JPG"
+			"description":" 1.EXPOSE : Photography Exhibition organized in association with the Photography Club.  2. KALAKRITI : An art exhibition organized by Artists’ Forum.  3.HOGATHON :The perfect platform to show off your hogging skills. Come in teams of two and compete with others to win the Hogathn title.  4. PROM NIGHT:Want a romantic night where you can dance under the stars with your date? If yes,then you should definitely go for prom night.",
+			"image":"inciSpecials.jpg"
 		},
 		{
 			"name":"Fresh Face Contest",

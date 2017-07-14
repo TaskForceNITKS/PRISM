@@ -198,7 +198,7 @@ function displaySportInfo() {
     $('.sport-card-details').append(description);
     $('.sport-card-details').append('<h5><b>Events:</b></h5>');
     $('.sport-card-details').append(events);
-    $('.sport-card-details').append('<h5><b>Projects:</b></h5>');
+    $('.sport-card-details').append('<h5><b>Achievements:</b></h5>');
     $('.sport-card-details').append(projects);
 
   

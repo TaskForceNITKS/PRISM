@@ -24,6 +24,7 @@ function getCarryItems() {
     p.innerText = carryItems[i];
     $('.what-to-carry').append(p);
   } 
+
 }
 
 function getBuyItems() {

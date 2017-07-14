@@ -56,11 +56,19 @@ function loadFestInfo(id) {
         container.appendChild(name);
 
         var post = document.createElement('div');
-        post.className = "member-description";
+        post.className = "member-post";
         post.innerText = member.post_name;
         post.setAttribute('style', 'text-align:center');
 
         container.appendChild(post);
+
+        var email = document.createElement('a');
+        email.className = "member-email";
+        email.innerText = member.email;
+        email.setAttribute('href', 'mailto:' + member.email);
+        email.setAttribute('style', 'text-align:center');
+
+        container.appendChild(email);
 
         $('#team-details-container').append(container);
     }

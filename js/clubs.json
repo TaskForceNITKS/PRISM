@@ -228,18 +228,15 @@ var culturalClubs=[
 	"events":"Spandan - our first event in the odd semester in which participants from all years showcase their talents. This event also has a fashion pageant, especially for freshers, Mr. And Miss Glamour Anza. Next, in the even semester, comes one of the biggest cultural events of NITK, Bharat Darshan. This bright and colorful extravaganza showcases brilliant performances by groups representing the various state of India. In addition, DDFC also conduct dramas and dandiya nights.",
 	"projects":"",
 	"description":"The Dance Dramatics and Fashion Club (DDFC) is one of the biggest student clubs in NITK and organizes and hosts cultural events . Club recruitments, are held in the odd semester and the process consists of multiple rounds, including interviews and resume shortlisting."
-	
 	},
 	{
 	"name": "NSS - NITK Chapter",
-	"image":"ddfc.jpg",
+	"image":"nss.jpg",
 	"convenor" : "Sachin Singh",
-	"events":"Spandan - our first event in the odd semester in which participants from all years showcase their talents. This event also has a fashion pageant, especially for freshers, Mr. And Miss Glamour Anza. Next, in the even semester, comes one of the biggest cultural events of NITK, Bharat Darshan. This bright and colorful extravaganza showcases brilliant performances by groups representing the various state of India. In addition, DDFC also conduct dramas and dandiya nights.",
-	"projects":"",
-	"description":"The Dance Dramatics and Fashion Club (DDFC) is one of the biggest student clubs in NITK and organizes and hosts cultural events . Club recruitments, are held in the odd semester and the process consists of multiple rounds, including interviews and resume shortlisting."
-	
+	"events":"NSS conducts activities like teaching KREC school kids. The club also conducts blood donation camp. Many more such activities are being designed for the coming academic year.",
+	"projects":"NSS has one project called teaching school kids where every evening they take up free tuitions for kids near the NITK Lighthouse!",
+	"description":"NSS NITK was started in the name of GENESIS NITK in 2007. Later in the 2014, it was renamed as NSS NITK. At that time, it was functioning as a social club of the college. Later in 2017, the club got national recognition and became a self funded unit, named as NSS NITK UNIT (SFU)."
 	},
-
 	{
 	"name": "Voice Club",
 	"image":"voiceclub.jpg",
