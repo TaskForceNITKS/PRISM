@@ -26,3 +26,8 @@ with Image.open(file_name) as img:
 	print(str(width) + " " + str(height))
 
 	img.save(file_name, optimize=True, quality=75)
+
+# from PIL import Image
+# filename = r'logo.png'
+# img = Image.open(filename)
+# img.save('logo.ico')
