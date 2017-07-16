@@ -18,6 +18,13 @@ $(document).ready(function(){
 
 function loadMembers(){
   for (var i = 0; i < sc_team.length; i++) {
+    if(i%2===0) {
+      var row = document.createElement('div');
+      row.className = "row";
+      row.id = "sc-row-" + i/2;
+
+      $('#sc-team-container').append(row);
+    }
     member = sc_team[i];
     var container = document.createElement('div');
     container.className = "member-container col s12 m6";
@@ -52,7 +59,7 @@ function loadMembers(){
     link.appendChild(icon);
     container.appendChild(link);
 
-    $('#sc-team-container').append(container);
+    $('#sc-row-'+parseInt(i/2)).append(container);
   }
 
 }
