@@ -45,7 +45,7 @@ function loadMembers(){
     link.className = 'member-link';
     link.setAttribute('href', member.email);
     link.append(member.email)
-    
+     
     container.appendChild(link);
 
     $('#sc-team-container').append(container);
