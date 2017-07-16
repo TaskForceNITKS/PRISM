@@ -95,6 +95,32 @@ img {
 /*    width: 40%;
 */}
 
+nav {
+    height: 96px;
+    line-height: 96px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 96px;
+    line-height: 96px;
+}
+
+nav .button-collapse i {
+    height: 96px;
+    line-height: 96px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 96px;
+        line-height: 96px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
   .row {
     padding: 10px;
