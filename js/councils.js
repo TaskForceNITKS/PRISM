@@ -50,13 +50,9 @@ function loadMembers(){
 
     var link = document.createElement('a');
     link.className = 'member-link';
-    link.setAttribute('href', member.facebook);
-
-    var icon = document.createElement('img');
-    icon.src = "img/fb_icon.png";
-    icon.className = "link-icon";
-
-    link.appendChild(icon);
+    link.setAttribute('href', member.email);
+    link.append(member.email)
+    
     container.appendChild(link);
 
     $('#sc-row-'+parseInt(i/2)).append(container);
