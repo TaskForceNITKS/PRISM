@@ -5,7 +5,9 @@ var sc = {
 		"The Student Council holds regular meets with the students to know the various issues faced by them and takes up the same with the authorities. Notable such steps taken last year include: setting up of Optional Mess system, increasing MACS and SOM electives for final years, issuing new ID cards, introducing bus services within the campus, etc.",
  		"Procuring Xerox machines for both Girls and Boys hostels, opening of a new Canara Bank ATM near the Girls Block, improving the lighting and security with the campus are some other steps taken by the council during the previous year. During exams, the SC takes measures to introduce generators in the hostels for full time power backup. Timing of the Library and the Central Computing Centre are also extended to aid the students in their studies.",
 		"This year too, the new SC has begun work with utmost zeal and enthusiasm and will carry on the good work done by the previous councils."
-	]
+	],
+	"fb":"https://www.facebook.com/NITK.Students.Council/",
+	"mail":"studentpresident@nitk.edu.in"
 };
 
 var hc = {
@@ -14,5 +16,34 @@ var hc = {
 		"The Hostel Council is the bridge between the students and the hostel authorities, for all hostel related affairs. It works hand in hand with the Student Council for smooth running of the hostels.",
 		"Notable steps taken by the council last year include: Installation and maintenance of water coolers in all blocks, setting up sports equipment in blocks, mediating between the authorities and students to solve water and electricity problems, working on online hostel room and mess allotment systems (MIS) alongside Team IRIS, etc. Installation of cloth hangers on trial basis and spring doors in the GB, assisting the students council to set up Airtel DTH connections for all TVs, maintenance of hygiene in the blocks, especially washrooms are some other steps taken by the council during the previous year.",
 		"This year too, it is hoped that the new HC will work together with the SC to carry on the good work done by the previous councils."
-	]
+	],
+	"fb":"https://www.facebook.com/NITK-Hostel-Council-567343083457640/",
+	"mail":"studentpresident@nitk.edu.in"
 };
+
+var sc_team = [
+{
+	"name": "Tanuj Kumar Kadiyala",
+	"image": "tanuj.jpg",
+	"description": "President",
+	"email": "studentpresident@nitk.edu.in"
+},
+{
+	"name": "Aishwarya Kumar",
+	"image": "aishwarya.jpg",
+	"description": "Vice President",
+	"email": "girlsrep@nitk.edu.in"
+},
+{
+	"name": "Gagan Sappani",
+	"image": "gagan.jpg",
+	"description": "General Secretary",
+	"email": "studentgeneralsecretary@nitk.edu.in"
+},
+{
+	"name": "Sai Kumar",
+	"image": "sai.jpg",
+	"description": "Joint Secretary",
+	"email": "studentjointsecretary@nitk.edu.in"
+}
+]

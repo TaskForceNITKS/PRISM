@@ -185,6 +185,9 @@ function displayClubInfo() {
 
   projects = document.createElement('div');
   projects.innerHTML = club.projects;
+
+  fb = document.createElement('div');
+  fb.innerHTML='<a href="'+club.fb+'">'+club.name+' - Facebook</a>'
   
   // card_temp = card;
   $('body').append(body);
@@ -260,6 +263,8 @@ function displayClubInfo() {
     $('.club-card-details').append(events);
     $('.club-card-details').append('<h5><b>Projects:</b></h5>');
     $('.club-card-details').append(projects);
+    $('.club-card-details').append('<h5><b>Facebook Page:</b></h5>');
+    $('.club-card-details').append(fb);
 
 
     
