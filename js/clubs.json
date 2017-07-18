@@ -40,7 +40,7 @@ var techClubs=[
 	{
 		"name": "Indian Society for Technical Education (ISTE-NITK)",
 		"image":"iste.jpg",
-		"convenor" : "Ankit Rege",
+		"convenor" : "Aniket Rege",
 		"fb":"https://www.facebook.com/Isteadmin/",
 		"events":" Scotland Yard, Transcend, Basic Electronics Workshop, Spectacle, Cryptonite, Social Initiative, Samsung Appathon",
 		"projects":"An Analysis of Sleep Hygiene (selected for national finals as part of INKtalks Make-a-thon), Closed Eye Pupil Tracking, Perception of Online Shopping in the E-Commerce Industry"	,

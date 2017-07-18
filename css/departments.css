@@ -65,6 +65,9 @@ blockquote {
 	padding: 20px;
 }
 
+.breadcrumb:before {
+    color: #000;
+}
 
 @media only screen and (max-width: 600px) {
 	.row {

@@ -62,9 +62,16 @@ function loadTechTeam() {
 
 function loadContentTeam() {
 	for (var i = 0; i < content_team.length; i++) {
+		if(i%2===0) {
+			var row = document.createElement('div');
+			row.className = "row";
+			row.id = "content-row-" + i/2;
+
+			$('#content-team-container').append(row);
+		}
 		member = content_team[i];
 		var container = document.createElement('div');
-		container.className = "member-container col s12 m4";
+		container.className = "member-container col s12 m6";
 
 		var image = document.createElement('img');
 		image.src = "img/team/" + member.image;
@@ -98,7 +105,7 @@ function loadContentTeam() {
 
 		// console.log(container.innerText);
 
-		$('#content-team-container').append(container);
+		$('#content-row-'+parseInt(i/2)).append(container);
 	}
 }
 
