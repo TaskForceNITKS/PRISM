@@ -6,7 +6,7 @@
 var fests=[
 {
 	"name": "Incident",
-	"image":"inci.jpg",
+	"image":"inci.png",
 	"head_image":"inci_head.jpg",
 	"team" : [
 		{
@@ -39,28 +39,28 @@ var fests=[
 		{
 			"name":"Marketing",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview.",
-			"committee_does":"This plays a vital role to make the fest a grand success.For getting into this committee you need to face an interview.They have to talk to sponsors and get funds to run the fest smooth."
+			"committee_does":"The marketing committee plays a vital role in making the fest a grand success. . They lobby for sponsorships and partner with companies. A google form will be spammed 2-3 weeks after college reopens for the new year. Interested students can fill the form. You will  have to go through a strict selection process."
 			
 		},
 		{
 			"name":"Publicity",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
-			"committee_does":"They play an important role in resonating the fest.They do flash mobs and visit colleges . A google form will be spammed and teams will be formed area wise ,interested students can fill according to their native."
+			"committee_does":"Without publicity there is no participation,and without participation an event is only going to decay. That is why incident has a publicity committee which ensures that the fest is well publicised. This includes conducting flash mobs, open street performances, Performances in International kite festival and in other colleges etc. Are you interested in conducting a flash mob or an open street performance? . Interested students can fill the forms which will be provided to your class groups"
 		},
 		{
 			"name":"Media",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
-			"committee_does":"They look after the poster designing,teasers which elevates the fest and increase the expectations.Students who knows photoshop well can join this committee."
+			"committee_does":"Designing posters, making teasers for the fest, etc. are the activities which are within the scope of this committee. Students proficient in adobe photoshop & having prior experience of poster making will be preferred. Interested students can contact the media cordinator whose details will be shared to the students"
 		},
 		{
 			"name":"Office",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"Office is the heart of all committees.The main activities of this committee are selling tickets for events/shows and doing registrations for various events of the fest. It also allots rooms for participants from other colleges."
+			"committee_does":"Students will be notified well in advance regarding the interviews for this committee via Google form. Interested students can fill this form. This committee is assigned with the task of selling of  tickets for events/shows and doing registration (both online & on-spot) for the events of the fest. It is also responsible for the  allocation of rooms for participants from other colleges."
 		},
 		{
 			"name":"Corporate Hospitality",
 			"procedure":"a google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"Receives all the guests,judges,artists and provides hospitality to them."
+			"committee_does":"This committee takes care of the boarding & lodging, travelling and the refreshments to be provided to the guests, judges & artists. Students can contact the Hospitality coordinator to get in to this committee."
 		},
 		{
 			"name":"Student Hospitality",

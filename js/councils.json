@@ -1,10 +1,11 @@
 var sc = {
 	"content": [
-		"The Student Council of NITK, which holds office for an academic year, is elected by the students during the even semester of the previous year. Elections take place in the beginning of the month of April and the change of members take place towards the end of the academic year.",
- 		"The Student Council is the bridge between the students and the authorities. It takes part in awarding the messes before the semester, according to the tender rules. It also plans the orientation programme for the new students.",
-		"The Student Council holds regular meets with the students to know the various issues faced by them and takes up the same with the authorities. Notable such steps taken last year include: setting up of Optional Mess system, increasing MACS and SOM electives for final years, issuing new ID cards, introducing bus services within the campus, etc.",
- 		"Procuring Xerox machines for both Girls and Boys hostels, opening of a new Canara Bank ATM near the Girls Block, improving the lighting and security with the campus are some other steps taken by the council during the previous year. During exams, the SC takes measures to introduce generators in the hostels for full time power backup. Timing of the Library and the Central Computing Centre are also extended to aid the students in their studies.",
-		"This year too, the new SC has begun work with utmost zeal and enthusiasm and will carry on the good work done by the previous councils."
+		"The Student Council of NITK, which holds office for one academic year, is elected by the students during the even semester of the previous year. Elections take place in the first week of April and the investiture ceremony and office transfer is held towards the end of the academic year.",
+ 		"The Student Council is the Voice of the student body. It is the bridge between the students and the authorities. Students' Council advocates on behalf of students, serves as representatives for smooth functioning of all activities in the college and distributes the activities budget to all student clubs and groups.",
+		"The Council holds regular meets with the students to  make note of the various issues faced by them and tries to find a suitable solution for the same along with the authorities. It takes part in awarding the messes before the semester, according to the tender rules. It also plans the orientation program for the new students.",
+ 		"Notable steps taken last year include: setting up of Optional Mess system, increasing MACS and SOM electives for final years, issuing new ID cards, introducing bus services within the campus, etc.",
+		"Procuring Xerox machines for both Girls and Boys hostels, opening of a new Canara Bank ATM near the Girls Block, improving the lighting and security with the campus are some other steps taken by the council during the previous year. During exams, the SC takes measures to introduce generators in the hostels for full time power backup. Timing of the Library and the Central Computing Centre are also extended to aid the students in their studies.",
+		"This year too, the new Students Council has begun work with utmost zeal and enthusiasm for the welfare of the students and will carry on the good work done by the previous councils. The new council is highly motivated and will put it in their best effort."
 	],
 	"fb":"https://www.facebook.com/NITK.Students.Council/",
 	"mail":"studentpresident@nitk.edu.in"
@@ -32,7 +33,7 @@ var sc_team = [
 	"name": "Aishwarya Kumar",
 	"image": "aishwarya.jpg",
 	"description": "Vice President",
-	"email": "girlsrep@nitk.edu.in"
+	"email": "studentuggirlsrep@nitk.edu.in"
 },
 {
 	"name": "Gagan Sappani",
