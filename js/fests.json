@@ -6,7 +6,7 @@
 var fests=[
 {
 	"name": "Incident",
-	"image":"inci.jpg",
+	"image":"inci.png",
 	"head_image":"inci_head.jpg",
 	"team" : [
 		{
@@ -40,7 +40,6 @@ var fests=[
 			"name":"Marketing",
 			"procedure":"A google form will be spammed  atleast 1-2 months in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview.",
 			"committee_does":"This plays a vital role to make the fest a grand success.For getting into this committee you need to face an interview.They have to talk to sponsors and get funds to run the fest smooth."
-			
 		},
 		{
 			"name":"Publicity",
@@ -55,7 +54,7 @@ var fests=[
 		{
 			"name":"Office",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"Office is the heart of all committees.The main activities of this committee are selling tickets for events/shows and doing registrations for various events of the fest. It also allots rooms for participants from other colleges."
+			"committee_does":"Students will be notified well in advance regarding the interviews for this committee via Google form. Interested students can fill this form. This committee is assigned with the task of selling of  tickets for events/shows and doing registration (both online & on-spot) for the events of the fest. It is also responsible for the  allocation of rooms for participants from other colleges."
 		},
 		{
 			"name":"Corporate Hospitality",
