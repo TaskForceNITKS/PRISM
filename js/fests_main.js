@@ -38,7 +38,7 @@ function loadfests() {
     var image = document.createElement('img');
     image.src = "img/fests/" + fest.id + "/" +  fest.image;
     image.className = "card-image responsive-img";
-    image.style = "height: 300px; width: auto; padding:5%;"
+    image.style = "height: 300px; width: 300px; padding:5%;"
 
     card.appendChild(image);
 
