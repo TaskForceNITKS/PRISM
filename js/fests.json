@@ -38,18 +38,18 @@ var fests=[
 	"committees": [
 		{
 			"name":"Marketing",
-			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview.",
+			"procedure":"A google form will be spammed  atleast 1-2 months in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview.",
 			"committee_does":"This plays a vital role to make the fest a grand success.For getting into this committee you need to face an interview.They have to talk to sponsors and get funds to run the fest smooth."
 			
 		},
 		{
 			"name":"Publicity",
-			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
+			"procedure":"A google form will be spammed  1-2 months in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
 			"committee_does":"They play an important role in resonating the fest.They do flash mobs and visit colleges . A google form will be spammed and teams will be formed area wise ,interested students can fill according to their native."
 		},
 		{
 			"name":"Media",
-			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
+			"procedure":"A google form will be spammed  1-2 months in prior to the fest.Interested students can fill in their preferences.You will also have to face an interview",
 			"committee_does":"They look after the poster designing,teasers which elevates the fest and increase the expectations.Students who knows photoshop well can join this committee."
 		},
 		{
@@ -59,7 +59,7 @@ var fests=[
 		},
 		{
 			"name":"Corporate Hospitality",
-			"procedure":"a google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
+			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
 			"committee_does":"Receives all the guests,judges,artists and provides hospitality to them."
 		},
 		{
@@ -74,54 +74,40 @@ var fests=[
 			"committee_does":"Checks ID cards and entry passes for all the proshows.Controls Crowd and ensures that there is no disturbance."
 			
 		},
-
 		{
 			"name":"Pronites",
 			"procedure":"a google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"Makes sure that all proshows  are run smoothly.Takes care of artists in the back stage."
-			
+			"committee_does":"Makes sure that all proshows  are run smoothly.Takes care of artists in the back stage."	
 		},
-		
 		{
 			"name":"Beach Committee",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"Organises Beach games,Kite festival,Dj war,informals."
-			
+			"committee_does":"Organises Beach games,Kite festival,Dj war,informals."	
 		},
-
 		{
 			"name":"Foods and Refreshments",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"They look after setting up of food stalls for fest ."
-			
+			"committee_does":"They look after setting up of food stalls for fest ."	
 		},
-
 		{
 			"name":"Facilities Management",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"They have to provide all the requirements for all the events of Incident(Fans/Coolers in SAC back stage).Providing necessary things for artists in backstage etc."
-			
+			"committee_does":"They have to provide all the requirements for all the events of Incident(Fans/Coolers in SAC back stage).Providing necessary things for artists in backstage etc."	
 		},
-
-
  		{
 			"name":"Transport",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"Rents bikes,cars needed for events and looks after the bills related to rent and petrol expenses. "
-			
+			"committee_does":"Rents bikes,cars needed for events and looks after the bills related to rent and petrol expenses. "	
 		},
-
 		{
 			"name":"SJA",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
-			"committee_does":"They are in charge of the events that happen in  SJA. They  ensure that the events run smoothly."
-			
+			"committee_does":"They are in charge of the events that happen in  SJA. They  ensure that the events run smoothly."	
 		},
 		{
 			"name":"LSD(Lights,Sound,Decoration)",
 			"procedure":"A google form will be spammed  2-3 weeks in prior to the fest.Interested students can fill in their preferences.",
 			"committee_does":"Take care of Decorating and Lighting up the whole Campus.Also in charge of the sound systems for events. "
-			
 		},
 	],
 	"events": [
@@ -205,17 +191,20 @@ var fests=[
 		{
 			"name":"Sachin Kumar",
 			"post_name":"Convenor",
-			"image":"jointconvenor.jpg"
+			"image":"jointconvenor.jpg",
+			"email":""
 		},
 			{
 			"name":"Pratyush Giri",
 			"post_name":"Treasurer",
-			"image":"treasurer.jpg"
+			"image":"treasurer.jpg",
+			"email":""
 		},
 		{
 			"name":"Ashok Jangir",
 			"post_name":"Joint Convenor",
-			"image":"convenor.jpg"
+			"image":"convenor.jpg",
+			"email":""
 		}
 	],
 	"id": "engi",

@@ -17,15 +17,15 @@ with Image.open(file_name) as img:
 	width,height = img.size
 	print(str(width) + " " + str(height))
 
-	if height <= 200:
-		new_width = ((int)((width/height)*100))
-		img = img.resize((new_width,100), Image.ANTIALIAS)
+	if height >= 16:
+		new_width = ((int)((width/height)*16))
+		img = img.resize((16,16), Image.ANTIALIAS)
 
 	print("Image size after resizing")
 	width,height = img.size
 	print(str(width) + " " + str(height))
 
-	img.save(file_name, optimize=True, quality=75)
+	img.save('favicon.png', optimize=True, quality=85)
 
 # from PIL import Image
 # filename = r'logo.png'
