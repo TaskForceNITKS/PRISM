@@ -1,0 +1,58 @@
+var facilities = [
+	{
+		"name": "HCC",
+		"intro": "<i>\"Health is wealth\"</i><br> We at NITK ensure to take care of students' health. Situated right next to the CCC, HCC is equipped with qualified doctors to provide free medical aid to the students. Ambulance service is also available 24*7 in case of emergency.",
+		"timings": "Mon - Fri: 9AM to 1PM and 2PM to 12AM<br>Sat,Sun:  9AM to 1PM and 2PM to 9PM"
+	},
+	{
+		"name": "CCC",
+		"intro": "<i>\"With the world on the internet, computer and internet is nothing less than a necessity\"</i><br>The CCC, opposite to the SJA is equipped with a large number of computers enabled with  LAN to provide high speed internet facility to the students.",
+		"timings": "Mon - Fri: 8AM to 8PM<br>Sat: 8AM to 5PM<br>Sunday is a holiday"
+	},
+	{
+		"name": "Library",
+		"intro": "<i>\"Books are the man's best friend\"</i><br>The NITK Central Library is a boon to the students possessing a huge collection of books and a book bank from where students can borrow books for all academic and technical purposes.",
+		"timings": "Mon - Fri: 8AM to 11PM<br>Sat,Sun: 8AM to 4PM "
+	},
+	{
+		"name": "Sports Complex",
+		"intro": "<i>\"All work and no play makes Jack a dull boy\"</i><br>Right at that, the sports complex is an indoor arena with TT and badminton courts. Right outside is a huge ground which is filled with students running, playing cricket, football and other games during the evenings.",
+		"timings": "6AM to 8AM , 4:30PM to 9PM"
+	},
+	{
+		"name": "SJA(Silver Jubilee Auditorium)",
+		"intro": "What can be more attractive than watching performances in a huge auditorium? <br>The SJA is the largest, closed, air-conditioned auditorium in the campus where various events are held frequently and often the Film's Club of the institute screens movies in different languages and undoubtedly this is the most  crowded place during a nail-biting match of cricket, badminton or football or any other sport for that matter."
+	},
+	{
+		"name": "SAC(Student Activity Centre)",
+		"intro": "Right opposite to the chemical department, the SAC is an open air theatre with good seating capacity and a huge stage. A place which is the most common point for all the club meetings and discussions is the most watched out place during fests and DJ nights."
+	},
+	{
+		"name": "Swimming Pool",
+		"intro": "The college boasts proudly of its team of successful swimmers. The Olympic size swimming pool is definitely an attraction especially to all the swimming enthusiasts out there. Right opposite to it are located the basketball and the volleyball courts and behind is located the tennis court.",
+		"timings": "6:00 - 6:40 AM (Girls)<br>6:50 - 7:30 AM (Boys)<br>4:00 - 4:40 PM (Boys)<br>4:45 - 5:25 PM (Boys)<br>5:30 - 6:10 PM (Boys)<br>6:15 - 6:55 PM (Boys)<br>7:05 - 7:45 PM (Girls)"
+	},
+	{
+		"name": "Gym",
+		"intro": "All those fitness freaks out there,  this is the right place for you. Fully equipped and guided by a trainer, situated among the mega towers, this is the place that produces all those body builders.",
+		"timings": "Everyday: 5:30AM to 8AM, 4:30PM to 8PM"
+	},
+	{
+		"name": "Banks",
+		"intro": "Right next to the cooperative society, the SBI branch and ATM and beside the cooperative society you can find the Canara Bank which are the places to satisfy all financial needs.",
+		"timings": "ATM: 24*7<br>Mon to Sat: 10:00AM to 4PM<br>2nd and 4th Saturday Holiday<br>Sunday holiday"
+	},
+	{
+		"name": "Post Office",
+		"intro": "Found some attractive deals online but wondering how to get the delivery? Want to get some documents by post urgently? Not to worry. Situated next to the bank is the post office to help send and receive anything by post.",
+	},
+	{
+		"name": "Cooperative Societies ",
+		"intro": "There are two Co-operative societies in NITK to meet the basic necessities of the students. One situated next to the canara bank named as NITK Students’ Co-operative society and the other beside girls hostel named NITK Consumers’ co-operative society. These are the places where one can find all stationery and other novelties at subsidized rates.⁠⁠⁠⁠",
+		"timings": "<b>Students’ Co-operative Society</b><br>Mon to Fri: 9AM to 6PM<br>Sat : 9:00AM to 1PM<br>Sunday is a holiday<br><b>Consumers’ Co-operative Society</b><br>Mon to Sat : 9:30AM to 1:00PM and 4PM to 8:30PM<br>Sunday is a holiday"
+	},
+	{
+		"name": "Other Facilities",
+		"intro": "<b>Xerox Facilities</b>: From a print out of mess fee receipt to photocopying toppers's notes before examinations, it is this place in Mudrika, 7th block that students queue at. There is xerox facility at the library as well.<br><b>NR Electricals</b>: This is the place to go to recharge phones, resolve issues regarding mobile phone and most importantly this is the place to collect all those orders that you have booked online. So note this address to feed in as shipment address when ordering online!<br><b>Cycle Repair Shop</b>: Given that the campus is very huge, walking is a difficult mode to commute between departments or places in the campus. To encourage ecofriendly behavior cycles are promoted for commuting between places. And now there is no need to go in quest of a cycle repair shop to fill in air, repair brakes or any other repair work because this is the onestop solution to all problems regarding cycle."
+	}
+];
