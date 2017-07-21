@@ -1,0 +1,12 @@
+.facilities-page-banner {
+	margin-top: -64px;
+	width: 100%;
+	height: 100vh;
+	background: url('/img/facilities-bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+    
+#sidenav-overlay {
+    z-index: 996;
+
+} 
