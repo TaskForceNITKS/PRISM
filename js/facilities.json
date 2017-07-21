@@ -25,7 +25,7 @@ var facilities = [
 	},
 	{
 		"name": "SAC(Student Activity Centre)",
-		"intro": "Right opposite to the chemical department, the SAC is an open air theatre with good seating capacity and a huge stage. A place which is the most common point for all the club meetings and discussions is the most watched out place during fests and DJ nights."
+		"intro": "Right opposite to the chemical department, the SAC is an open air theatre with good seating capacity and a huge stage. A place which is the most common point for all the club meetings and discussions and is the most watched out place during fests and DJ nights."
 	},
 	{
 		"name": "Swimming Pool",
@@ -53,6 +53,6 @@ var facilities = [
 	},
 	{
 		"name": "Other Facilities",
-		"intro": "<b>Xerox Facilities</b>: From a print out of mess fee receipt to photocopying toppers's notes before examinations, it is this place in Mudrika, 7th block that students queue at. There is xerox facility at the library as well.<br><b>NR Electricals</b>: This is the place to go to recharge phones, resolve issues regarding mobile phone and most importantly this is the place to collect all those orders that you have booked online. So note this address to feed in as shipment address when ordering online!<br><b>Cycle Repair Shop</b>: Given that the campus is very huge, walking is a difficult mode to commute between departments or places in the campus. To encourage ecofriendly behavior cycles are promoted for commuting between places. And now there is no need to go in quest of a cycle repair shop to fill in air, repair brakes or any other repair work because this is the onestop solution to all problems regarding cycle."
+		"intro": "<b>Xerox Facilities</b>: From a print out of mess fee receipt to photocopying topper's notes before examinations, it is this place in Mudrika, 7th block that students queue at. There is xerox facility at the library as well.<br><b>Yennar Electricals</b>: This is the place to go to recharge phones, resolve issues regarding mobile phone and most importantly this is the place to collect all those orders that you have booked online. So note this address to feed in as shipment address when ordering online!<br><b>Cycle Repair Shop</b>: Given that the campus is very huge, walking is a difficult mode to commute between departments or places in the campus. To encourage ecofriendly behavior cycles are promoted for commuting between places. And now there is no need to go in quest of a cycle repair shop to fill in air, repair brakes or any other repair work because this is the onestop solution to all problems regarding cycle."
 	}
 ];
