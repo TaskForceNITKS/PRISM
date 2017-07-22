@@ -6,7 +6,7 @@
 var fests=[
 {
 	"name": "Incident",
-	"image":"inci.PNG",
+	"image":"inci.png",
 	"head_image":"inci_head.jpg",
 	"team" : [
 		{
@@ -191,19 +191,19 @@ var fests=[
 			"name":"Sachin Kumar",
 			"post_name":"Convenor",
 			"image":"jointconvenor.jpg",
-			"email":""
+			"email":"sachin.k.ngh@gmail.com"
 		},
 			{
 			"name":"Pratyush Giri",
 			"post_name":"Treasurer",
 			"image":"treasurer.jpg",
-			"email":""
+			"email":"pratyushgr@gmail.com"
 		},
 		{
 			"name":"Ashok Jangir",
 			"post_name":"Joint Convenor",
 			"image":"convenor.jpg",
-			"email":""
+			"email":"ashokjangir640@gmail.com"
 		}
 	],
 	"id": "engi",
