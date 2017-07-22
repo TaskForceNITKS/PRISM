@@ -82,17 +82,6 @@ function loadCouncils() {
   link.appendChild(icon);
   $('#sc-links').append(link);
 
-  var link = document.createElement('a');
-  link.className = 'member-link';
-  link.setAttribute('href', sc.mail);
-
-  var icon = document.createElement('img');
-  icon.src = "img/bg-mail.png";
-  icon.className = "circle img-responsive";
-
-  link.appendChild(icon);
-  $('#sc-links').append(link);
-
 
   // Hostel Council begins here!
   content = hc.content;
@@ -109,17 +98,6 @@ function loadCouncils() {
 
   var icon = document.createElement('img');
   icon.src = "img/bg-fb.png";
-  icon.className = "circle img-responsive";
-
-  link.appendChild(icon);
-  $('#hc-links').append(link);
-
-  var link = document.createElement('a');
-  link.className = 'member-link';
-  link.setAttribute('href', hc.mail);
-
-  var icon = document.createElement('img');
-  icon.src = "img/bg-mail.png";
   icon.className = "circle img-responsive";
 
   link.appendChild(icon);
