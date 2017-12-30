@@ -5,14 +5,16 @@ $( document ).ready(function(){
 		$nav.find('nav').toggleClass('orange', $(this).scrollTop() > $('.home-page-banner').height());
 		$nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $('.home-page-banner').height());
     });
-
+	
 	$(".dropdown-button").dropdown();
     $('.dropdown-button').dropdown({
-      hover: true, // Activate on hover
-      belowOrigin: true, // Displays dropdown below the button
-      alignment: 'left', // Displays dropdown with edge aligned to the left of button
-    }
-  );    
+		hover: true, // Activate on hover
+		belowOrigin: true, // Displays dropdown below the button
+		alignment: 'left', // Displays dropdown with edge aligned to the left of button
+	});
+	
+	$('.carousel.carousel-slider').carousel({ fullWidth: true });
+
 	loadTechTeam();
 	loadContentTeam();
 	loadHelpdeskTeam();

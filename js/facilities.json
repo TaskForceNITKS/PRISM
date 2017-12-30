@@ -12,7 +12,7 @@ var facilities = [
 	{
 		"name": "Library",
 		"intro": "<i>\"Books are the man's best friend\"</i><br>The NITK Central Library is a boon to the students possessing a huge collection of books and a book bank from where students can borrow books for all academic and technical purposes.",
-		"timings": "Mon - Fri: 8AM to 11PM<br>Sat,Sun: 8AM to 4PM "
+		"timings": "Mon - Sat: 8AM to 11PM<br>Sun: 8AM to 4PM "
 	},
 	{
 		"name": "Sports Complex",
@@ -52,7 +52,26 @@ var facilities = [
 		"timings": "<b>Students’ Co-operative Society</b><br>Mon to Fri: 9AM to 6PM<br>Sat : 9:00AM to 1PM<br>Sunday is a holiday<br><b>Consumers’ Co-operative Society</b><br>Mon to Sat : 9:30AM to 1:00PM and 4PM to 8:30PM<br>Sunday is a holiday"
 	},
 	{
+		"name": "Online Shopping ",
+		"intro": "Online Shopping in NITK is very simple. All you have to do is order at any of the major Online Shopping Websites and put up the address as NITK Surathkal. Everyday hunderds of orders come at NITK. These are delivered at these three locations: <ul><li>- NITK Guest House Bus Stop</li><li>- Reddys Gate Bus Stop</li><li>- Yennar Electrical</li></ul>",
+	},
+	{
+		"name": "Cycle Repair",
+		"intro": "<p>Given that the campus is very huge, walking is a difficult mode to commute between departments or places in the campus. To encourage eco-friendly behavior cycles are promoted for commuting between places. And now there is no need to go in quest of a cycle repair shop to fill in air, repair brakes or any other repair work because this is the onestop solution to all problems regarding cycles.",
+		"timings": "7am to 9.30 am everyday"
+	},
+	{
+		"name": "Xerox Facilities",
+		"intro": "<p>From a print out of mess fee receipt to photocopying topper's notes before examinations, it is these places that people queue at. <b>Mudrika</b>, <b>7th block</b>, <b>CCC</b> and <b>Library</b> are 4 locations that provide this facility.<br></p>",
+		"timings": "9am to 6.30 pm everyday except Sunday"
+	},
+	{
+		"name": "Recharge Phone Balance",
+		"intro": "<p>In case you are looking to recharge your phone you can visit any of the following shops on campus to recharge your balance. <ul><li>- Amul, next to Sports Complex</li><li>- Western Campus Amul, Next to International Hostel</li><li>- Yennar Electrical</li></ul></p>",
+		"timings": "10am to 9.30 pm everyday except Sunday"
+	},
+	{
 		"name": "Other Facilities",
-		"intro": "<b>Xerox Facilities</b>: From a print out of mess fee receipt to photocopying topper's notes before examinations, it is this place in Mudrika, 7th block that students queue at. There is xerox facility at the library as well.<br><b>Yennar Electricals</b>: This is the place to go to recharge phones, resolve issues regarding mobile phone and most importantly this is the place to collect all those orders that you have booked online. So note this address to feed in as shipment address when ordering online!<br><b>Cycle Repair Shop</b>: Given that the campus is very huge, walking is a difficult mode to commute between departments or places in the campus. To encourage ecofriendly behavior cycles are promoted for commuting between places. And now there is no need to go in quest of a cycle repair shop to fill in air, repair brakes or any other repair work because this is the onestop solution to all problems regarding cycle."
+		"intro": "<p><b>Yennar Electricals</b>: This is the place to go to recharge phones, resolve issues regarding mobile phone and most importantly this is the place to collect all those orders that you have booked online. So note this address to feed in as shipment address when ordering online!<br></p>"
 	}
 ];
