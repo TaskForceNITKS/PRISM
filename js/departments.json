@@ -1,16 +1,4 @@
-/*Departments Structure
- * Department Name
- * Department Icon
- * Department Content
- 	* intro
- 	* definition
- 	* course_information
- 	* core_specializations
- 		* Values
- 	* Post Degree Stuff
- 	* Student Activities 
-*/
-var content=[
+﻿var content=[
 	{
 	"content":"This page is specifically made for Students who are confused about the choice of department and often look at placements and highest salary in a particular as a metric to joining a particular field. A lot of students often end up hating the very field that they joined. Hence we've created this page to prevent this trend from occurring. Please make sure to read each and every page properly and make a wise decision. You can leave any comments in the section below! </br></br> Please note that this information is <b>NOT officially endorsed</b> by NITK Surathkal and merely represents the opinions of the students who have contributed to it. "
 	}
@@ -20,29 +8,29 @@ var departments = [
 	{
 		"name": "Chemical Engineering",
 		"icon": "chemistry.png",
-		"intro": "Chemical Engineers have the primary responsibility of using raw materials and turning them into products which can be used in day-to-day lives of the people. Several of these products are commodities obtained from oil and gas and all these products are made with the help of chemical processes which allow us to access them.",
-		"definition": "Chemical Engineering, in principle, deals with the various physical and chemical processes that transpire in daily life, ranging from microscale to macroscale, and the understanding of these processes and how best to improve them, to suit the needs of the population. It is not to be confused with chemistry though as most students often do. Chemical Engineering is a huge and diverse branch. You'll be interested in building, designing and working of large industries and not so much about reactions/microscale details that happen inside (that is what Chemistry students concentrate about).",
-		"course_information":"Well it involves a wide range of courses from heat transfer, mass transfer, momentum transfer, chemical reaction engineering, separation processes, process control, petroleum engineering, thermodynamics etc. Quite a few students also go for higher studies to specialize in the field they're most interested in. (Almost all of them are 2 semester courses)",
+		"intro": "Chemical Engineers have the primary responsibility of using raw materials and turning them into products which can be used in day-to-day lives of the people. Several of these products are commodities obtained from oil and gas and all these products are made with the help of chemical processe.",
+		"definition": "Chemical Engineering, in principle, deals with the various physical and chemical processes that transpire in daily life, ranging from microscale to macroscale, and the understanding of these processes and how best to improve them, to suit the needs of the population. It is not to be confused with chemistry though as most students often do. Chemical Engineering is a huge and diverse branch. You'll be interested in building, designing and working of large industries and not so much about reactions/microscale details that happen inside (that is what Chemistry students concentrate about). Chemical engineering deals with the ways to turn any chemical process to its highest possible efficiency.",
+		"course_information":"It involves a wide range of courses from heat transfer, mass transfer, momentum transfer, chemical reaction engineering, separation processes, process control, petroleum engineering, thermodynamics etc. Quite a few students also go for higher studies to specialize in the field they're most interested in. (Almost all of them are 2 semester courses)",
 		"core_specializations": [
 			{	
-				"title":"Thermodynamics and Kinetics",
-				"desc":""
+				"title":"Industrial Pollution Control",
+				"desc":"This discipline deals with the application of engineering knowledge in pollution prevention, control and management, and strategies to combat the global issues on public health, safety, energy and environment. It also focusses on the design and operation of pollution control equipments/plants."
 			},
 			{
-				"title":"Reactor Design",
-				"desc":""
+				"title":"Industrial Biotechnology",
+				"desc":"This discipline deals with the design and development of a bioprocess, technology and protocols to meet desired performance specifications with the ability to evaluate, analyse and integrate new technology / development to the existing bioprocess, technology and protocols."
 			}
-		],
-		"pg":"Lots of options are available. Pharma companies, Oil and gas companies (Reliance, IOCL etc), other chemical companies (Pepsi Co, Jindal Steels etc) or even non-core jobs like marketing, analyst, coding etc. If you are interested in pharmaceutical or petroleum based areas or other subjects like thermodynamics or control of the process in any industry then it's a good option. There's theory as well as a lot of concept based numericals.",
+ 		],
+		"pg":"Varied options, depending on interests are available. Pharmaceutical companies, Oil and gas companies (Reliance, BPCL etc), other chemical companies (Pepsi Co, Jindal Steels etc) are few of the major companies in the core sector. Non-core jobs like marketing, analyst, coding etc. can also be taken up, if interested. ",
 		"link":"http://chemical.nitk.ac.in/",
 		"id":"ch"
 	},
 	{
 		"name": "Civil Engineering",
 		"icon": "civil.png",
-		"intro": "Civil Engineering is one of the oldest engineering branches started in NITK. Civil Engineering deals with airports, bridges, buildings, highways, networks, tunnels, water supply networks, transportation, construction, etc. In addition to all this analysis and planning of all these structures also comes under Civil Engineering.",
-		"definition": "There are several sub discipline under civil engineering. Few of them are as follows: Coastal engineering, Ocean engineering, Transportation, Geotech, Environment, Water Resource, Construction & Project Management, Earthquake Engineering, Structural engineering, Control engineering, Forensic engineering, Marine, etc.",
-		"course_information":"There are all the basic courses that a civil engineer needs - to design, develop and analyse structures. They start teaching us from the basic level, hence understanding won’t be an issue. The professors of this department are really friendly and generate immense interest in the subjects through various practical sessions, seminars and projects. Second year, is when you get into the department. We have subjects like Surveying, Construction of materials, Mechanics of material, Disaster Management, that actually help in creating a strong foundation for the future semesters. Third year, there are subjects like Soil mechanics. Prestressed concrete structures, Design of Steel structures, Architectural Drawings, Environmental engineering, where you’re exposed to the different fields of Civil engineering. You also get to do Mini Projects in this year (under a professor who is working in the same interest area). Final year, you have subjects related to Construction Project Management and you can choose from various electives offered. You have to do a Major Project in the final year.",
+		"intro": "Civil Engineering is one of the oldest engineering branches started in NITK. Civil Engineering deals with the construction of airports, bridges, buildings, highways, networks, tunnels, water supply networks, transportation, construction, etc. Analysis and planning of all these structures also comes under Civil Engineering.",
+		"definition": "There are several sub disciplines under civil engineering. Few of them are as follows: Coastal engineering, Ocean engineering, Transportation, Geotech, Environment, Water Resource, Construction & Project Management, Earthquake Engineering, Structural engineering, Control engineering, Forensic engineering, Marine, etc.",
+		"course_information":"There are all the basic courses that a civil engineer needs to design, develop and analyse structures. Teaching starts from the basic level. The professors of the department are really friendly and generate immense interest in the subjects through various practical sessions, seminars and projects. In second year,there are subjects like Surveying, Civil Engineering Materials and Construction, Mechanics of material, Disaster Management,etc. ; these actually help in creating a strong foundation for the future semesters. Third year, there are subjects like Soil mechanics, Prestressed concrete structures, Design of Steel structures, Architectural Drawings, Environmental engineering, where you’re exposed to the different fields of Civil engineering. You also get to do Mini Projects in this year (under a professor who is working in the same interest area). Final year, you have subjects related to Construction Project Management and you can choose from various electives offered. You have to do a Major Project in the final year.",
 		"core_specializations": [
 			{	
 				"title":"Coastal",
@@ -66,23 +54,23 @@ var departments = [
 			},
 			{	
 				"title":"Urban ",
-				"desc":"Primarily focus on designing, constructing, and maintaining the roads, water supply networks, sewers, municipal solid waste management and disposal, public parks, etc."
+				"desc":"Primarily focus on designing, constructing and maintaining the roads, water supply networks, sewers, municipal solid waste management and disposal, public parks, etc."
 			},
 			{
 				"title":"Hydraulic & Water resources ",
 				"desc":"Design and construct water resources such as pipelines, drainage facilities (including dams, channels, culverts, storm sewers), and canals."
 			}
 		],
-		"pg":"There a whole lot of opportunities in this field: Continue in the field and take a core job. Pursue higher studies. Masters in India or abroad will definitely add up to your resume. Go in the research side and get innovative. You can take up Management studies and continue in the construction field. Take up a non core job (depends on your interest).",
+		"pg":"There a whole lot of opportunities in this field. You can continue in the field and take a core job or pursue higher studies. Masters in India or abroad will definitely add up to your resume. You can go in the research arena and get innovative. You can take up Management studies and continue in the construction field. You can also take up a non core job (depends on your interest).",
 		"link":"http://civil.nitk.ac.in/",
 		"id":"cv"
 	},
 	{
-		"name": "Computer Engineering",
+		"name": "Computer Science and Engineering",
 		"icon": "computer.png",
-		"intro": "A Computer Engineer is one who ensures that the communication devices that you use in daily life, stay connected that way to the outside world, and give you the best experience. Computer Engineering breaks down a complex system into many parts (not just limited at the software level) and tries to analyze and optimize each of them separately.",
+		"intro": "A Computer Engineer is one who ensures that the communication devices that you use in daily life, stay connected that way to the outside world, and give you the best experience. Computer Science and Engineering breaks down a complex system into many parts (not just limited at the software level) and tries to analyze and optimize each of them separately.",
 		"definition": "Computer engineering is a discipline that combines logic and electronic engineering to develop hardware and software. It involves understanding how computers works and developing systems that make computation faster, robust and more resource efficient.",
-		"course_information":"The Computer Engineering Department offers  introductory courses for programming in C and object oriented JAVA programming where you also get to work on interesting projects as part of your lab. This does not require any prerequisite programming experience but  it becomes easy if you have some prior background knowledge. The Data Structures and Algorithms courses focus on optimization and and efficiency of programs.There are systems courses like Computer Networks and Databases, that teach you about data storage and transfer applications. Courses on Computer Architecture, Operating Systems, and Compilers, give you a better understanding about the inner workings of a computer and the lab sessions include building your own compiler from scratch and solving open problems in Operating Systems. Theoretical courses on Computation theory like Automata Theory are also part of the core curriculum. Beyond these core courses, the department offers a number of electives like Graph theory, Computer Graphics, Digital Image Processing, Artificial Intelligence, Number Theory and Cryptography and many more. Discrete and Concrete math and Linear Algebra are some of the electives the Department offers in collaboration with the Mathematics Department.",
+		"course_information":"The Department offers  introductory courses for programming in C and object oriented JAVA programming where you also get to work on interesting projects as part of your lab. This does not require any prerequisite programming experience but  it becomes easy if you have some prior background knowledge. The Data Structures and Algorithms courses focus on optimization and and efficiency of programs.There are systems courses like Computer Networks and Databases, that teach you about data storage and transfer applications. Courses on Computer Architecture, Operating Systems, and Compilers, give you a better understanding about the inner workings of a computer and the lab sessions include building your own compiler from scratch and solving open problems in Operating Systems. Theoretical courses on Computation theory like Automata Theory are also part of the core curriculum. Beyond these core courses, the department offers a number of electives like Graph theory, Computer Graphics, Digital Image Processing, Artificial Intelligence, Number Theory and Cryptography and many more. Discrete and Concrete math and Linear Algebra are some of the electives the Department offers in collaboration with the Mathematics Department.",
 		"core_specializations": [
 			{	
 				"title":"Algorithms and Theoretical Computers ",
@@ -110,7 +98,7 @@ var departments = [
 		"id":"cs"
 	},
 	{
-		"name": "Electrical Engineering",
+		"name": "Electrical and Electronics Engineering",
 		"icon": "eee.png",
 		"intro": "Electrical engineering is the Godfather branch of all the circuit branches and is one of those which solves one of the most fundamental problems that faces society: (electrical) power. ECE, CS etc are all off-shoots from this branch. A branch highly under-rated because of its deglamorous perception in society and specifically urban India, it is by far one of the most challenging, intellectually involving and a first point in many interdisciplinary areas.  It is highly mathematical and requires a lot of in-depth analysis as well as critical thinking since not all what you learn is tangibly seen.  A branch meant for the lion hearts who wish to do some REAL engineering and get their hands (not literally) dirty.",
 		"definition": "Unlike what your Kapoor chachas and Malhotra uncles make you believe tIRRcal (as we call it in NITK) is NOT about fixing bulbs, fans and wires. Though it will help you in life in general if you could do these things. You will pick up the elementary KVL, KCL from Class 11th and dig circuits, networks and systems deeper. It is a study of electrical phenomenon pertaining to generating electricity. You will use these techniques to analyze larger power systems, energy systems etc. A lot of what you learn will be just analysis and can be applied in a variety of fields ranging from aerospace to finance to robotics. ",
@@ -138,9 +126,9 @@ var departments = [
 		"id":"ee"
 	},
 	{
-		"name": "Electronics Engineering",
+		"name": "Electronics and Communication Engineering",
 		"icon": "ece.png",
-		"intro": "Electronics engineering, or electronic engineering, is an electrical engineering discipline which utilizes nonlinear and active electrical components (such as semiconductor devices, especially transistors, diodes and integrated circuits) to design electronic circuits, devices, microprocessors, microcontrollers and other systems. The discipline typically also designs passive electrical components, usually based on printed circuit boards.",
+		"intro": "Electronics and communication engineering, is an engineering discipline which utilizes nonlinear and active electrical components (such as semiconductor devices, especially transistors, diodes and integrated circuits) to design electronic circuits, devices, microprocessors, microcontrollers and other systems. The discipline typically also designs passive electrical components, usually based on printed circuit boards.",
 		"definition": "There are two aspects- hardware and software. Hardware is about designing circuits- analog and digital. Software is basically digital signal processing which is about sending data from the surrounding, converting it into numbers and then manipulating the numbers. Communication is about designing effective algorithms and systems for communication.",
 		"course_information":"Circuit design- they teach you building blocks and then how to put them together to make interesting stuff, communication- has quite some physics and derivations, DSP- has math as well as programming, microcontrollers- a way to code hardware, very simple computers, DSA- data structures and algorithms, digital communication- math based algorithms and techniques for communication.",
 		"core_specializations": [
@@ -209,7 +197,7 @@ var departments = [
 		"name": "Mechanical Engineering",
 		"icon": "mech.png",
 		"intro": "Mechanical engineering is a huge field overlapping with many other engineering branches. Being one of the oldest branches, mechanical engineering is the study, design and production/manufacturing of machines and mechanical systems. It also deals with generating energy of various forms and its interconversion and creating and selecting materials for engineering applications.",
-		"definition": "Mainly we use the concepts and applications of physics and maths to develop solutions to design, analyze and produce manufacturing plants, industrial equipment and machinery, heating and cooling systems, transport systems, aircraft, watercraft, robotics, medical devices, weapons, and others. Due  to the large overlap with other fields mechanical engineering students are required to know some decent of information about other engineering branches. In general we engineer useful products and solutions for consumers that makes human life simpler.",
+		"definition": "Mainly we use the concepts and applications of physics and maths to develop solutions to design, analyze and produce, industrial equipment and machinery, heating and cooling systems, transport systems, aircraft, watercraft, robotics, medical devices, weapons, and others. Due  to the large overlap with other fields mechanical engineering students are required to know decent amount of information regarding other engineering branches. In general we engineer useful products and solutions for consumers that makes human life simpler.",
 		"course_information":"Basic and Advanced Thermodynamics, Machine Design, Synthesis of Mechanisms, Material Science, Fluid Mechanics and hydraulics, manufacturing processes and technology etc as core subjects. Computational Fluid Dynamics , Robotics, Nuclear Science, Wind Energy, etc as department electives, and other open electives from the Mathematics department, Basic Sciences department, and School of Management.",
 		"core_specializations": [
 			{	
@@ -234,9 +222,9 @@ var departments = [
 		"id":"me"
 	},
 	{
-		"name": "Metallurgy Engineering",
+		"name": "Metallurgical and Materials Engineering",
 		"icon": "meta.png",
-		"intro": "Materials science studies the properties of matter to solve science and engineering problems. It uses applied physics and chemistry. Supersmall nanotechnology has got attention in recent years. There are many inventions of new material. Work on why structures fail or break down is very important to engineering.",
+		"intro": "This engineering discipline deals with the study of the properties of matter, to solve science and engineering problems. It uses applied physics and chemistry. Supersmall nanotechnology has got attention in recent years. There are many inventions of new material. Work on why structures fail or break down is very important to engineering.",
 		"definition": "In a nutshell, this department studies the structure-property relations of metals and other materials. Basically, we look at the structure of the metal at the atomic scale (FCC, BCC, that sort of stuff), how the atoms are arranged and bonded, and use this information to figure out what the macroscopic properties of the metal/material should be. Metallurgy is at the intersection of Mechanical Engineering and Chemical Engineering, along with some other concepts as well. We need to understand how stresses/strains work and how they effect the structures of metals at the atomic scale and hence the macro properties. This is where the concepts of Mechanical Engineering come in. Some fields of metallurgy deal with the science of the flow and reactions of molten metal, and this is where Chemical Engineering is needed. Of course, extraction of metals from ores is another important field.",
 		"course_information":"Metallurgical and Materials Engineering at NITK actually has the highest credit requirement of any department-180 credits over 4 years. There are 3 courses from Materials Engineering: Polymers, Ceramics, and Composites. Some of the metallurgy courses we have are: Physical Metallurgy (lays down the basic concepts needed to understand structure property relations), Principles of Extractive Metallurgy, Process Engineering (teaches fluid mechanics, heat transfer, mass transfer), X-Ray and Electron Metallography (how to view and understand microstructures), Fatigue Fracture and Creep (3 very important concepts of mechanical metallurgy), Heat Treatment (how to modify properties of metals by manipulating heating and cooling cycles), Production of Iron and Ferroalloys, Production of Steel, Corrosion Engineering, Aerospace Materials, Powder Metallurgy, Nanotechnology.",
 		"core_specializations": [
