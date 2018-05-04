@@ -17,8 +17,14 @@ function loadDepartmentInfo(id) {
     }
     $('.header-title').html(department.name);    
 
-    $('.intro').html(department.intro);      
     $('.department_name').html(department.name);      
+    
+    var building_image = document.createElement('img');
+    building_image.src = "img/department_buildings/" + department.image;
+    building_image.className = "img-responsive center-align";
+    $('.department_building').html(building_image);      
+
+    $('.intro').html(department.intro);      
     $('.definition').html(department.definition);      
     $('.course_information').html(department.course_information);
     $('.pg-options').html(department.pg);
