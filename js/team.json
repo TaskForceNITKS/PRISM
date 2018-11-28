@@ -3,19 +3,28 @@ var tech_team = [
 	"name": "Salman Shah",
 	"image": "salman-shah.jpg",
 	"description": "Web Design Head",
-	"facebook": "https://www.facebook.com/shah.salman.bhai"
+	"facebook": "https://www.facebook.com/shah.salman.bhai",
+	"linkedin": "",
+	"team_name":"Tech Team",
+	"year":"2017"
 },
 {
 	"name": "Moksh Jain",
 	"image": "moksh-jain.jpg",
 	"description": "Web Developer",
-	"facebook": "https://www.facebook.com/moksh.jain"
+	"facebook": "https://www.facebook.com/moksh.jain",
+	"linkedin": "",
+	"team_name":"Tech Team",
+	"year":"2017"
 },
 {
 	"name": "Anumeha Agrawal",
 	"image": "anumeha.jpg",
 	"description": "Web Developer",
-	"facebook": "https://www.facebook.com/anumeha.agrawal.9"
+	"facebook": "https://www.facebook.com/anumeha.agrawal.9",
+	"linkedin": "",
+	"team_name":"Tech Team",
+	"year":"2017"
 }
 ]
 
@@ -24,25 +33,37 @@ var content_team = [
 	"name": "Dasari Srikanth",
 	"image": "srikanth-dasari.jpg",
 	"description": "Content Head",
-	"facebook": "https://www.facebook.com/profile.php?id=100012484546570"
+	"facebook": "https://www.facebook.com/profile.php?id=100012484546570",
+	"linkedin": "",
+	"team_name":"Content Team",
+	"year":"2017"
 },
 {
 	"name": "Manjunath Maigur",
 	"image": "manjunath.jpg",
 	"description": "Design Contributor",
-	"facebook": "https://www.facebook.com/manju.maigur6"
+	"facebook": "https://www.facebook.com/manju.maigur6",
+	"linkedin": "",
+	"team_name":"Content Team",
+	"year":"2017"
 },
 {
 	"name": "Chayanika Das",
 	"image": "chayanika.jpg",
 	"description": "Content Contributor",
-	"facebook": "https://www.facebook.com/chayanika.das.7796"
+	"facebook": "https://www.facebook.com/chayanika.das.7796",
+	"linkedin": "",
+	"team_name":"Content Team",
+	"year":"2017"
 },
 {
 	"name": "Sunitha Selvan",
 	"image": "sunitha-selvan.jpg",
 	"description": "Content Contributor",
-	"facebook": "https://www.facebook.com/selvan.suni"
+	"facebook": "https://www.facebook.com/selvan.suni",
+	"linkedin": "",
+	"team_name":"Content Team",
+	"year":"2017"
 }
 ]
 
@@ -51,24 +72,32 @@ var helpdesk_team = [
 	"name": "Lakshman Saketh",
 	"image": "lakshman-saketh.jpg",
 	"description": "Help Desk Head",
-	"number": "+91 88975 31632"
+	"linkedin": "",
+	"team_name":"Help Desk Team",
+	"year":"2017"
 },
 {
 	"name": "Agnes Sharan",
 	"image": "agnes-sharan.jpg",
 	"description": "Help Desk Head",
-	"number":"+91 96113 44476"
+	"linkedin": "",
+	"team_name":"Help Desk Team",
+	"year":"2017"
 },
 {
 	"name": "P Uday Kumar",
 	"image": "uday.jpg",
 	"description": "Help Desk Team",
-	"number":"+91 95050 70175"
+	"linkedin": "",
+	"team_name":"Help Desk Team",
+	"year":"2017"
 },
 {
 	"name": "Reethu",
 	"image": "reethu.jpg",
 	"description": "Help Desk Team",
-	"number":"+91 96861 92124"
+	"linkedin": "",
+	"team_name":"Help Desk Team",
+	"year":"2017"
 }
 ]
