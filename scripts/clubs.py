@@ -2,11 +2,11 @@
 Format for Clubs Team Updation Google Form:
 	1. name: Club Name (Eg: IEEE-NITK)
 	2. image: (Eg: ieee.jpg)
-	3. convenor: Name
+	3. convenor: Club Convenor Name
 	4. fb: Facebook link
 	5. events: (comma-separated)
 	6. projects: (comma-separated)
-	7. description:
+	7. description: IEEE is the world's largest...etc.
 
 This form's reponses spreadsheet is then downloaded in csv format as "clubs.csv"
 

@@ -1,8 +1,8 @@
 """
 Format for Sports Team Updation Google Form:
 	1. title: Team title (Eg: Basketball (Boys))
-	2. captainName: 
-	3. introduction:
+	2. captainName: Name of Team Captain
+	3. introduction:	
 	4. selectionProcedure: 
 	5. competitions: (comma-separated)
 	6. achievements: (comma-separated)
