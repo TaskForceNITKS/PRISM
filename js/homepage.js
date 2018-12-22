@@ -21,8 +21,8 @@ $( document ).ready(function(){
 });
 
 function loadTechTeam() {
-	for (var i = 0; i < tech_team.length; i++) {
-		member = tech_team[i];
+	for (var i = 0; i < tech_team_2017.length; i++) {
+		member = tech_team_2017[i];
 		var container = document.createElement('div');
 		container.className = "member-container col s12 m4";
 
@@ -63,7 +63,7 @@ function loadTechTeam() {
 }
 
 function loadContentTeam() {
-	for (var i = 0; i < content_team.length; i++) {
+	for (var i = 0; i < content_team_2017.length; i++) {
 		if(i%2===0) {
 			var row = document.createElement('div');
 			row.className = "row";
@@ -71,7 +71,7 @@ function loadContentTeam() {
 
 			$('#content-team-container').append(row);
 		}
-		member = content_team[i];
+		member = content_team_2017[i];
 		var container = document.createElement('div');
 		container.className = "member-container col s12 m6";
 
@@ -112,8 +112,8 @@ function loadContentTeam() {
 }
 
 function loadHelpdeskTeam() {
-	for (var i = 0; i < helpdesk_team.length; i++) {
-		member = helpdesk_team[i];
+	for (var i = 0; i < helpdesk_team_2017.length; i++) {
+		member = helpdesk_team_2017[i];
 		var container = document.createElement('div');
 		container.className = "member-container col s12 m6 l6";
 
