@@ -1,4 +1,4 @@
-var tech_team_2017 = [
+var tech_team = [
 {
 	"name": "Salman Shah",
 	"image": "salman-shah.jpg",
@@ -28,7 +28,7 @@ var tech_team_2017 = [
 }
 ]
 
-var content_team_2017 = [
+var content_team = [
 {
 	"name": "Dasari Srikanth",
 	"image": "srikanth-dasari.jpg",
@@ -67,7 +67,7 @@ var content_team_2017 = [
 }
 ]
 
-var helpdesk_team_2017 = [
+var helpdesk_team = [
 {
 	"name": "Lakshman Saketh",
 	"image": "lakshman-saketh.jpg",
