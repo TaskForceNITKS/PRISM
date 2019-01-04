@@ -44,8 +44,9 @@ function loadDepartmentsList() {
 		var icon = document.createElement('img');
 		icon.className = "department-icon";
 		icon.src = "img/departments/" + department.icon;
+		icon.alt = department.name;
 
-		name = department.name.split(/[ ,]+/).join('<br>')
+		name = department.name.split(/[ ,]+/).join('<br>');
 
 		var title = document.createElement('div');
 		title.className = "department-title";

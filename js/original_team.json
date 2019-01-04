@@ -1,0 +1,74 @@
+var tech_team = [
+	{
+		"name": "Salman Shah",
+		"image": "salman-shah.jpg",
+		"description": "Web Design Head",
+		"facebook": "https://www.facebook.com/shah.salman.bhai"
+	},
+	{
+		"name": "Moksh Jain",
+		"image": "moksh-jain.jpg",
+		"description": "Web Developer",
+		"facebook": "https://www.facebook.com/moksh.jain"
+	},
+	{
+		"name": "Anumeha Agrawal",
+		"image": "anumeha.jpg",
+		"description": "Web Developer",
+		"facebook": "https://www.facebook.com/anumeha.agrawal.9"
+	}
+	]
+	
+	var content_team = [
+	{
+		"name": "Dasari Srikanth",
+		"image": "srikanth-dasari.jpg",
+		"description": "Content Head",
+		"facebook": "https://www.facebook.com/profile.php?id=100012484546570"
+	},
+	{
+		"name": "Manjunath Maigur",
+		"image": "manjunath.jpg",
+		"description": "Design Contributor",
+		"facebook": "https://www.facebook.com/manju.maigur6"
+	},
+	{
+		"name": "Chayanika Das",
+		"image": "chayanika.jpg",
+		"description": "Content Contributor",
+		"facebook": "https://www.facebook.com/chayanika.das.7796"
+	},
+	{
+		"name": "Sunitha Selvan",
+		"image": "sunitha-selvan.jpg",
+		"description": "Content Contributor",
+		"facebook": "https://www.facebook.com/selvan.suni"
+	}
+	]
+	
+	var helpdesk_team = [
+	{
+		"name": "Lakshman Saketh",
+		"image": "lakshman-saketh.jpg",
+		"description": "Help Desk Head",
+		"number": "+91 88975 31632"
+	},
+	{
+		"name": "Agnes Sharan",
+		"image": "agnes-sharan.jpg",
+		"description": "Help Desk Head",
+		"number":"+91 96113 44476"
+	},
+	{
+		"name": "P Uday Kumar",
+		"image": "uday.jpg",
+		"description": "Help Desk Team",
+		"number":"+91 95050 70175"
+	},
+	{
+		"name": "Reethu",
+		"image": "reethu.jpg",
+		"description": "Help Desk Team",
+		"number":"+91 96861 92124"
+	}
+	]

@@ -20,11 +20,22 @@ $( document ).ready(function(){
 	loadHelpdeskTeam();
 });
 
+var currentYear = "2017";
+
 function loadTechTeam() {
-	for (var i = 0; i < tech_team.length; i++) {
-		member = tech_team[i];
+	var tech_team_filtered = tech_team.filter(function(arr) {
+		return arr.year === currentYear;
+	});
+	for (var i = 0; i < tech_team_filtered.length; i++) {
+		member = tech_team_filtered[i];
 		var container = document.createElement('div');
-		container.className = "member-container col s12 m4";
+
+		if (tech_team_filtered.length % 3 === 0) {
+			container.className = "member-container col s12 m4 l4";
+		}
+		else {
+			container.className = "member-container col s12 m6 l6";
+		}
 
 		var image = document.createElement('img');
 		image.src = "img/team/" + member.image;
@@ -63,18 +74,29 @@ function loadTechTeam() {
 }
 
 function loadContentTeam() {
-	for (var i = 0; i < content_team.length; i++) {
-		if(i%2===0) {
-			var row = document.createElement('div');
-			row.className = "row";
-			row.id = "content-row-" + i/2;
+	var content_team_filtered = content_team.filter(function(arr) {
+		return arr.year === currentYear;
+	});
+	for (var i = 0; i < content_team_filtered.length; i++) {
+		if (content_team_filtered.length % 3 != 0) {
+			
+			if(i%2===0) {
+				var row = document.createElement('div');
+				row.className = "row";
+				row.id = "content-row-" + i/2;
 
-			$('#content-team-container').append(row);
+				$('#content-team-container').append(row);
+			}
 		}
-		member = content_team[i];
+		member = content_team_filtered[i];
 		var container = document.createElement('div');
-		container.className = "member-container col s12 m6";
-
+		if (content_team_filtered.length % 3 === 0) {
+			container.className = "member-container col s12 m4 l4";
+		}
+		else {
+			container.className = "member-container col s12 m6 l6";
+		}
+		
 		var image = document.createElement('img');
 		image.src = "img/team/" + member.image;
 		image.className = "circle responsive-img member-image";
@@ -107,15 +129,29 @@ function loadContentTeam() {
 
 		// console.log(container.innerText);
 
-		$('#content-row-'+parseInt(i/2)).append(container);
+		if (content_team_filtered.length == 3) {
+			$('#content-team-container').append(container);
+		}
+		else {
+			$('#content-row-'+parseInt(i/2)).append(container);
+		}
 	}
 }
 
 function loadHelpdeskTeam() {
-	for (var i = 0; i < helpdesk_team.length; i++) {
-		member = helpdesk_team[i];
+	var helpdesk_team_filtered = helpdesk_team.filter(function(arr) {
+		return arr.year === currentYear;
+	});
+	for (var i = 0; i < helpdesk_team_filtered.length; i++) {
+		member = helpdesk_team_filtered[i];
 		var container = document.createElement('div');
-		container.className = "member-container col s12 m6 l6";
+
+		if (helpdesk_team_filtered.length % 3 === 0) {
+			container.className = "member-container col s12 m4 l4";
+		}
+		else {
+			container.className = "member-container col s12 m6 l6";
+		}
 
 		var image = document.createElement('img');
 		image.src = "img/team/" + member.image;
