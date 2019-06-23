@@ -3,18 +3,18 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-	<title>PRISM - Sports at NITK</title>
+	<title>PRISM - PRogram to Initiate Student Mentoring, NITK Surathkal</title>
+
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<link rel="icon" href="favicon.png" type="image/x-icon">
 
 	<!-- Load Core Materialize CSS  -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans|Roboto' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-
-	<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
-	<link rel="icon" href="/favicon.png" type="image/x-icon">
-
+	<link rel="stylesheet" href="css/faq.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/sports.css">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113139994-2"></script>
 	<script>
@@ -23,9 +23,8 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-113139994-2');
-	</script>	
+	</script>
 </head>
-
 <body>
 
 	<header>
@@ -50,7 +49,7 @@
 				<li class="divider"></li>
 				<li><a href="map.html">Map</a></li>
 			</ul>
-			<nav class="transparent" role="navigation">
+			<nav class="orange" role="navigation">
 				<div class="nav-wrapper container">
 					<a href="/" class="brand-logo">
 						<span class="pad">
@@ -86,53 +85,41 @@
 			</nav>
 		</div>
 	</header>
-
-
-	<div class="sports-page-banner">
-		<div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0,0,0,0.6);"></div>
-		<div style="position: absolute; bottom: 0;width: 100%; color: #fff;">
-			<div class="container">
-				<div class="row">
-					<h1 class="welcome-text">Sports at NITK!</h1>
-				</div>
-				<div class="row">
-					NITK isn't just sbout studying all day. In fact, it plays hosts to a lot of sports activities throughout the year!<br>
-					There are ample opportunities for playing each and every kind of sports in this college.<br><br><br><br>
-				</div>
-				<div class="row">
-					<a href="department_index.html" class="button">Departments</a>
-					<br><br><br><br><br>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="page-info">
+	<main>
+		<div class="faq-initial orange"></div>
+		<br><br><br><br>
+		<div class="center white-text faq-heading">FAQs</div>
 		<div class="container">
-		  <div class="row">
-		    <div class="col s12">
-		      <a href="/" class="breadcrumb">Home</a>
-		      <a href="#" class="breadcrumb">Sports</a>
-		    </div>
-		  </div>
+			<ul class="collapsible">
+			</ul>
 		</div>
-	</div>
-
-	<div class="content">
-		<div class="container" >
-			<div class="row white" style="padding: 20px;">
-				<div id="sports"></div>
+		<div class="fixed-action-btn">
+		<a class="btn-floating btn-large orange modal-trigger" href="#modal1">
+		<i class="large material-icons">email</i>
+		</a>
+		</div>
+		<!-- Modal Structure -->
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Got more Queries? Ask away.</h4>
+			</div>
+			<div class="form-container">
+				<form method="POST" action="https://formspree.io/taskforce@nitk.edu.in">
+					<label class="black-text email-label" for="email">Email</label>
+					<input type="email" name="email" placeholder="abc@xyz.com">
+					<label class="black-text query-label" for="message">Your Query</label>
+					<textarea name="message" placeholder="Ask away" rows="5"></textarea>
+					<div class="modal-footer">
+						<button type="submit" target="_blank" class="modal-close waves-effect waves-green btn-flat">Submit</button>
+					</div>
+				</form>
 			</div>
 		</div>
-	</div>
-	<div class="push"></div>
+	</main>
 
-
- 	<!--  Scripts-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-	<script type="text/javascript" src="js/sports.json"></script>
-	<script type="text/javascript" src="js/sports.js"></script>
+	<!-- Scripts -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/faqs.json"></script>
+	<script type="text/javascript" src="js/faq.js"></script>
 </body>
-</html>

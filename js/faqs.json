@@ -1,0 +1,1262 @@
+var faqs = [
+	{
+		"question": "What are the ​medical facilities​ present in and around campus?",
+		"answer": `<p>
+
+    NITK ensures the care of students' health. Situated right next to the CCC, the <strong>Health Care Centre</strong>​ (<strong>HCC) </strong>​is equipped with qualified doctors to provide free medical aid to the students. Ambulance service is also available 24*7 in case of emergency. 
+</p>
+<p>
+
+<strong>Timings: </strong>
+</p>
+<p>
+
+Mon – Fri : 9AM to 1PM and 2PM to 12AM. 
+</p>
+<p>
+
+Sat and Sun : 9 AM to 1 PM and 2 PM to 9 PM. 
+</p>
+<p>
+ 
+</p>
+<ul>
+
+<li>Apart from the general physician, Doctors related to all specializations visit the campus once or twice a week. 
+
+<li>In case of an emergency, ambulance responds quickly by taking the student to nearby Multi-Specialty hospital SRINIVASA. 
+
+<li>Students in NITK are provided with a health scheme by <strong>Vidal Health Administrative Services</strong>​ where the student is issued a ​<strong>health card</strong>​ by which he can claim upto 50,000 on treatment in any hospital within Karnataka (surgeries, immediate medication while in 
+emergencies).
+<ul>
+
+<li>On request to the Health officer, a student can also have the facility to proceed with the required medication in his/her place. 
+</li>
+</ul>
+</li>
+</ul>
+<p>
+  
+</p>`,
+	},
+	{
+		"question": "How do the ​transport facilities​ in campus work?",
+		"answer": `<p>
+
+As NITK covers a vast portion of land, we’ve been provided <strong>bus services</strong> across campus with different drop-off locations. 
+</p>
+<p>
+
+The buses move around from ​<strong>8am to 5pm.</strong>  
+</p>
+<p>
+
+The following are the pick-up/drop-off points: 
+</p>
+<ol>
+
+<li>Mega Towers 
+
+<li>Sayadri Block 
+
+<li>Mechanical Department 
+
+<li>Girls Block [GB] 
+
+<li>Lecture Hall COMPLEX - C  
+</li>
+</ol>
+<p>
+  
+</p>
+<p>
+
+Students here can also ride around in bicycles. 
+</p>
+<p>
+
+In case of any medical or other reasonable issue, students may request permission from the administration to use their bikes/scooters in the campus. 
+</p>`
+	},
+	{
+		"question": "How are the different hostel blocks allotted and what are their timings?",
+		"answer": `<p>
+
+<strong>Boys Block:</strong>
+</p>
+<p>
+
+Here in NITK, there are 9 hostel blocks i.e 6 normal hostel blocks and 3 mega towers
+</p>
+<p>
+
+First years are usually allotted the Karavali, Aravali and Sayadri block which are 3-students sharing rooms. Second years are allotted in 2-students shared rooms in Vindhya and Satpura. They also have the provision for having a single room in Nilgiri block depending on the vacancies. 3​<sup>rd</sup>​ years are shifted to mega towers which are single rooms. This accommodation continues for the 4<sup>th</sup> year too. 
+</p>
+<p>
+  
+</p>
+<p>
+
+For the first years in Karavali block and Aravali block, the block timings are until 10 pm. 
+</p>
+<p>
+
+And for the students in Satpura block there are no timings 
+</p>
+<p>
+
+because the block is also shared by the Post-Graduate students. 
+</p>
+<p>
+
+Rest of the years usually have no stringent block timings for their hostels.
+</p>
+<p>
+
+<strong>Girls Block:</strong>
+</p>
+<p>
+
+There are 5 blocks for the girls:
+</p>
+<p>
+
+The <strong>hostel </strong>timings for the respective semesters are as follows:
+</p>
+<p>
+
+1st sem - 7:00pm
+</p>
+<p>
+
+2nd sem - 9:30pm
+</p>
+<p>
+
+3rd-4th sem - 10:30pm
+</p>
+<p>
+
+5th-8th sem - 11:00pm
+</p>
+<p>
+  
+</p>
+<ul>
+
+<li>In case of any requirement, block timings are increased by the notice of the hostel council. 
+
+<li>The <strong>Campus </strong>timing for girls and boys remain 10:30pm throughout. 
+</li>
+</ul>
+<p>
+<strong>Note</strong>: Hostel allotments in first year are offline. Next year onwards they are done online using IRIS portal.
+</p>`,
+	},
+	{
+		"question": "What is the curriculum for first year?",
+		"answer": `<p>
+
+The first year curriculum is divided into two parts – Physics Cycle and Chemistry Cycle. Each cycle has different courses.  The students are divided into sections based on their branches. Sections S1 to S6 constitute of students of CH, CV, ME, MI, MT ( 1<sup>st</sup> Semester - Physics Cycle, 2<sup>nd</sup> Semester - Chemistry Cycle). Sections S7 to S12 will be made up of students of CS, EC, EE and IT (1<sup>st</sup> Semester - Chemistry Cycle, 2<sup>nd</sup> Semester - Physics Cycle). From the batch of 2022, Program-Specific Core Courses have been introduced. Program Specific Core will be done in D’ slot( i.e. 5 PM-6 PM), by the respective departments. Below is a list of PSC courses for the academic year 2018-19. 
+</p>
+<p>
+ 
+</p>
+<ul>
+
+<li>Civil Engineering.
+<p>
+
+CV100 - Civil Engineering Materials and Construction.
+</p>
+<ul>
+
+<li>Mining Engineering. 
+<p>
+
+MI101 - Introduction to Mining Engineering.
+</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Computer Science And Engineering. 
+<p>
+
+CS112 - Discrete Mathematical Structures. 
+</p>
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Electronics And Communication Engineering.
+<p>
+
+EC101 - Joy of Electronics and Communication. 
+</p>
+<p>
+
+EC102 - Linear Systems and Signals.
+</p>
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Electrical & Electronics Engineering.
+<p>
+
+EE101 - Analysis Of Electric Circuits. 
+</p>
+<p>
+
+EE143 - Mathematics For Electrical Engineers. 
+</p>
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Information Technology.
+<p>
+
+IT110 - Digital System Design. 
+</p>
+<p>
+
+    IT150 - Object Oriented Programming. 
+</p>
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Chemical Engineering. 
+<p>
+
+CH150 - Process Calculations. 
+</p>
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Mechanical Engineering. 
+<p>
+
+    ME112 - Materials Science and Engineering. ME113 - Mechanics of Deformable Bodies. 
+</p>
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Metallurgical And Materials Engineering.
+<p>
+
+MT160 - Introduction to Material Science & Technology.
+</p>
+</li>
+</ul>
+<p>
+ 
+</p>
+<p>
+
+If a student fails a course, a make-up exam will be held shortly after the end-semester exams to provide another chance to pass the exam. In the make-up exam, a ceiling is kept on the grade so that the student does not get more than DD.
+</p>
+<p>
+
+ If a student fails the make-up exam as well, he/she will have to take up the course again, either in the summer or in subsequent semesters. Maintaining attendance greater than 75% in each course is necessary to avoid getting an FA grade (Fail due to lack of attendance).  
+</p>
+<p>
+ 
+</p>
+<p>
+
+The grading system in NITK is relative.The department which is offering the course decides the range of marks for a particular grade. You can get the following grades in a subject- 
+</p>
+<p>
+ 
+</p>
+<p>
+
+AA – 10.
+</p>
+<p>
+
+AB – 9. 
+</p>
+<p>
+
+BB – 8. 
+</p>
+<p>
+
+BC – 7. 
+</p>
+<p>
+
+CC – 6. 
+</p>
+<p>
+
+CD – 5. 
+</p>
+<p>
+
+DD – 4. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+If the grade point is below 4, the respective student is declared failed in that particular subject. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+Also, from the batch of 2022, B.Tech. Students can also register for Post Graduate courses as electives: 
+</p>
+<p>
+ 
+</p>
+<p>
+
+In exceptional situations, with prior approval of the concerned DUGC, a B.Tech student can register for a postgraduate course as an elective.
+</p>
+<p>
+
+(for further information refer B.Tech Curriculum 2018)
+</p>`,
+	},
+	{
+		"question": "What are the guidelines for MINOR PROGRAMME in B.Tech?",
+		"answer": `<ul>
+
+<li>&#x2022;&nbsp;A student in a particular discipline can take additional specified courses totaling 15 to 20 credits in other disciplines. If (s)he gets a GPA of 7.0 in these courses, then it will find a mention in their grade cards and degree certificate. 
+
+<li>&#x2022;&nbsp;A student can opt for Minors in Third Semester and register for Minor Courses from Third to Eighth Semesters. Students who have cleared all the courses of the first and second semester in the first attempt and have obtained a CGPA of 7.0 and above are eligible to register for minor courses. 
+
+<li>&#x2022;&nbsp;Allotment of minors will be based on merit list prepared on the basis of CGPA at the end of the second semester. 
+
+<li>&#x2022;&nbsp;In case a student does not get a CGPA of 7.0 in minor courses, then these courses can be counted towards their elective credit requirement. 
+
+<li>&#x2022;&nbsp;For further accurate information, do contact your class representative, professors or faculty advisors.</li>
+</ul>`,
+	},
+	{
+		"question": "What are the guidelines  for HONORS PROGRAMME in B.Tech?",
+		"answer": `<ul>
+
+<li>&#x2022;&nbsp;A student in a particular discipline can take additional specified courses at postgraduate level in the same discipline totaling 15 to 20 credits. If he/she gets a GPA of 6.0 and above in these courses, then it will find a mention in their grade cards and degree certificate. 
+
+<li>&#x2022;&nbsp;A student can opt for Honors in Third Semester and register for Honor Courses from Fifth to Eighth Semesters. Students who have cleared all the courses of the first and second semester in the first attempt and have obtained a CGPA of 8.0 and above are eligible to register for Honors courses. 
+
+<li>&#x2022;&nbsp;In case a student does not get a GPA of 6.0 and above in Honors courses, he/she is not eligible to receive an Honors degree. However, these courses may then be counted towards their elective requirement.  
+</li>
+</ul>`,
+	},
+	{
+		"question": "What are the timings of library and reading hall?",
+		"answer": `<p>
+The NITK Central Library is a boon to the students possessing a huge collection of books and a book bank from where students can borrow books for all academic and technical purposes. 
+</p>
+<p>
+
+<strong>Timings: </strong>
+</p>
+<p>
+
+Weekdays&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30 am to 8 pm 
+</p>
+<p>
+
+Saturday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9 am  to 8 pm  
+</p>
+<p>
+
+Sundays&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9 am  to 4 pm 
+</p>
+<p>
+Exam time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30 am to 12 am .
+</p>
+<p>
+
+ 
+</p>
+<ul>
+
+<li>&#x2022;&nbsp;NITK campus is also blessed with a Central LIBRARY BLOCK which is still in progress for the updates. 
+
+<li>&#x2022;&nbsp;In order to facilitate reading environment, reading hall has been provided to students within the library.
+</li>
+</ul>
+<p>`,
+	},
+	{
+		"question": "What clubs operate in NITK?",
+		"answer": `<p>
+
+Effectively there are 6 Exclusive Clubs in NITK. While all of them are not open to recruitments for First Years, all of them conduct events for the First Years and some of them like IEEE have a Student Membership Drive for First Years. 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Exclusive Clubs in NITK.</span></strong>
+</p>
+<ol>
+
+<li>IEEE (Institute of Electrical and Electronic Engineers) 
+
+<li>ACM (Association for Computing Machinery)
+
+<li>Rotaract Club
+
+<li>IE (The Institution of Engineers)
+
+<li>ISTE (Indian Society for Technical Education) 
+
+<li>IET (Institution of Engineering and Technology)
+</li>
+</ol>
+<p>
+<strong><span style="text-decoration:underline;">Non-exclusive clubs on campus are</span> <span style="text-decoration:underline;">as follows:</span> </strong>
+</p>
+<ol>
+
+<li>NITK Racing(FSAE)
+
+<li>BAJA NITK 
+
+<li>Literary, Stage and Debating Society 
+
+<li>National Cadet Corps (NCC)
+
+<li>Web Club 
+
+<li>Music Club 
+
+<li>E-Cell 
+
+<li>Dance, Dramatics and Fashion Club (DDFC)
+
+<li>Artists’ Forum (AF)
+
+<li>Amateur Astronomy Club (AAC)
+
+<li>Society of Automotive Engineers
+
+<li>SPICMACAY 
+
+<li>Media Art and Creative Design(MACD) 
+
+<li>National Social Service (NSS) 
+
+<li>Avanti Fellows 
+
+<li>Films Club 
+
+<li>Shoreline  
+<ol>`,
+	},
+	{
+		"question": "How are the Outdoor sport facilities in NITK?",
+		"answer": `<p>
+
+NITK offers state of the art sports facilities. The college sports an Olympic size swimming pool, three tennis courts, two basketball courts, two volleyball courts, full -size football and cricket grounds, one hockey field, one handball court, three badminton courts, five T.T tables, etc. Other games like Chess and Carrom are also encouraged. 
+</p>
+<p>
+
+<strong>Note: </strong>Most of the equipment for sports can be procured from sports complex against submitting your ID card. It would be returned on safe return of each equipment taken. Racquets for badminton and table tennis need to be brought by oneself.
+</p>
+</ol>
+</ol>
+<p>
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Swimming Pool:</span> </strong>
+</p>
+<p>
+
+All students are welcome to register and utilize the facility. But being in a proper swimming attire is a must i.e. swimming costume/trunks + cap. Instructor and lifeguards are always present. 
+</p>
+<p>
+
+Registration process:
+</p>
+<ol>
+
+<li>Student has to submit a Xerox copy of his/her admission letter in order to get the registration form.  
+
+<li>Then he/she has to get approval from a doctor in Health Care Centre saying that he/she is fit for swimming. Either students can bring their own swimwear or can buy one at a nominal price from swimming pool area. 
+<p>
+</li>
+</ol>
+​ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Football:</span> </strong>
+</p>
+<p>
+
+Football is very popular in NITK. Intercollegiate and Inter year tournaments are also held. There is a special “only freshers” tournament held at the beginning of 1st semester between the twelve 1st year classes. Five a side Beach football is organized during Incident and five a side ‘flood light’ football tournament is held during the Phoenix event. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+Inter NIT tournament was held last year and NITK won the Gold medal. Want to get into the college team? Just practice with the team every evening. Selections will be held in the 1st semester.
+</p>
+<p>
+
+  
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Basketball:</span> </strong>
+</p>
+<p>
+
+There are two basketball courts. Both of them are in great condition. 
+</p>
+<p>
+
+One of them is reserved for the college team and should be vacated whenever they come for practice. The other one can be made use of at any time. 
+</p>
+<p>
+
+There are two major competitions that take place on these courts, one is the intercollegiate basketball tournament known as the “Slam Dunk” which takes place during Incident, and the other one is the inter-year basketball tournament which takes place during the Crescendo event starting from this year. Interclass freshers tournament is held in the 1st semester.   
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Cricket:</span> </strong>
+</p>
+<p>
+
+Inter Year and Inter branch tournaments are held. Last year, an Interclass “mixed” cricket tournament was organized (5 boys + 2 girls required in one team). Selections for getting into the College cricket team are held in either the 1st or 2nd semester. 
+</p>
+<p>
+
+Net practice facility is available on the main ground. Also many intercollegiate competitions take place here in NITK.
+</p>
+<p>
+  
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Throwball:</span> </strong>
+</p>
+<p>
+
+​As of now, there is a single throwball court. Throwball in NITK was initiated in 2015. Selections for the team go on in August and is open to first years as well. The sport is gaining popularity among the girls of NITK. Revels(MIT) and SpinShock are two major events in throwball. SpinShock which goes on during Incident draws in a large crowd. The team won SpinShock in 2018 and were runner up the previous year. 
+</p>
+<p>
+  
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Volleyball:</span> </strong>
+</p>
+<p>
+
+There are two volleyball courts here at NITK. The importance given to this sport matches that of football and basketball. Both boys and girls play volleyball regularly. Apart from this, there is NITK team which practices regularly. The selections are through performance and improvement based on regular practice. INTER-NIT, Revels(MIT) and Father Mullers Tournament are the three major volleyball events. The NITK team boasts of multiple achievements including runners-up at the Father Mullers tournament and reaching the semi-finals of 
+</p>
+<p>
+
+Revels. ​
+</p>
+<p>
+ 
+</p>
+<p>
+  
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Tennis:</span> </strong>
+</p>
+<p>
+
+There are three Clay courts here at NITK. 
+</p>
+<p>
+
+The tennis team comprises of about 5 players with experiences ranging from 5 years to over 10 years. Selections (a mini-tournament) will go on typically in the month of Oct - Nov after the monsoon subsides. 
+</p>
+<p>
+
+No limit on the number of players, the more the better. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+The NITK tennis team is one of the best in the INTER NIT circuit. The team won at NITK Warangal in 2017 and were runners up for the three years before that. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Hockey:</span> </strong>
+</p>
+<p>
+
+​Hockey, as a sport is encouraged here at NITK. The goalposts are set up next to the sports complex. The Hockey Team members do  give a chance to anybody who has passion for the game and wants to learn it, a chance to try for a position in the team and play alongside them. The Inter-NIT tournament which goes on every year is one to watch out for. Apart from this tournament, Revels(MIT) and the Dasara Cup are the major events to look out for. 
+</p>
+<p>
+ 
+</p>
+<p>
+  
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Kabaddi:</span> </strong>
+</p>
+<p>
+
+​Kabaddi is a popular Indian sport, and receives a lot of attention here, in NITK. Kabaddi, not requiring advanced equipment/facilities, makes it all the more popular. The team selections go on at the beginning of the odd semester. The Inter-NIT tournament sees a lot of teams from other NIT’s competing with high enthusiasm. The team takes part in competitions held in and around Mangalore as well. 
+</p>
+<p>
+ 
+</p>
+<p>
+ 
+</p>
+<p>`,
+	},
+	{
+		"question": "Indoor sports life in NITK?",
+		"answer": `<p>
+
+NITK offers state of the art indoor sports facilities, all of which can be found in the Sports Complex which is behind Amul and adjacent to the Main Ground. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+The college sports three badminton courts and five T.T tables amongst others. Other games like Chess and Carrom are also encouraged. A new Sports Complex overlooking the Cricket Ground has also come up. There is also a fully-equipped gym with a trainer that is available in the evening and the morning to allow students to use the Gym Equipment under supervision. 
+</p>
+<p>
+  
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Sports Complex:</span> </strong>
+</p>
+<p>
+
+Ever bored of dreary-old freshman year? (Is that even a question?). Well, this place is the solution. Head over with a mate to enjoy a refreshing game of badminton. This place also has tables for table tennis. Though equipments are provided here, it’s advisable to carry your own because they are usually understocked. There are three badminton courts and it’s pretty tough to get a spot on weekdays due to the huge crowd. Though it has a fixed time slot, it is generally open most of the time (read : whenever the caretaker’s around). Also, you can borrow other equipment like football cones, cricket stumps and shuttlecocks to name a few. Keep in mind that you’ll have to borrow these by depositing your ID card with the caretaker which will be returned once the equipment is returned and this issuing happens only till 6:30 P.M. 
+</p>
+<p>
+
+​ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Badminton/Table Tennis:</span> </strong>
+</p>
+<p>
+
+The courts and tables are located inside the sports complex. The complex is open from 6am in the morning to 8pm in the evening. One can procure T.T balls and shuttles from the complex.  
+</p>
+<p>
+ 
+</p>
+<p>
+
+But one has to bring their own T.T and Badminton racquets to play. Interclass badminton and T.T tournament are held at the beginning of the 1st semester for freshers by the Recreational committee. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">Boys Gymnasium:</span> </strong>
+</p>
+<p>
+ 
+</p>
+<p>
+
+The NITK Gym is a one-story building which is located in the middle of the three MegaTowers. The Gym contains the State of art Equipment and also has a Gym Trainer. It is open in the morning and in the evening from Monday to Saturday. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+Gym is one place that is frequented by students from all years and often becomes a social trend amongst students as well.
+</p>
+<p>
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">GB Gymnasium:</span> </strong>
+</p>
+<p>
+ 
+</p>
+<p>
+
+The Girls' block also has its own gymnasium. It is located in the new hostel, GH-5, 3rd floor, Common Room and has all the latest equipment as it was renovated recently. There are treadmills, cross trainer, exercise bike, squat stand, pulldown machine, dumbbells, adjustable bench, 1-station, 3-station, Gym ball, Yoga Mat, etc. 
+</p>
+<p>
+
+  ​
+</p>`,
+	},
+	{
+		"question": "Food stalls within the Campus?",
+		"answer": `<p>
+
+Before you know it, the mess food would have become a bore, and breakfast will be a long forgotten meal. As a relief from the constant hunger pangs that you will bring upon yourself by missing meals, there are quite a few small and decent food joints in the campus, where new alliances and friendships are forged and long lost friends are found. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">AMUL</span> </strong>
+</p>
+<p>
+
+Hungry? Want a snack?  
+</p>
+<p>
+
+It’s simple, go to Amul. Amul is a small but well-endowed store situated right next to the Sports Complex and is an important landmark on campus. It is very close to the boy’s hostels and hence very convenient for boys.  
+</p>
+<p>
+ 
+</p>
+<p>
+
+The girls, on the other hand, have to walk a bit to get there, but there are ‘Nandini’, Reddy’s and ‘Fresh and Honest’ stores near and around the girl's hostel too.
+</p>
+<p>
+ 
+</p>
+<p>
+ 
+</p>
+<p>
+
+<strong>What's exclusive? </strong>
+</p>
+<p>
+
+You can find a plethora of snacks and drinks to choose from. 
+</p>
+<p>
+
+From Gatorade to the infamous Sip-On, you can get all kinds of energy drinks, cold drinks, various Fruit Juices, Amul milkshakes and bottled water to go. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+Hot stuff? You get samosas and veg/paneer puffs. These might even become part of your staple diet if you develop hatred towards mess food. Other than that you get the usual biscuits, Lays, Kurkure, and their kin. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+You get ice cream here as well.  
+</p>
+<p>
+ 
+</p>
+<p>
+
+You can also get your cell phone recharge done here (almost all major carriers). 
+</p>
+<p>
+ 
+</p>
+<p>
+
+To conclude, this is the place to grab a <strong>quick bite</strong> if you're hungry. You will rarely find this place empty and devoid of people. 
+</p>
+<p>
+  
+</p>
+<p>
+
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">NANDINI</span> </strong>
+</p>
+<p>
+<strong> </strong>
+</p>
+<p>
+
+This is similar to Amul but with a lot more variety. Located almost next to the GB, Nandini is famous for its milk products and Maggi which is the de-facto snack in NITK. This is often the venue for treats from seniors after you successfully finish off a project or conduct an event successfully.
+</p>
+<p>
+ 
+</p>
+<p>
+
+Nandini's specialty is its Oreo Shake and Cold Coffee which is bought in bulk by groups that frequent here 
+</p>
+<p>
+
+quite often! Make sure you try the Pasta as well! 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">BOYS NIGHT CANTEENS</span> </strong>
+</p>
+<p>
+
+Night Canteens are amongst the most famous places that you will know of in your first year. These are places you will hear so much of, but rarely visit during your freshman year. Why? Because they have block delivery!
+</p>
+<p>
+ 
+</p>
+<p>
+
+There are three Night Canteens in NITK. Vindhya 
+</p>
+<p>
+
+Block(Veg), Sayadri Block(Non-veg), Trishul
+</p>
+<p>
+
+Block(Veg). All of these provide delivery to both Boys and Girls Blocks (yeah you're spoilt for choice, :p). Only Boys can visit NCs of this block.
+</p>
+<p>
+ 
+</p>
+<p>
+
+The Night Canteens open at 7:00 pm and it’s open all the way up to two-three in the morning. They start taking orders from around 7:15-7:30 pm. So this is an alternative to the Mess and Ocean Pearl at night after 9 pm. And if you happen to be hungry after 10 pm then it's pretty much your only option.  
+</p>
+<p>
+ 
+</p>
+<p>
+
+Their menus are self explanatory and the food is all reasonably priced. The taste is good enough for the price we pay.
+</p>
+<p>
+
+Steps for receiving order:
+</p>
+<p>
+ 
+</p>
+<ul>
+
+<li>You can call and place your order. 
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>When the order is ready, you get a phone call or SMS telling you the total bill. 
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>You need to go to the entrance of your respective hostel block and wait until the order arrives. 
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Receive the order, pay, eat and be happy.
+</li>
+</ul>
+<p>
+
+<strong><span style="text-decoration:underline;">GB NIGHT CANTEEN</span> </strong>
+</p>
+<p>
+ 
+</p>
+<p>
+
+The Girls block has one Night Canteen which is open from 7:30 pm to 2:00 am on all days except when there is grand dinner (which is once a month). You will find yourself crashing in here very often once your taste buds get bored of the monotonous mess food. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+If you feel hungry late at night, you can always fill your tummy with the wide range of items they serve. If you plan to stay up late, their cold coffees will aid you.
+</p>
+<p>
+ 
+</p>
+<p>
+
+The most popular on the menu would be their dosas. You will always find a rush near the dosa counter.
+</p>
+<p>
+
+The other "in demand" items are parathas, Oreo shake, cold coffee, juices, ice candies, and ice creams. You also get non-veg here so if you are an avid meat-eater and in the GH mess, this place is your savior. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+They take orders as well. The ordering procedure for boys is the same as it is for the Boys' Block NC. For girls, you can place your order and they will call you once it's ready. So you can go collect your parcels from NC.  
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">OCEAN PEARL / FOOD COURT</span> </strong>
+</p>
+<p>
+
+Ocean Pearl is the only full-fledged restaurant on the entire campus. It is a subdivision/branch of the bigger Ocean Pearl restaurant in Mangalore city. It is located in between the Chemistry-Physics department and SJA (Silver Jubilee Auditorium). It opens at 7:30 am every day and closes at 9:30 pm.  
+</p>
+<p>
+ 
+</p>
+<ul>
+
+<li>The main cuisines available are South Indian and Chinese. South Indian is mostly available in the morning and during the day, whereas Chinese items like noodles are available in the afternoon. 
+
+<li>You can also get meals/platter both in the afternoon and at night. The food is reasonably priced and very filling. 
+</li>
+</ul>
+<p>
+ 
+</p>
+<ul>
+
+<li>Fruit juices, milk shakes, ice creams and cold drinks are also available here.
+<ul>
+
+<li> The North Indian Thali at dinner is a hot favorite here and is a must-have at least once in your college life. 
+</li>
+</ul>
+</li>
+</ul>
+<p>
+ 
+</p>
+<p>
+
+The prices are reasonable. It is a cool place to hang out whenever you get bored of the mess food. 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">NESCAFE</span> </strong>
+</p>
+<p>
+
+Nescafe is located right in front of the Boys’ Second hostel block. 
+</p>
+<ul>
+
+<li>This is the place where you go to eat Maggi or pasta. 
+
+<li>Beverages like Coffee, Tea, Iced Tea, and Frappe are available and are reasonably priced. 
+</li>
+</ul>
+<p>
+ 
+</p>
+<p>
+
+Eating hot Maggi with friends in rainy weather is a defining memory of hostel life at NITK. And Nescafe is the place to do it. 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">VEG CANTEEN (ATITHI)</span> </strong>
+</p>
+<p>
+
+The Veg Canteen named 'Atithi' is located on the Western side of the campus across the highway and adjacent to the Electronics and Communication Dept. and is attached to the International Student’s hostel. It’s a 15-minute walk from the 1st Block and a 5-minute walk from the Girls' Hostel. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+Regular Indian meals and Chinese food are available here.
+</p>
+<p>
+
+ Adjacent to the Atithi is an Amul store and a “Gol Guppa” seller.  
+</p>
+<p>
+ 
+</p>
+<p>
+
+The Veg Canteen also does deliveries! Just a phone call followed by a 20-minute wait and you can have your food in the comfort of your hostel room. Tender exact change on delivery.  
+</p>
+<p>
+ 
+</p>
+<p>
+
+All in all, Atithi provides good veg food and the hostellers longing for veg tangy food will find the place to be a delight. 
+</p>
+<p>
+
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">FRESH AND HONEST</span> </strong>
+</p>
+<p>
+ 
+</p>
+<p>
+
+There are two Fresh and Honest joints located on the campus. The first one is located near the SOM Lab. and the second can be found between the Satpura and Nilgiri Boys Block Hostels. Both of them have pretty much the same menu. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">GB FRESH AND HONEST</span> </strong>
+</p>
+<p>
+ 
+</p>
+<p>
+
+The GB Fresh and Honest popularly known as 
+</p>
+<p>
+
+'​<em>Dabba</em>​' (after box in Hindi) are situated near the SOM Lab (next to Mining department). You will usually find a huge crowd of people here especially in the evenings. This is a go-to place for all coffee lovers. They also serve hot chocolate and tea. Apart from this, you will find juices and milkshakes here. You can also buy biscuits, chips, cup noodles or popcorn from here. 
+</p>
+<p>
+ 
+</p>
+<p>
+ 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">BOYS FRESH AND HONEST</span> </strong>
+</p>
+<p>
+<strong> </strong>
+</p>
+<p>
+
+The Boys Fresh and Honest is located between 
+</p>
+<p>
+
+Satpura Block and Nilgiri Block. It is similar to the Girls Fresh and Honest but there’s less space for sitting and has a similar box-type shape for the shop. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+It is the de-facto place for boys to have Cup Noodles or 
+</p>
+<p>
+
+'​<strong>Cavins</strong>​' a popular milkshake brand, Scoopies and SipOn.
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">WESTERN AMUL</span> </strong>
+</p>
+<p>
+
+This will be one place you will surely be visiting to chill out with your friends after having finished your practicals or afternoon classes in your non-freshman years, in the Western Campus. Much like it’s the eastern counterpart, it has loads of options to entice your tummy, ranging from chip, toffees, chewing gums to all kinds of cool drinks. The main selling point of this place though is the availability of chats (masala puri, bhel puri, etc.) and also ​<strong>momos </strong>occasionally. The Pani Puri draws a lot​ of attention, so, do give it a try! 
+</p>
+<p>
+
+<strong><span style="text-decoration:underline;">OTHER JOINTS</span> </strong>
+</p>
+<p>
+
+For all the health conscious fruit and veggie lovers, there is ​<strong>Hopcoms</strong>​. You get everything from cucumbers to oranges, beets to watermelons and tender coconut too. It is located below the ladies Co-operative Society, in a hub of eating joints. 
+</p>
+<p>
+
+There is a Momo joint ‘<strong>Memorable momos</strong>’ just outside the gate next to the SBI ATM.
+</p>
+<p>
+ 
+</p>
+<p>
+
+Right next to Hopcoms is the reason surprise birthday parties are still a rage in the college. It’s ​<strong>Crumbz,</strong>​ a delight for pastry lovers, a place that sells sandwiches, puffs, burgers, pizzas and a wide variety of delightful desserts. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+Right on top of the main building is ​<strong>Samudra Darshan</strong>​. This is where you’ll get typical and fresh south Indian meals and a beautiful view of the ocean (Samudra), and rest of the college too. Though the variety is limited, the food is great. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+Opposite the girls’ block, is ​<strong>Reddy’s</strong>​. They sell pretty much all kinds of packaged food, as well as coffee, tea, and puffs. They also book tickets for various bus routes and provide recharge for most telecom providers. 
+</p>
+<p>
+ 
+</p>
+<p>
+
+And like most of South India, NITK too has its own bakery, right below the Students’ cooperative. From fresh juices to egg puffs, it reminds you of the bakery you went to, right after a tiring day at school. 
+</p>
+<p>
+  
+</p>`,
+	},
+	{
+		"question": "How am I supposed to pass time without Wi Fi and when will I get access to the internet services on the campus?",
+		"answer": `It will take around 2 weeks before the CCC assigns your login credentials to you. Till then you can use the facility at a lab in CCC. `,
+	},
+	{
+		"question": "What do I do between the hostel allotment and start of the college?",
+		"answer": "Well, you'll be having a 4-day induction program and an orientation program which would be beneficial for you and would spare you some boredom. It aims at helping to improve mental health, which is why it is mandatory. Also this is the time you go out and meet people, so don’t miss the chance.",
+	},
+	{
+		"question": "How do I get my clothes washed?",
+		"answer": `<ul>
+
+<li>There is a central laundry facility provided in Mega Tower-2 (Kailash) which can be used on payment basis. 
+
+<li>Once in a week laundryman visits first block hostel although this depends on the response he receives.
+
+<li>There are washing machines installed in different Girls’ hostels too
+
+<li>Laundry Shop is even situated below the cooperative society near girls hostel, in case all the washing machines are full and paying a little is the only option. 
+</li>
+</ul>`,
+	},
+	{
+		"question": "I know all about CGPA, but what is this relative grading?",
+		"answer": `<p>
+
+Under relative grading, you'll be assessed based on the highest scorer of the class. To say in short, a frequency graph containing marks and their corresponding frequency will be used to generate the range for grades. Ex - if 10% of people are having marks greater than 70, then 70 would be decided as cut off for the highest grade. 
+</p>
+<p>
+
+Do note : 
+</p>
+<ul>
+
+<li>AA grade can never be kept below overall marks(internals + final exam) of 70 and DD grade never below 20. So if you are aiming for AA, then scoring above 70 is the minimum criteria.
+</li>
+</ul>`,
+	},
+	{
+		"question": "I don't have my library card, where could I get the books?",
+		"answer": "You'll be issued ID cards within few weeks of commencement of classes. Till then, you can go to the library and study from the books in the reading room of the library. Moreover, you can also buy books (both new and used) from the Book Palace in Surathkal.",
+	},
+	{
+		"question": "I want to use the swimming pool, how do I do that?",
+		"answer": `You need to get a form from swimming pool staff and get a medical checkup done by a medical officer in CCC, then you would be able to access the swimming pool in the allotted slots. `,
+	},
+	{
+		"question": "What if I want to eat something late at night?",
+		"answer": `The Night Canteens are meant for the same and are open till 2 am. Since you have block timings, you can order the food which will be delivered for free`,
+	},
+	{
+		"question": "What do I need to do with my IRIS?",
+		"answer": `Your registration and admission process, followed by pretty much every other process is carried out through IRIS. You can check your results, attendance status and register for courses. For specific doubts and information refer to blog.iris.nitk.ac.in .`,
+	},
+	{
+		"question": "I've just entered my room and the fan isn't working, what to do?",
+		"answer": `You need to submit an online complaint about any problems with the fittings in your room. You can lodge a complaint by Hostel complaints module on IRIS or you can go to http://reo.nitk.ac.in/content/hostel-complaint-form and fill in the details. 
+Moreover, you could buy a rechargeable fan for your room, but will have to get a permission slip from the hostel office with a minimal fee. You may be fined 1000RS if you’re caught using electrical appliances without a permission slip from the hostel office.
+`,
+	},
+	{
+		"question": "Where can my parents stay if they are accompanying me to the college or are planning to make a visit? ",
+		"answer": `Parents can obtain a room in the NITK Guest houses which are provided on first come first serve basis during admission and post-admission, a letter needs to be submitted with a signature from HOD/Faculty Advisor for the same. Also, there are many lodges and hotels in Surathkal as an alternative. `,
+	},
+	{
+		"question": "Can I be a part of the clubs in my first year? ",
+		"answer": `You can't be a part of most of the clubs as a freshman, but you can take part in the fun activities and events conducted by the various clubs on campus.`,
+	},
+	{
+		"question": "When will I get my College Id Card and Email-Id?",
+		"answer": `The ID card will be issued a few weeks after the commencement of 2nd semester along with the college email address.`,
+	},
+	{
+		"question": "How is the mess food?",
+		"answer": "The mess food is definitely not the one which you dream of but it’s good enough to survive. Decent enough to get things going. ",
+	},
+	{
+		"question": "Is there any water or electricity problems?",
+		"answer": "In the even semester, you might face some electricity issues but generators are present in the college hence it’s again, manageable. ",
+	},
+	{
+		"question": "What is the placement statistics for every Branch?",
+		"answer": "Check IRIS for more information.",
+	},
+	{
+		"question": "How is the beach? What about precautions?",
+		"answer": `Beach is something which you'll never forget. One of the cleanest and the most soothing beach is just at your doorstep. 
+Just don't enter deep into the sea, since it gets excessively deep with each step, undercurrents here are quite strong to sway you in.`,
+	},
+	{
+		"question": "How are classes in general?",
+		"answer": "Classes are actually interesting in the first year and professors are always approachable anytime. As the years proceed they do get better only if you like the domain of your study. Please do keep a minimum attendance of 75% if you do not want to repeat the course again (FA grade) or have to run around trying to obtain medical and sports-related certificates.",
+	},
+	{
+		"question": "How many hours of classes do we have on an average, every day?",
+		"answer": `Morning hours are usually packed and classes start from 7:55am to 5:00pm. Afternoons are usually meant for labs or a few more theory classes. 
+They're usually for around 4-5 hours every day.`,
+	},
+	{
+		"question": "Can we approach any other professors if we are interested in the subject?",
+		"answer": "All the professors are most welcoming and they're ready to help you out to any extent possible. As many of us aren't completely into the subject we choose from many courses that do interest us, but this option is always open for us.",
+	}
+];
